@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="VKSelectRankView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" alpha="0.29999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="heF-6n-k1M">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="fof-1g-yEM" appends="YES" id="1Ye-O2-jqm"/>
+                    </connections>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="etV-5y-RXS">
+                    <rect key="frame" x="0.0" y="80" width="320" height="60"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIY-zs-VsW">
+                            <rect key="frame" x="0.0" y="0.0" width="160" height="60"/>
+                            <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <state key="normal" title="排序1">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="hiddenRankView:" destination="iN0-l3-epB" eventType="touchUpInside" id="Yuz-bZ-no8"/>
+                            </connections>
+                        </button>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddq-RO-VZp">
+                            <rect key="frame" x="160" y="0.0" width="160" height="60"/>
+                            <state key="normal" title="筛选"/>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="FIY-zs-VsW" firstAttribute="top" secondItem="etV-5y-RXS" secondAttribute="top" id="2pI-0O-sg5"/>
+                        <constraint firstAttribute="trailing" secondItem="ddq-RO-VZp" secondAttribute="trailing" id="E2Z-5a-DVG"/>
+                        <constraint firstItem="ddq-RO-VZp" firstAttribute="leading" secondItem="FIY-zs-VsW" secondAttribute="trailing" id="PLX-ot-6bR"/>
+                        <constraint firstItem="FIY-zs-VsW" firstAttribute="leading" secondItem="etV-5y-RXS" secondAttribute="leading" id="bTH-a9-9N7"/>
+                        <constraint firstAttribute="bottom" secondItem="FIY-zs-VsW" secondAttribute="bottom" id="fKj-2W-tF7"/>
+                        <constraint firstAttribute="bottom" secondItem="ddq-RO-VZp" secondAttribute="bottom" id="gxv-0r-QuT"/>
+                        <constraint firstAttribute="height" constant="60" id="tBk-Pr-UiF"/>
+                        <constraint firstItem="ddq-RO-VZp" firstAttribute="width" secondItem="FIY-zs-VsW" secondAttribute="width" id="u6r-eu-F8j"/>
+                        <constraint firstItem="ddq-RO-VZp" firstAttribute="top" secondItem="etV-5y-RXS" secondAttribute="top" id="wTi-oT-zhF"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XPg-pZ-Cq8">
+                    <rect key="frame" x="0.0" y="140" width="320" height="176"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="176" id="MVj-qu-NsY"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="oWQ-DK-Xts"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="1Cc-fL-DNh"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="etV-5y-RXS" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="0V5-Ug-VP6"/>
+                <constraint firstItem="heF-6n-k1M" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="COb-S0-Z1u"/>
+                <constraint firstItem="XPg-pZ-Cq8" firstAttribute="top" secondItem="etV-5y-RXS" secondAttribute="bottom" id="Gvu-of-6t2"/>
+                <constraint firstItem="heF-6n-k1M" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="IRl-ES-SWL"/>
+                <constraint firstItem="XPg-pZ-Cq8" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Kd5-6s-SA6"/>
+                <constraint firstItem="XPg-pZ-Cq8" firstAttribute="top" secondItem="etV-5y-RXS" secondAttribute="bottom" id="NX1-l8-b4D"/>
+                <constraint firstItem="heF-6n-k1M" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="dFt-EZ-Bey"/>
+                <constraint firstItem="etV-5y-RXS" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="lUD-qB-Nmh"/>
+                <constraint firstItem="etV-5y-RXS" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="60" id="mma-gh-mG3"/>
+                <constraint firstItem="heF-6n-k1M" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="peK-jK-Yqu"/>
+                <constraint firstItem="XPg-pZ-Cq8" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="vtg-Ts-Mdw"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="leftBtn" destination="FIY-zs-VsW" id="lDy-fy-T42"/>
+                <outlet property="myTableView" destination="XPg-pZ-Cq8" id="Ume-fX-EMb"/>
+                <outlet property="rightBtn" destination="ddq-RO-VZp" id="6mg-BG-HrO"/>
+                <outlet property="titleView_Y" destination="mma-gh-mG3" id="Bki-VO-8U2"/>
+            </connections>
+            <point key="canvasLocation" x="55.200000000000003" y="146.17691154422789"/>
+        </view>
+        <tapGestureRecognizer id="fof-1g-yEM">
+            <connections>
+                <action selector="hiddenRankView:" destination="iN0-l3-epB" id="CA3-th-ceA"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

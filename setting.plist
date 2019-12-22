@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>project_name</key>
+	<string>MyDemo_OC</string>
+	<key>project_path</key>
+	<string>/Users/zhangchaoyang/Desktop/iOS/初建Dome/iOSDome/MyDemo_OC</string>
+	<key>project_version</key>
+	<string>1.0</string>
+	<key>scheme_name</key>
+	<string>MyDemo_OC</string>
+	<key>ipa_name</key>
+	<string>MyDemo_OC</string>
+	<key>ipa_path</key>
+	<string>/Users/zhangchaoyang/Desktop/ipa</string>
+	<key>plist_path</key>
+	<string>exportDevelopment.plist</string>
+	<key>configuration</key>
+	<string>Debug</string>
+	<key>upload_address</key>
+	<string>PGY</string>
+	<key>user_key</key>
+	<string>a583886d0d2465ea38648be1a96c3b0c</string>
+	<key>api_key</key>
+	<string>3d23f62371aa9a3923eb1b8554f252c2</string>
+	<key>password</key>
+	<string>123</string>
+</dict>
+</plist>

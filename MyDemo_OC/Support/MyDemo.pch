@@ -1,0 +1,21 @@
+//
+//  MyDemo.pch
+//  MyDemo_OC
+//
+//  Created by zcy on 2019/6/5.
+//  Copyright © 2019 CY. All rights reserved.
+//
+
+#ifndef MyDemo_pch
+#define MyDemo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Foundation/Foundation.h>
+#import "CYConst.h"
+
+
+#endif /* MyDemo_pch */
+
+
+

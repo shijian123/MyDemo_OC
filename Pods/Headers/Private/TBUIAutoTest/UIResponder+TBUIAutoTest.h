@@ -1,0 +1,1 @@
+../../../TBUIAutoTest/TBUIAutoTest/UIResponder+TBUIAutoTest.h

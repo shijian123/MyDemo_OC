@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  MyDemo_OC
+
+  Created by zcy on 2019/6/5.
+  Copyright © 2019 CY. All rights reserved.
+*/
+CFBundleDisplayName = "MyDemo";
+

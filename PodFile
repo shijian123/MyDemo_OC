@@ -1,0 +1,41 @@
+platform :ios, '10.0'
+inhibit_all_warnings!
+
+install! 'cocoapods',
+        generate_multiple_pod_projects: true
+
+target 'MyDemo_OC' do
+pod 'FDFullscreenPopGesture', '~> 1.1'
+pod 'MBProgressHUD', '~> 0.9.2'
+pod 'SDWebImage', '~> 4.4.6'
+pod 'IQKeyboardManager', '~> 5.0.2'
+pod 'MJExtension', '~> 2.5.16'
+pod 'MJRefresh'
+pod 'iCarousel', '~> 1.8.3'
+pod 'Masonry', '~> 1.1.0'
+#pod 'LookinServer', :configurations => ['Debug']
+#pod 'YYKit'
+pod 'FSCalendar', '~> 2.8.0'
+pod 'TZImagePickerController', '~> 3.2.1'
+#打造类似excel表的展示控件
+pod 'YWExcel'
+pod 'TBUIAutoTest', '~> 1.2.1'
+#pod 'DFPlayer'
+
+#极光推送
+pod 'JPush'
+pod 'JMessage'
+#微信支付
+pod 'WechatOpenSDK', '~> 1.8.4'
+ 
+pod 'UMCCommon'
+pod 'UMCPush'
+pod 'UMCSecurityPlugins'
+
+
+pod 'GPUImage'
+pod 'lottie-ios_Oc'
+pod 'AFNetworking', '~> 3.2.1'
+
+
+end

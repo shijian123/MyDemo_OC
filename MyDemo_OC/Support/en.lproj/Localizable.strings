@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  MyDemo_OC
+
+  Created by zcy on 2019/6/5.
+  Copyright © 2019 CY. All rights reserved.
+*/
+"lab1_tag0" = "label";
+"lab2_tag0" = "label";
+"lab3_tag0" = "label";
+
+"lab1_tag100" = "label123";
+"lab2_tag100" = "label234";
+"lab3_tag100" = "label345";

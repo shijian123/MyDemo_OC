@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JMSGMessageManagerViewController">
+            <connections>
+                <outlet property="at_userName" destination="f87-XA-wEL" id="TFH-DY-7Ie"/>
+                <outlet property="gid" destination="jJ5-uo-aWb" id="vFR-64-4Lg"/>
+                <outlet property="scrollView" destination="Fwv-c7-rhQ" id="Efo-Yg-pgz"/>
+                <outlet property="userName" destination="P1d-nA-X0O" id="DJ3-Y5-rCV"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fwv-c7-rhQ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zbb-iU-FZs">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="发送用户：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5TZ-PH-8qD">
+                                    <rect key="frame" x="20" y="10" width="87" height="21"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="21" id="WPu-l3-cIV"/>
+                                        <constraint firstAttribute="width" constant="87" id="clp-8g-Pmx"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="userName" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P1d-nA-X0O">
+                                    <rect key="frame" x="117" y="6" width="87" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="Pb5-cb-sGb"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QcN-FN-Den">
+                                    <rect key="frame" x="10" y="51" width="172.5" height="30"/>
+                                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="sCY-0b-kxI"/>
+                                    </constraints>
+                                    <state key="normal" title="发送消息"/>
+                                    <connections>
+                                        <action selector="sendMessage:" destination="-1" eventType="touchUpInside" id="CSF-O8-yaj"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jib-0E-FzN">
+                                    <rect key="frame" x="192.5" y="51" width="172.5" height="30"/>
+                                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="发送文本消息"/>
+                                    <connections>
+                                        <action selector="sendSingleTextMessage:" destination="-1" eventType="touchUpInside" id="dPt-Tp-tWB"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PK6-R3-bgm">
+                                    <rect key="frame" x="10" y="91" width="172.5" height="30"/>
+                                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="发送图片消息"/>
+                                    <connections>
+                                        <action selector="sendSingleImageMessage:" destination="-1" eventType="touchUpInside" id="XoL-eo-7Pj"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="253" verticalCompressionResistancePriority="757" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oo8-cx-vjz">
+                                    <rect key="frame" x="10" y="131" width="172.5" height="30"/>
+                                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="发送文件消息"/>
+                                    <connections>
+                                        <action selector="sendSingleFileMessage:" destination="-1" eventType="touchUpInside" id="S7d-QB-nHe"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="248" verticalCompressionResistancePriority="746" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSm-5e-jej">
+                                    <rect key="frame" x="192.5" y="91" width="172.5" height="30"/>
+                                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="发送语音消息"/>
+                                    <connections>
+                                        <action selector="sendSingleVoiceMessage:" destination="-1" eventType="touchUpInside" id="iAM-Zv-FOL"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mmg-bH-ugq">
+                                    <rect key="frame" x="192.5" y="131" width="172.5" height="30"/>
+                                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="发送位置消息"/>
+                                    <connections>
+                                        <action selector="sendSingleLocationMessage:" destination="-1" eventType="touchUpInside" id="VPz-oe-sT3"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Qy-qY-hcO" userLabel="消息撤回">
+                                    <rect key="frame" x="10" y="171" width="172.5" height="30"/>
+                                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="消息撤回"/>
+                                    <connections>
+                                        <action selector="retractMessageAction:" destination="-1" eventType="touchUpInside" id="Giw-fU-idz"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fXV-uA-dKT" userLabel="发送定制功能的消息">
+                                    <rect key="frame" x="192.5" y="171" width="172.5" height="30"/>
+                                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="发送定制功能的消息"/>
+                                    <connections>
+                                        <action selector="sendOptionMessageAction:" destination="-1" eventType="touchUpInside" id="GcE-hj-OZI"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M1r-Ih-7LR" userLabel="发送视频的消息">
+                                    <rect key="frame" x="10" y="211" width="172.5" height="30"/>
+                                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="发送视频消息"/>
+                                    <connections>
+                                        <action selector="sendVideoMessage:" destination="-1" eventType="touchUpInside" id="je6-ws-53b"/>
+                                    </connections>
+                                </button>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="group id" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jJ5-uo-aWb">
+                                    <rect key="frame" x="117" y="256" width="87" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="VNf-uT-dfL"/>
+                                        <constraint firstAttribute="width" constant="87" id="dRG-oO-Mgy"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="发送群组：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bB-kk-zQC">
+                                    <rect key="frame" x="20" y="260.5" width="87" height="21"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="21" id="fRJ-fu-xl7"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@对象：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GF7-Qo-poH">
+                                    <rect key="frame" x="20" y="296" width="87" height="21"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="21" id="YaE-sc-cjg"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="userName" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f87-XA-wEL">
+                                    <rect key="frame" x="117" y="291" width="87" height="30"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJe-Vm-c6X">
+                                    <rect key="frame" x="10" y="337" width="172.5" height="30"/>
+                                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="JXe-Ru-WuZ"/>
+                                    </constraints>
+                                    <state key="normal" title="发送消息"/>
+                                    <connections>
+                                        <action selector="sendGroupMessage:" destination="-1" eventType="touchUpInside" id="aRd-W1-Y2c"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDi-sv-Zkb">
+                                    <rect key="frame" x="192" y="415" width="172.5" height="30"/>
+                                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="发送位置消息"/>
+                                    <connections>
+                                        <action selector="sendGroupLocationMessage:" destination="-1" eventType="touchUpInside" id="6VR-95-LZy"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rVC-fN-OWQ">
+                                    <rect key="frame" x="192" y="337" width="172.5" height="30"/>
+                                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="发送文本消息"/>
+                                    <connections>
+                                        <action selector="sendGroupTextMessage:" destination="-1" eventType="touchUpInside" id="Lgu-Dp-yGG"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1T-KX-rTG">
+                                    <rect key="frame" x="10" y="375" width="172.5" height="30"/>
+                                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="发送图片消息"/>
+                                    <connections>
+                                        <action selector="sendGroupImageMessage:" destination="-1" eventType="touchUpInside" id="mM0-SR-xj2"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sls-Oc-evI">
+                                    <rect key="frame" x="192" y="375" width="172.5" height="30"/>
+                                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="发送语音消息"/>
+                                    <connections>
+                                        <action selector="sendGroupVoiceMessage:" destination="-1" eventType="touchUpInside" id="kNl-Lm-edb"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kkf-5A-fTL">
+                                    <rect key="frame" x="10" y="415" width="172.5" height="30"/>
+                                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="发送文件消息"/>
+                                    <connections>
+                                        <action selector="sendGroupFileMessage:" destination="-1" eventType="touchUpInside" id="1l3-Pa-72i"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6Q-eV-nFo">
+                                    <rect key="frame" x="10" y="455" width="173" height="30"/>
+                                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="发送需要已读回执的消息"/>
+                                    <connections>
+                                        <action selector="sendNeedReceipMessage:" destination="-1" eventType="touchUpInside" id="f4L-hP-PDq"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fv-7Q-tUq">
+                                    <rect key="frame" x="10" y="495" width="173" height="30"/>
+                                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="消息已读详情"/>
+                                    <connections>
+                                        <action selector="messageReceiptDetail:" destination="-1" eventType="touchUpInside" id="dTx-LH-RKv"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wb3-SJ-9Dc">
+                                    <rect key="frame" x="192" y="455" width="173" height="30"/>
+                                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="消息是否已读"/>
+                                    <connections>
+                                        <action selector="checkMessageReceipStatus:" destination="-1" eventType="touchUpInside" id="E4q-kh-0DS"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fS-Vd-JCu">
+                                    <rect key="frame" x="192" y="495" width="173" height="30"/>
+                                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="发送已读回执"/>
+                                    <connections>
+                                        <action selector="setMessageReceipt:" destination="-1" eventType="touchUpInside" id="bzL-SK-EHT"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="fXV-uA-dKT" firstAttribute="width" secondItem="1Qy-qY-hcO" secondAttribute="width" id="0WH-GU-0lc"/>
+                                <constraint firstItem="sls-Oc-evI" firstAttribute="height" secondItem="x1T-KX-rTG" secondAttribute="height" id="2Jr-gS-h13"/>
+                                <constraint firstItem="Wb3-SJ-9Dc" firstAttribute="centerX" secondItem="pDi-sv-Zkb" secondAttribute="centerX" id="2nA-tR-qPX"/>
+                                <constraint firstItem="jib-0E-FzN" firstAttribute="height" secondItem="QcN-FN-Den" secondAttribute="height" id="3ER-Tg-u6z"/>
+                                <constraint firstItem="5TZ-PH-8qD" firstAttribute="leading" secondItem="Zbb-iU-FZs" secondAttribute="leading" constant="20" id="3HG-LU-l5q"/>
+                                <constraint firstItem="1Qy-qY-hcO" firstAttribute="top" secondItem="Oo8-cx-vjz" secondAttribute="bottom" constant="10" id="4Iz-QL-Xwg"/>
+                                <constraint firstItem="Oo8-cx-vjz" firstAttribute="height" secondItem="PK6-R3-bgm" secondAttribute="height" id="4ix-bN-YFJ"/>
+                                <constraint firstItem="PK6-R3-bgm" firstAttribute="centerX" secondItem="QcN-FN-Den" secondAttribute="centerX" id="4ny-uk-yvL"/>
+                                <constraint firstItem="Oo8-cx-vjz" firstAttribute="centerX" secondItem="PK6-R3-bgm" secondAttribute="centerX" id="5Zn-yH-Tkd"/>
+                                <constraint firstItem="5fS-Vd-JCu" firstAttribute="centerX" secondItem="Wb3-SJ-9Dc" secondAttribute="centerX" id="7JA-cY-5y9"/>
+                                <constraint firstItem="rVC-fN-OWQ" firstAttribute="height" secondItem="jJe-Vm-c6X" secondAttribute="height" id="7O4-mX-4at"/>
+                                <constraint firstItem="PK6-R3-bgm" firstAttribute="height" secondItem="QcN-FN-Den" secondAttribute="height" id="7d8-hm-PJy"/>
+                                <constraint firstItem="jJ5-uo-aWb" firstAttribute="top" secondItem="M1r-Ih-7LR" secondAttribute="bottom" constant="15" id="9dl-Vk-7D3"/>
+                                <constraint firstItem="4Fv-7Q-tUq" firstAttribute="centerX" secondItem="K6Q-eV-nFo" secondAttribute="centerX" id="AUN-Ww-ZOX"/>
+                                <constraint firstItem="pDi-sv-Zkb" firstAttribute="height" secondItem="kkf-5A-fTL" secondAttribute="height" id="BEW-2o-Pip"/>
+                                <constraint firstItem="f87-XA-wEL" firstAttribute="centerX" secondItem="jJ5-uo-aWb" secondAttribute="centerX" id="FuH-NV-BL6"/>
+                                <constraint firstItem="Mmg-bH-ugq" firstAttribute="width" secondItem="Oo8-cx-vjz" secondAttribute="width" id="GKo-hm-XUz"/>
+                                <constraint firstItem="f87-XA-wEL" firstAttribute="centerY" secondItem="GF7-Qo-poH" secondAttribute="centerY" id="H19-7h-VGD"/>
+                                <constraint firstItem="sls-Oc-evI" firstAttribute="centerX" secondItem="rVC-fN-OWQ" secondAttribute="centerX" id="IyQ-3J-cqT"/>
+                                <constraint firstItem="5fS-Vd-JCu" firstAttribute="height" secondItem="4Fv-7Q-tUq" secondAttribute="height" id="Jva-af-dxA"/>
+                                <constraint firstItem="x1T-KX-rTG" firstAttribute="width" secondItem="jJe-Vm-c6X" secondAttribute="width" id="Let-U1-iBR"/>
+                                <constraint firstItem="fXV-uA-dKT" firstAttribute="height" secondItem="1Qy-qY-hcO" secondAttribute="height" id="M9D-C2-P8A"/>
+                                <constraint firstItem="M1r-Ih-7LR" firstAttribute="top" secondItem="1Qy-qY-hcO" secondAttribute="bottom" constant="10" id="N5s-Qe-BRP"/>
+                                <constraint firstItem="pSm-5e-jej" firstAttribute="width" secondItem="PK6-R3-bgm" secondAttribute="width" id="PzG-cO-gWy"/>
+                                <constraint firstItem="QcN-FN-Den" firstAttribute="leading" secondItem="Zbb-iU-FZs" secondAttribute="leading" constant="10" id="QYc-Bg-GUN"/>
+                                <constraint firstItem="GF7-Qo-poH" firstAttribute="leading" secondItem="Zbb-iU-FZs" secondAttribute="leading" constant="20" id="Qcg-PO-SdI"/>
+                                <constraint firstItem="rVC-fN-OWQ" firstAttribute="leading" secondItem="jJe-Vm-c6X" secondAttribute="trailing" constant="10" id="Ry6-yo-Nqq"/>
+                                <constraint firstItem="rVC-fN-OWQ" firstAttribute="centerY" secondItem="jJe-Vm-c6X" secondAttribute="centerY" id="Sfh-kx-0my"/>
+                                <constraint firstItem="5fS-Vd-JCu" firstAttribute="centerY" secondItem="4Fv-7Q-tUq" secondAttribute="centerY" id="TEl-Ux-0bP"/>
+                                <constraint firstItem="Mmg-bH-ugq" firstAttribute="height" secondItem="Oo8-cx-vjz" secondAttribute="height" id="U9h-vu-X5Y"/>
+                                <constraint firstItem="x1T-KX-rTG" firstAttribute="centerX" secondItem="jJe-Vm-c6X" secondAttribute="centerX" id="Uwi-13-jsC"/>
+                                <constraint firstItem="kkf-5A-fTL" firstAttribute="top" secondItem="x1T-KX-rTG" secondAttribute="bottom" constant="10" id="Uz5-3K-jeb"/>
+                                <constraint firstItem="rVC-fN-OWQ" firstAttribute="width" secondItem="jJe-Vm-c6X" secondAttribute="width" id="V4j-g5-6cC"/>
+                                <constraint firstItem="0bB-kk-zQC" firstAttribute="leading" secondItem="Zbb-iU-FZs" secondAttribute="leading" constant="20" id="VHh-Jg-2KO"/>
+                                <constraint firstItem="kkf-5A-fTL" firstAttribute="width" secondItem="x1T-KX-rTG" secondAttribute="width" id="VpC-Z2-yda"/>
+                                <constraint firstItem="4Fv-7Q-tUq" firstAttribute="height" secondItem="K6Q-eV-nFo" secondAttribute="height" id="Wiw-2l-ael"/>
+                                <constraint firstItem="4Fv-7Q-tUq" firstAttribute="top" secondItem="K6Q-eV-nFo" secondAttribute="bottom" constant="10" id="Wv4-WW-1v1"/>
+                                <constraint firstAttribute="trailing" secondItem="rVC-fN-OWQ" secondAttribute="trailing" constant="10" id="XL8-2e-fua"/>
+                                <constraint firstItem="1Qy-qY-hcO" firstAttribute="width" secondItem="Oo8-cx-vjz" secondAttribute="width" id="XSX-1o-eor"/>
+                                <constraint firstItem="P1d-nA-X0O" firstAttribute="leading" secondItem="5TZ-PH-8qD" secondAttribute="trailing" constant="10" id="Xt5-xa-j6Z"/>
+                                <constraint firstItem="1Qy-qY-hcO" firstAttribute="height" secondItem="Oo8-cx-vjz" secondAttribute="height" id="Y0J-jL-NY3"/>
+                                <constraint firstItem="pDi-sv-Zkb" firstAttribute="centerX" secondItem="sls-Oc-evI" secondAttribute="centerX" id="YG5-Kq-YSd"/>
+                                <constraint firstItem="pSm-5e-jej" firstAttribute="centerX" secondItem="jib-0E-FzN" secondAttribute="centerX" id="Z9m-Fk-A0O"/>
+                                <constraint firstItem="5TZ-PH-8qD" firstAttribute="top" secondItem="Zbb-iU-FZs" secondAttribute="top" constant="10" id="ZBi-Ww-z15"/>
+                                <constraint firstItem="Oo8-cx-vjz" firstAttribute="top" secondItem="PK6-R3-bgm" secondAttribute="bottom" constant="10" id="aIw-92-jcn"/>
+                                <constraint firstItem="1Qy-qY-hcO" firstAttribute="centerX" secondItem="Oo8-cx-vjz" secondAttribute="centerX" id="bnZ-Uy-pXd"/>
+                                <constraint firstAttribute="height" constant="667" id="d9M-Uj-VpE"/>
+                                <constraint firstItem="pDi-sv-Zkb" firstAttribute="centerY" secondItem="kkf-5A-fTL" secondAttribute="centerY" id="dEl-Sb-2X0"/>
+                                <constraint firstItem="pSm-5e-jej" firstAttribute="height" secondItem="PK6-R3-bgm" secondAttribute="height" id="eXf-Zb-e41"/>
+                                <constraint firstItem="M1r-Ih-7LR" firstAttribute="width" secondItem="1Qy-qY-hcO" secondAttribute="width" id="eci-og-FN3"/>
+                                <constraint firstItem="PK6-R3-bgm" firstAttribute="top" secondItem="QcN-FN-Den" secondAttribute="bottom" constant="10" id="erm-pX-n08"/>
+                                <constraint firstItem="Mmg-bH-ugq" firstAttribute="centerY" secondItem="Oo8-cx-vjz" secondAttribute="centerY" id="fA6-X5-QwF"/>
+                                <constraint firstItem="Wb3-SJ-9Dc" firstAttribute="width" secondItem="K6Q-eV-nFo" secondAttribute="width" id="fRU-mX-fbY"/>
+                                <constraint firstAttribute="trailing" secondItem="jib-0E-FzN" secondAttribute="trailing" constant="10" id="fZN-AF-6Hj"/>
+                                <constraint firstItem="jib-0E-FzN" firstAttribute="width" secondItem="QcN-FN-Den" secondAttribute="width" id="fm6-dM-5IE"/>
+                                <constraint firstItem="5fS-Vd-JCu" firstAttribute="width" secondItem="4Fv-7Q-tUq" secondAttribute="width" id="gYq-vx-zv4"/>
+                                <constraint firstItem="Wb3-SJ-9Dc" firstAttribute="centerY" secondItem="K6Q-eV-nFo" secondAttribute="centerY" id="gcT-hG-i7t"/>
+                                <constraint firstItem="K6Q-eV-nFo" firstAttribute="width" secondItem="kkf-5A-fTL" secondAttribute="width" id="hCF-g9-pvJ"/>
+                                <constraint firstItem="K6Q-eV-nFo" firstAttribute="centerX" secondItem="kkf-5A-fTL" secondAttribute="centerX" id="ide-qD-gzo"/>
+                                <constraint firstItem="f87-XA-wEL" firstAttribute="leading" secondItem="GF7-Qo-poH" secondAttribute="trailing" constant="10" id="ios-FV-yWq"/>
+                                <constraint firstItem="Mmg-bH-ugq" firstAttribute="centerX" secondItem="pSm-5e-jej" secondAttribute="centerX" id="j4o-FY-F1f"/>
+                                <constraint firstItem="fXV-uA-dKT" firstAttribute="centerY" secondItem="1Qy-qY-hcO" secondAttribute="centerY" id="jHH-HB-jK2"/>
+                                <constraint firstItem="f87-XA-wEL" firstAttribute="width" secondItem="jJ5-uo-aWb" secondAttribute="width" id="jSO-rJ-zZV"/>
+                                <constraint firstItem="P1d-nA-X0O" firstAttribute="centerY" secondItem="5TZ-PH-8qD" secondAttribute="centerY" id="jri-w6-0VU"/>
+                                <constraint firstItem="QcN-FN-Den" firstAttribute="top" secondItem="P1d-nA-X0O" secondAttribute="bottom" constant="15" id="jzW-im-qhr"/>
+                                <constraint firstItem="M1r-Ih-7LR" firstAttribute="centerX" secondItem="1Qy-qY-hcO" secondAttribute="centerX" id="l5R-vz-l16"/>
+                                <constraint firstItem="jJ5-uo-aWb" firstAttribute="centerY" secondItem="0bB-kk-zQC" secondAttribute="centerY" id="lq0-7n-9Is"/>
+                                <constraint firstItem="pDi-sv-Zkb" firstAttribute="width" secondItem="kkf-5A-fTL" secondAttribute="width" id="mPh-2b-SLv"/>
+                                <constraint firstItem="pSm-5e-jej" firstAttribute="centerY" secondItem="PK6-R3-bgm" secondAttribute="centerY" id="mQn-a7-3Yz"/>
+                                <constraint firstItem="jJ5-uo-aWb" firstAttribute="leading" secondItem="0bB-kk-zQC" secondAttribute="trailing" constant="10" id="mUF-Me-hC3"/>
+                                <constraint firstItem="jib-0E-FzN" firstAttribute="centerY" secondItem="QcN-FN-Den" secondAttribute="centerY" id="n9L-86-hsX"/>
+                                <constraint firstItem="f87-XA-wEL" firstAttribute="height" secondItem="jJ5-uo-aWb" secondAttribute="height" id="nQ4-JH-h64"/>
+                                <constraint firstItem="x1T-KX-rTG" firstAttribute="height" secondItem="jJe-Vm-c6X" secondAttribute="height" id="ots-IM-XFD"/>
+                                <constraint firstItem="Oo8-cx-vjz" firstAttribute="width" secondItem="PK6-R3-bgm" secondAttribute="width" id="q9Y-Qf-xZv"/>
+                                <constraint firstItem="PK6-R3-bgm" firstAttribute="width" secondItem="QcN-FN-Den" secondAttribute="width" id="qo3-Nm-hom"/>
+                                <constraint firstItem="jib-0E-FzN" firstAttribute="leading" secondItem="QcN-FN-Den" secondAttribute="trailing" constant="10" id="qxY-Dt-asc"/>
+                                <constraint firstItem="sls-Oc-evI" firstAttribute="width" secondItem="x1T-KX-rTG" secondAttribute="width" id="rnB-Pp-PER"/>
+                                <constraint firstItem="Wb3-SJ-9Dc" firstAttribute="height" secondItem="K6Q-eV-nFo" secondAttribute="height" id="rog-63-VrF"/>
+                                <constraint firstItem="K6Q-eV-nFo" firstAttribute="height" secondItem="kkf-5A-fTL" secondAttribute="height" id="sTC-DO-lzx"/>
+                                <constraint firstItem="fXV-uA-dKT" firstAttribute="centerX" secondItem="Mmg-bH-ugq" secondAttribute="centerX" id="tFh-qp-pR5"/>
+                                <constraint firstItem="sls-Oc-evI" firstAttribute="centerY" secondItem="x1T-KX-rTG" secondAttribute="centerY" id="tiw-Nk-f1h"/>
+                                <constraint firstItem="jJe-Vm-c6X" firstAttribute="top" secondItem="GF7-Qo-poH" secondAttribute="bottom" constant="20" id="tqt-7G-Nyc"/>
+                                <constraint firstItem="M1r-Ih-7LR" firstAttribute="height" secondItem="1Qy-qY-hcO" secondAttribute="height" id="u34-i3-jnN"/>
+                                <constraint firstItem="x1T-KX-rTG" firstAttribute="top" secondItem="jJe-Vm-c6X" secondAttribute="bottom" constant="8" symbolic="YES" id="uaF-9n-7e1"/>
+                                <constraint firstItem="f87-XA-wEL" firstAttribute="top" secondItem="jJ5-uo-aWb" secondAttribute="bottom" constant="5" id="umO-Nu-1qq"/>
+                                <constraint firstItem="K6Q-eV-nFo" firstAttribute="top" secondItem="kkf-5A-fTL" secondAttribute="bottom" constant="10" id="wJJ-cR-vqe"/>
+                                <constraint firstItem="jJe-Vm-c6X" firstAttribute="leading" secondItem="Zbb-iU-FZs" secondAttribute="leading" constant="10" id="xyt-aJ-Sdo"/>
+                                <constraint firstItem="kkf-5A-fTL" firstAttribute="height" secondItem="x1T-KX-rTG" secondAttribute="height" id="yey-10-JyQ"/>
+                                <constraint firstItem="kkf-5A-fTL" firstAttribute="centerX" secondItem="x1T-KX-rTG" secondAttribute="centerX" id="zI7-SO-k6c"/>
+                                <constraint firstItem="4Fv-7Q-tUq" firstAttribute="width" secondItem="K6Q-eV-nFo" secondAttribute="width" id="zrt-Nj-2mf"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Zbb-iU-FZs" secondAttribute="trailing" id="39G-2Z-IRh"/>
+                        <constraint firstAttribute="bottom" secondItem="Zbb-iU-FZs" secondAttribute="bottom" id="8hX-mN-ltd"/>
+                        <constraint firstItem="Zbb-iU-FZs" firstAttribute="centerX" secondItem="Fwv-c7-rhQ" secondAttribute="centerX" id="Oxs-mF-Mg1"/>
+                        <constraint firstItem="Zbb-iU-FZs" firstAttribute="leading" secondItem="Fwv-c7-rhQ" secondAttribute="leading" id="Zr0-SO-T9c"/>
+                        <constraint firstItem="Zbb-iU-FZs" firstAttribute="top" secondItem="Fwv-c7-rhQ" secondAttribute="top" id="eme-oh-LxG"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Fwv-c7-rhQ" secondAttribute="trailing" id="chH-8m-Ohz"/>
+                <constraint firstItem="Fwv-c7-rhQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="nek-Wg-k6o"/>
+                <constraint firstAttribute="bottom" secondItem="Fwv-c7-rhQ" secondAttribute="bottom" id="pqa-yb-V1B"/>
+                <constraint firstItem="Fwv-c7-rhQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="rtq-9r-PRl"/>
+            </constraints>
+            <point key="canvasLocation" x="694.5" y="34.5"/>
+        </view>
+    </objects>
+</document>
