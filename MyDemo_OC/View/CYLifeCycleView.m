@@ -38,12 +38,12 @@
     return self;
 }
 
-- (instancetype)init {
-    if (self = [super init]) {
-        NSLog(@"View_init");
-    }
-    return self;
-}
+//- (instancetype)init {
+//    if (self = [super init]) {
+//        NSLog(@"View_init");
+//    }
+//    return self;
+//}
 
 /**
  如果重写了 drawRect: 方法，那么会调用重载的 drawRect: 方法，在 drawRect: 方法中手动绘制得到 bitmap 数据，从而自定义视图的绘制。
@@ -67,10 +67,10 @@
 ////    [self makeShadowMethod];
 //}
 
-- (void)setFrame:(CGRect)frame {
-    [super setFrame:frame];
-    NSLog(@"View_setFrame");
-}
+//- (void)setFrame:(CGRect)frame {
+//    [super setFrame:frame];
+//    NSLog(@"View_setFrame");
+//}
 
 /**
  layoutSubviews方便数据计算，drawRect方便视图重绘。
@@ -82,10 +82,10 @@
  5、旋转Screen会触发父UIView上的layoutSubviews事件。
  6、改变一个UIView大小的时候也会触发父UIView上的layoutSubviews事件。 7、直接调用setLayoutSubviews。
  */
-- (void)layoutSubviews {
-    [super layoutSubviews];
-    NSLog(@"View_layoutSubviews");
-}
+//- (void)layoutSubviews {
+//    [super layoutSubviews];
+//    NSLog(@"View_layoutSubviews");
+//}
 
 - (void)makeShadowMethod {
     self.layer.cornerRadius = 20;

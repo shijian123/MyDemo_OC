@@ -123,6 +123,7 @@
 		B4BE42AB2332505F000909CE /* CYDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BE42AA2332505F000909CE /* CYDocument.m */; };
 		B4BFF3CA247E0D9C00BBAA6D /* CYLifeCycleController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BFF3C8247E0D9C00BBAA6D /* CYLifeCycleController.m */; };
 		B4BFF3CB247E0D9C00BBAA6D /* CYLifeCycleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4BFF3C9247E0D9C00BBAA6D /* CYLifeCycleController.xib */; };
+		B4BFF403247E623F00BBAA6D /* CYAnimateResetController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BFF402247E623F00BBAA6D /* CYAnimateResetController.m */; };
 		B4C0BC24232F2C8000CF2027 /* NSString+CY.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C0BC23232F2C8000CF2027 /* NSString+CY.m */; };
 		B4C0BC83232F7FD100CF2027 /* UIButton+CY.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C0BC82232F7FD100CF2027 /* UIButton+CY.m */; };
 		B4C0BC86232F805800CF2027 /* MBProgressHUD+CY.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C0BC85232F805800CF2027 /* MBProgressHUD+CY.m */; };
@@ -434,6 +435,8 @@
 		B4BFF3C7247E0D9C00BBAA6D /* CYLifeCycleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLifeCycleController.h; sourceTree = "<group>"; };
 		B4BFF3C8247E0D9C00BBAA6D /* CYLifeCycleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLifeCycleController.m; sourceTree = "<group>"; };
 		B4BFF3C9247E0D9C00BBAA6D /* CYLifeCycleController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYLifeCycleController.xib; sourceTree = "<group>"; };
+		B4BFF401247E623F00BBAA6D /* CYAnimateResetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYAnimateResetController.h; sourceTree = "<group>"; };
+		B4BFF402247E623F00BBAA6D /* CYAnimateResetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYAnimateResetController.m; sourceTree = "<group>"; };
 		B4C0BC22232F2C8000CF2027 /* NSString+CY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CY.h"; sourceTree = "<group>"; };
 		B4C0BC23232F2C8000CF2027 /* NSString+CY.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CY.m"; sourceTree = "<group>"; };
 		B4C0BC81232F7FD100CF2027 /* UIButton+CY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+CY.h"; sourceTree = "<group>"; };
@@ -769,6 +772,8 @@
 				B4BFF3C7247E0D9C00BBAA6D /* CYLifeCycleController.h */,
 				B4BFF3C8247E0D9C00BBAA6D /* CYLifeCycleController.m */,
 				B4BFF3C9247E0D9C00BBAA6D /* CYLifeCycleController.xib */,
+				B4BFF401247E623F00BBAA6D /* CYAnimateResetController.h */,
+				B4BFF402247E623F00BBAA6D /* CYAnimateResetController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1720,6 +1725,7 @@
 				B40062EC22A766F100FEE0BD /* CYFireAnimController.m in Sources */,
 				B4AC6AF423176582001D8F4F /* CYImageWebController.m in Sources */,
 				B4F02682232A9B0B00A5C053 /* LHContentModel.m in Sources */,
+				B4BFF403247E623F00BBAA6D /* CYAnimateResetController.m in Sources */,
 				B4AF3E2B23A8CAB900B426A3 /* CYPresentController.m in Sources */,
 				B408A219231536D600519301 /* CYHelperTool.m in Sources */,
 				B4C0BC89232F83D100CF2027 /* UIView+CY.m in Sources */,
