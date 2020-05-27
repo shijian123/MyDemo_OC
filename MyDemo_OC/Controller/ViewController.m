@@ -92,7 +92,7 @@
 }
 
 - (NSArray *)titleArr {
-    NSArray *arr = @[@"PresentVC", @"PropertyRuntime", @"ScrollBGImg", @"LottieAnim", @"SystemShare", @"FaceBeauty", @"CameraMovie", @"FaceLicense", @"ChatVC", @"BlockTest", @"JMSGMessageManager", @"WXPay", @"ImageWebView", @"UpLoad", @"FloatView", @"MyCalendar", @"CYSelectItem", @"AssignRound", @"Excel-Kit", @"playAudio", @"CYStackViewTest", @"CYAutoTest", @"drawHeart", @"customPageControl", @"Localization", @"FireAnim", @"RippleEffect", @"CircleLoad", @"QQVoiceDemo", @"CYRunLoop", ];
+    NSArray *arr = @[@"LifeCycle_V&C_xib", @"wkwebview-post",@"PresentVC", @"PropertyRuntime", @"ScrollBGImg", @"LottieAnim", @"SystemShare", @"FaceBeauty", @"CameraMovie", @"FaceLicense", @"ChatVC", @"BlockTest", @"JMSGMessageManager", @"WXPay", @"ImageWebView", @"UpLoad", @"FloatView", @"MyCalendar", @"CYSelectItem", @"AssignRound", @"Excel-Kit", @"playAudio", @"CYStackViewTest", @"CYAutoTest", @"drawHeart", @"customPageControl", @"Localization", @"FireAnim", @"RippleEffect", @"CircleLoad", @"QQVoiceDemo", @"CYRunLoop", ];
     return arr;
 }
 
@@ -100,7 +100,7 @@
  使用这个方法后，不仅调用方便，而且可以不用import各个Controller
  */
 - (NSArray *)controllerArr {
-    NSArray *arr = @[@"CYPresentController", @"CYPropertyRuntimeController", @"CYScrollBGImgController", @"CYLottieAnimationController", @"CYSystemShareController", @"CYFaceBeautyController", @"CYCameraMovieController", @"CYFaceLicenseController", @"LHChatVC", @"CYBlockTestController", @"JMSGMessageManagerViewController", @"CYWXPayController", @"CYImageWebController", @"CYUploadContentController", @"CYFloatController", @"CYMyCalendarController", @"CYSelectItemController", @"CYRoundController", @"CYExcelController", @"CYPlayAudioController", @"CYStackTestController", @"CYAutoTestController", @"CYDrawHeartController", @"CYCustomPageControlController", @"CYLocalizationController", @"CYFireAnimController", @"CYRippleAnimController", @"CYCircleLoadController", @"QQVoiceDemoController", @"CYRunLoopController"];
+    NSArray *arr = @[@"CYLifeCycleController", @"CYRequestWebController",@"CYPresentController", @"CYPropertyRuntimeController", @"CYScrollBGImgController", @"CYLottieAnimationController", @"CYSystemShareController", @"CYFaceBeautyController", @"CYCameraMovieController", @"CYFaceLicenseController", @"LHChatVC", @"CYBlockTestController", @"JMSGMessageManagerViewController", @"CYWXPayController", @"CYImageWebController", @"CYUploadContentController", @"CYFloatController", @"CYMyCalendarController", @"CYSelectItemController", @"CYRoundController", @"CYExcelController", @"CYPlayAudioController", @"CYStackTestController", @"CYAutoTestController", @"CYDrawHeartController", @"CYCustomPageControlController", @"CYLocalizationController", @"CYFireAnimController", @"CYRippleAnimController", @"CYCircleLoadController", @"QQVoiceDemoController", @"CYRunLoopController"];
     return arr;
 }
 

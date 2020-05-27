@@ -10,7 +10,7 @@
 #import <WebKit/WebKit.h>
 #import "CYWebView.h"
 
-@interface CYRequestWebController ()<WKUIDelegate, WKNavigationDelegate>
+@interface CYRequestWebController ()<WKUIDelegate, WKNavigationDelegate, UIWebViewDelegate>
 //@property (nonatomic, strong) UIWebView *webView;
 @property(nonatomic, strong) CYWebView *webView;
 @property (nonatomic, strong) UIProgressView *progressV;
@@ -25,8 +25,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.postUrl = @"test1";
-    self.postBody = @"test2";
+    
+    #warning 测试
+    self.postUrl = @"https://depo.xwbank.com/bha-neo-app/lanmaotech/gateway";
+    self.postBody = @"reqData=%7B%22amount%22%3A2%2C%22expired%22%3A%2220200119102200%22%2C%22platformUserNo%22%3A%22LMP2018060620866909%22%2C%22redirectUrl%22%3A%22https%3A%2F%2Fwap.daokoudai.com%2F%2FlmService%2FwithdrawReturn%22%2C%22requestNo%22%3A%22W2020011968405051%22%2C%22withdrawForm%22%3A%22IMMEDIATE%22%2C%22withdrawType%22%3A%22NORMAL_URGENT%22%2C%22timestamp%22%3A%2220200119095200%22%7D&sign=lUgCFQWheD6iHgIzXPGzEBSXfazMz%2Bba9Dn4kNisd5LmjfBEU6U8b6AxgKBXv247%2FEqfYkBe%2BTcjEIvoYi%2FPADtdwi3Nqo%2FCpx3CA6s3sgax0ZGyKibr1Uc2g4QzEs2XCiR6sRV%2B9xAS%2FK81BMU8uNsIPgqL9lKyRaxFLAD5yvG678yPm0aHCDNx2fF3EU8FDjKdzu1yu%2F2YOqPAp1xed6sZ68RaNnW7mkX0R2rrGLrfH41eVPS8cBv3zPZMHV9r%2BzbWt%2B%2Blsn2Ph11WouiRJuuPnPvVLSUWgZpzljKUlosd1sDlDhGL8Vezsu9%2BmogJ2DZ%2Fs7Lse3zd4MJQ3SCQUQ%3D%3D&platformNo=6000007602&userDevice=MOBILE&serviceName=WITHDRAW&keySerial=1";
+    
     
     [self.view addSubview:self.webView];
     [self.view addSubview:self.progressV];
@@ -47,7 +50,6 @@
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context{
     if ([keyPath isEqualToString:@"estimatedProgress"]){
         self.progressV.progress = [change[NSKeyValueChangeNewKey] floatValue];
-        //        NSLog(@"progressV:%f", self.progressV.progress);
         if (self.progressV.progress >= 1.0) {
             self.progressV.hidden = YES;
             self.webView.frame = self.view.bounds;
@@ -64,11 +66,22 @@
 #pragma mark - delegate
 #pragma mark WKNavigationDelegate
 
+
+- (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler {
+    NSString *urlStr = navigationAction.request.URL.absoluteString;
+    NSData *httpBody = navigationAction.request.HTTPBody;
+    if ([urlStr containsString:@"/mine"]){// 提现成功页面
+    
+    }
+    decisionHandler(WKNavigationActionPolicyAllow);
+
+}
+
 - (void)webView:(WKWebView *)webView decidePolicyForNavigationResponse:(nonnull WKNavigationResponse *)navigationResponse decisionHandler:(nonnull void (^)(WKNavigationResponsePolicy))decisionHandler{
     
     NSString *urlStr = navigationResponse.response.URL.absoluteString;
     if ([urlStr containsString:@"/mine"]){// 提现成功页面
-        //        [self configUMSocialShareWithURLString:urlStr];
+//        [self configUMSocialShareWithURLString:urlStr];
         
         decisionHandler(WKNavigationResponsePolicyCancel);
     }else {
@@ -80,14 +93,20 @@
     NSLog(@"ERROR:%@", error);
 }
 
+
+#pragma mrak UIWebViewDelegate
+
+//- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType{
+//    NSString *url = request.URL.absoluteString;
+//    NSString *urlPrefix;
+//    return YES;
+//}
+
+
 #pragma mark - setters && getters
 
 - (CYWebView *)webView {
     if (_webView == nil) {
-#warning 测试
-        //        self.postUrl = @"https://fintechlm.bosc.cn:8001/bha-neo-app/lanmaotech/gateway";
-        //        self.postBody = @"reqData=%7B%22amount%22%3A1%2C%22expired%22%3A%2220190905154435%22%2C%22platformUserNo%22%3A%22LMP2018060620866909%22%2C%22redirectUrl%22%3A%22https%3A%2F%2Fwap.daokoudai.com%2F%2FlmService%2FwithdrawReturn%22%2C%22requestNo%22%3A%22W2019090555479538%22%2C%22withdrawForm%22%3A%22IMMEDIATE%22%2C%22withdrawType%22%3A%22NORMAL_URGENT%22%2C%22timestamp%22%3A%2220190905151435%22%7D&sign=DPMjSZ1RY6wXfJ7V7Re1Tlo7FEbnGNxfJEw%2FnOJ1%2FQGDtvkj1IEcPPHq6%2BaPF%2BWVIaSWxfzQaomDlAlkb8xYeTvfrCsH20NiHpY7qQPj5O67hopjGDmEiDmx%2B1kUCbzK%2BiagciyGrHJ72hBjwexLA1a5k8A3HpjFU5vPIv58Y7HQsNCu5zUGGbGwiEZ%2FcDAv2CR5jB%2BoDFmUv6btvChzMJnGk5GLhztAX1nm1FIrnDQ78DietUpUP1imLj4emXPQz1%2BYHsZ1DDzgWrRzFIBuOZf4qb%2FPiZGwr%2BAbjYmh3bez4tND92scMvV6fhmimpPoWgPGPZtCmmB2SZtAJU%2FhJQ%3D%3D&platformNo=9100004001&userDevice=MOBILE&serviceName=WITHDRAW&keySerial=1";
-        
         _webView = [[CYWebView alloc] initWithFrame:self.view.bounds];
         _webView.UIDelegate = self;
         _webView.navigationDelegate = self;
@@ -95,9 +114,9 @@
         [_webView addObserver:self forKeyPath:@"title" options:NSKeyValueObservingOptionNew context:nil];
         NSMutableURLRequest *request = [[NSMutableURLRequest alloc]initWithURL: [NSURL URLWithString:self.postUrl]];
         [request setHTTPMethod: @"POST"];
+        [request addValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
         [request setHTTPBody: [self.postBody dataUsingEncoding: NSUTF8StringEncoding]];
-        //        [request setHTTPBody: [NSJSONSerialization dataWithJSONObject:self.postBody options:NSJSONWritingPrettyPrinted error:nil]];
-        
+//        [request setHTTPBody: [NSJSONSerialization dataWithJSONObject:self.postBody options:NSJSONWritingPrettyPrinted error:nil]];
         [_webView loadRequest:request];
     }
     return _webView;
@@ -117,7 +136,7 @@
 //    if (_webView == nil) {
 //        _webView = [[UIWebView alloc]initWithFrame:self
 //                    .view.bounds];
-//        _webView.backgroundColor = [UIColor whiteColor];
+//        _webView.backgroundColor = [UIColor purpleColor];
 //        _webView.delegate = self;
 //        _webView.scalesPageToFit = YES;
 //        NSMutableURLRequest *request = [[NSMutableURLRequest alloc]initWithURL: [NSURL URLWithString:self.postUrl]];
@@ -128,29 +147,6 @@
 //    }
 //    return _webView;
 //}
-
-
-///**
-// *  懒猫申请提现
-// */
-//- (void)requestServerLazyCatWithdrawConfirmWithAmount:(NSString *)amount type:(NSString *)type{
-//    NSMutableDictionary *param = [NSMutableDictionary dictionary];
-//    param[@"token"] = @"1791ace03e7b430083a994ea8f2e3c82";
-//    param[@"amount"] = @1;
-//    param[@"type"] = @0;
-//    //    param[@"returnUrl"] 看需要决定，可以不送
-//    [JKHttpRequestTool get:@"https://www.daokoudai.com/api/3.0/appStore/lmWithdrawConfirm?apiName=daokoudai&appKey=88888888&channel=appstore&from=IC&imei=0e0b3b3087754798b719c8873105c377&params=%7B%0A%20%20%22token%22%20%3A%20%221791ace03e7b430083a994ea8f2e3c82%22%2C%0A%20%20%22amount%22%20%3A%20%221%22%2C%0A%20%20%22type%22%20%3A%20%220%22%0A%7D&version=2.9.0" params:[NSDictionary dictionary] success:^(id json) {
-//
-//        self.postBody = json[@"params"];
-//        self.postUrl = json[@"returnUrl"];
-//        [self.view addSubview:self.webView];
-//        [self.view addSubview:self.progressV];
-//    }failure:^(NSError *error) {
-//
-//    }];
-//}
-//
-
 
 
 @end

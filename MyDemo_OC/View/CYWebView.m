@@ -43,53 +43,9 @@
     if ([[request.HTTPMethod uppercaseString] isEqualToString:@"POST"]){
         NSString *url = request.URL.absoluteString;
         NSString *params = [[NSString alloc] initWithData:request.HTTPBody encoding:NSUTF8StringEncoding];
-        //        [params stringByRemovingPercentEncoding];
-        //        NSLog(@"*********params*************:%@", params);
-        //        NSData *jsonData = [params dataUsingEncoding:NSUTF8StringEncoding];
-        //
-        //        if ([params containsString:@"="]) {
-        ////            params = [params stringByReplacingOccurrencesOfString:@"%7B" withString:@"\"{\""];
-        ////            params = [params stringByReplacingOccurrencesOfString:@"%7D" withString:@"\"}\""];
-        //            params = [params stringByReplacingOccurrencesOfString:@"=" withString:@"\":\""];
-        //            params = [params stringByReplacingOccurrencesOfString:@"&" withString:@"\",\""];
-        //            params = [NSString stringWithFormat:@"{\"%@\"}", params];
-        //        }else{
-        //            params = @"{}";
-        //        }
         
-        //        NSDictionary *params = [NSJSONSerialization JSONObjectWithData:request.HTTPBody options:NSJSONReadingMutableContainers error:nil];
-        //
-        NSLog(@"*********dic*************:%@", params);
-        /*
-         {
-         keySerial = 1;
-         platformNo = 9100004001;
-         reqData = "{\"amount\":1,\"expired\":\"20190905173646\",\"platformUserNo\":\"LMP2018060620866909\",\"redirectUrl\":\"https://wap.daokoudai.com//lmService/withdrawReturn\",\"requestNo\":\"W2019090555492274\",\"withdrawForm\":\"IMMEDIATE\",\"withdrawType\":\"NORMAL_URGENT\",\"timestamp\":\"20190905170646\"}";
-         serviceName = WITHDRAW;
-         sign = "An620m1kow/1xKZayq+MCm0y+G6C7CT5A7KF8KpaeQkWcYnRC49Cbgo2RHCCGzmpuuAdFRk8d3qsxj7fGxXrdQe/2WTWiM3pMjOck+D0h/MSPxbeBrfj6Ln2uxKmZKPe+Px4WzBkc8jPMUIffb8uZA8JichfpW2HzQB1r0I1Vl7UFSqRN0aKD353OPm7zWCslvZX8zsV6T2pP+7ojrmwJoLsQujS4WLdCu0TJnrSpBp/QcyE0IVbEtv1ZdLeXOARK6Fno4dW1LO6sMr946uybTZVM9Qdjf6/wiUz/7UBn/xuglpEHZqqg7rj9fwzF8Hpi8cuXSpNPLwpzhs3ulN/Yw==";
-         userDevice = MOBILE;
-         }
-         */
-        
-        //        NSString *postJavaScript = [NSString stringWithFormat:@"\
-        //                                    var url = %@;\
-        //                                    var params = %@;\
-        //                                    var form = document.createElement('form');\
-        //                                    form.setAttribute('method', 'post');\
-        //                                    form.setAttribute('action', url);\
-        //                                    for(var key in params) {\
-        //                                    if(params.hasOwnProperty(key)) {\
-        //                                    var hiddenField = document.createElement('input');\
-        //                                    hiddenField.setAttribute('type', 'hidden');\
-        //                                    hiddenField.setAttribute('name', key);\
-        //                                    hiddenField.setAttribute('value', params[key]);\
-        //                                    form.appendChild(hiddenField);\
-        //                                    }\
-        //                                    }\
-        //                                    document.body.appendChild(form);\
-        //                                    form.submit();", url, params];
-        //"var iOSApp = {\"getUserInfo\":function(){return \(jsonText!)}}"
-        NSString *postJavaScript = [NSString stringWithFormat:@"document.write(isNaN(123)+ \"<br />\")"];
+        NSString *postJavaScript = [NSString stringWithFormat:@"%@my_post(\"%@\", %@)",CYPOST_JS,url,@"{\"token\":\"cac6af340960485aa334416c8a34ddbf\"}"];
+
         __weak typeof(self) wself = self;
         [self evaluateJavaScript:postJavaScript completionHandler:^(id object, NSError * _Nullable error) {
             if (error && [wself.navigationDelegate respondsToSelector:@selector(webView:didFailProvisionalNavigation:withError:)]) {
