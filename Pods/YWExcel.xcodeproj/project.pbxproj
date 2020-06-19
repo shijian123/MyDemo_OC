@@ -7,38 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EF74BA70E7DC66372948BFAF1AB4875 /* YWTableViewHeadView.h in Headers */ = {isa = PBXBuildFile; fileRef = 12076BF84198E23720BF58FCE1BDD9E5 /* YWTableViewHeadView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0F102CADE2872FF5EA8EC78AE7CCE7B1 /* YWIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = F1100986BEDBEB555E5FAD45B9377265 /* YWIndexPath.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		20D3E5DBA60C5F8BE375F1EDF1BDE54D /* YWTableViewHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E312C0379571F388CBEFB39AC81A046 /* YWTableViewHeadView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3852A158A2A46FBEB14D570458A208C5 /* YWExcelViewMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A446DB8ABB0758574A87EE96952633D /* YWExcelViewMode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		49D4783841A9DDCF45970B006590935F /* YWExcelViewMode.h in Headers */ = {isa = PBXBuildFile; fileRef = C7C2967CF79B52D7CD6C8B89AA10F0B5 /* YWExcelViewMode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		665A5831DA6EED5652DF23007ADE62AE /* YWExcel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CCD3307C60640FDB9364CC73A0DCC0 /* YWExcel-dummy.m */; };
-		737A7ADF88EEAF379C7EE62772177DC0 /* YWExcelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB1F71BC0F009AF5048A69BD8CBE96 /* YWExcelCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		BE9B94716925F113879A34DEEFAA83EF /* YWIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A19A4979985FA2A69091DB34D16E1F /* YWIndexPath.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E65F23721AE7B4DB1167A7DFCE61BE5E /* YWExcelCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F8C2F57F648CB881E61B8ED5CBF57F4 /* YWExcelCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EB462806A891E79F4B9E45206266C66D /* YWExcelView.h in Headers */ = {isa = PBXBuildFile; fileRef = A6ECBB61C081C9BBF6FB88DE50E10C68 /* YWExcelView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F2D3CB59F4E2F9DCB5E75447F6BEB1C8 /* YWExcelView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBDC399FADD4FB6FA7E7B837566474B /* YWExcelView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		31A6E03686E733E0319367A0232D595B /* YWExcelView.h in Headers */ = {isa = PBXBuildFile; fileRef = F0BA6FE891A8F1EE448A10E66F96AB43 /* YWExcelView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5ACA1218E54A2020D944DFEA4A8A402B /* YWExcelCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E9B8015CA28167184C6852F801EA905 /* YWExcelCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6943FEC8ABF8FFAAC0FBC222E7A47ABB /* YWExcelViewMode.h in Headers */ = {isa = PBXBuildFile; fileRef = B71A8C51B3A5156F03BBEB06AB17019F /* YWExcelViewMode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		69ACA25EE1573F51B97E35CD9667AD6B /* YWExcelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07939D9EC83B6BB9341C14E28022EC9A /* YWExcelCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7DA66FEE81928EAC39F509916EBE3ECB /* YWTableViewHeadView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE6FC4E1F86B34BACC341A11F19765A /* YWTableViewHeadView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8540D98D9932C3393A1F6C717867F3CE /* YWIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7C786BD675B54AC980E05317B53C66 /* YWIndexPath.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9A99262D4266B43813655B3D5EE702CB /* YWExcelViewMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4EA6C1AE4E9298BE3EFEBEC683EAA8 /* YWExcelViewMode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9E4437EC0C6707A0A9C4352AB70124C5 /* YWIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 25424FB996B32B27336F9B28E8841B7A /* YWIndexPath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B072CB209986EAB9CB84E20AAE89144B /* YWExcelView.m in Sources */ = {isa = PBXBuildFile; fileRef = C853FFF724D5F0FB107CC1365944E54C /* YWExcelView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C61E84D3F24C38A7B205C819463770BF /* YWExcel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F74ABEEE7A9DACDE2FD36423795AE89E /* YWExcel-dummy.m */; };
+		EF2B48DB248486DB57D9D24170347AB4 /* YWTableViewHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E74B87646D5E683D0670F688CBD5A19 /* YWTableViewHeadView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A446DB8ABB0758574A87EE96952633D /* YWExcelViewMode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YWExcelViewMode.m; path = YWExcelView/YWExcelViewMode.m; sourceTree = "<group>"; };
-		0CDB1F71BC0F009AF5048A69BD8CBE96 /* YWExcelCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YWExcelCell.m; path = YWExcelView/YWExcelCell.m; sourceTree = "<group>"; };
-		0E312C0379571F388CBEFB39AC81A046 /* YWTableViewHeadView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YWTableViewHeadView.m; path = YWExcelView/YWTableViewHeadView.m; sourceTree = "<group>"; };
-		12076BF84198E23720BF58FCE1BDD9E5 /* YWTableViewHeadView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YWTableViewHeadView.h; path = YWExcelView/YWTableViewHeadView.h; sourceTree = "<group>"; };
-		15A19A4979985FA2A69091DB34D16E1F /* YWIndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YWIndexPath.m; path = YWExcelView/YWIndexPath.m; sourceTree = "<group>"; };
-		3A72889810A7B15B480E3C3CF6F11DAA /* YWExcel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YWExcel.xcconfig; sourceTree = "<group>"; };
+		07939D9EC83B6BB9341C14E28022EC9A /* YWExcelCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YWExcelCell.m; path = YWExcelView/YWExcelCell.m; sourceTree = "<group>"; };
+		25424FB996B32B27336F9B28E8841B7A /* YWIndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YWIndexPath.h; path = YWExcelView/YWIndexPath.h; sourceTree = "<group>"; };
+		4A7C786BD675B54AC980E05317B53C66 /* YWIndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YWIndexPath.m; path = YWExcelView/YWIndexPath.m; sourceTree = "<group>"; };
+		5064FBAF915057AA50F8191E6D24E36B /* YWExcel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YWExcel.debug.xcconfig; sourceTree = "<group>"; };
+		512A8B0237C0B9150FDCDF32C3A036FD /* YWExcel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YWExcel.release.xcconfig; sourceTree = "<group>"; };
+		556A84991AE04A1C2C425EFD2B0116DE /* YWExcel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YWExcel-prefix.pch"; sourceTree = "<group>"; };
 		5A596CA2612A2E744DB872B0EACA82D2 /* libYWExcel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYWExcel.a; path = libYWExcel.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F8C2F57F648CB881E61B8ED5CBF57F4 /* YWExcelCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YWExcelCell.h; path = YWExcelView/YWExcelCell.h; sourceTree = "<group>"; };
-		76CCD3307C60640FDB9364CC73A0DCC0 /* YWExcel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YWExcel-dummy.m"; sourceTree = "<group>"; };
-		A21034FF02357625D8CC79B16C0DF7D2 /* YWExcel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YWExcel-prefix.pch"; sourceTree = "<group>"; };
-		A6ECBB61C081C9BBF6FB88DE50E10C68 /* YWExcelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YWExcelView.h; path = YWExcelView/YWExcelView.h; sourceTree = "<group>"; };
-		C7C2967CF79B52D7CD6C8B89AA10F0B5 /* YWExcelViewMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YWExcelViewMode.h; path = YWExcelView/YWExcelViewMode.h; sourceTree = "<group>"; };
-		F1100986BEDBEB555E5FAD45B9377265 /* YWIndexPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YWIndexPath.h; path = YWExcelView/YWIndexPath.h; sourceTree = "<group>"; };
-		FFBDC399FADD4FB6FA7E7B837566474B /* YWExcelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YWExcelView.m; path = YWExcelView/YWExcelView.m; sourceTree = "<group>"; };
+		9A4EA6C1AE4E9298BE3EFEBEC683EAA8 /* YWExcelViewMode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YWExcelViewMode.m; path = YWExcelView/YWExcelViewMode.m; sourceTree = "<group>"; };
+		9CE6FC4E1F86B34BACC341A11F19765A /* YWTableViewHeadView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YWTableViewHeadView.h; path = YWExcelView/YWTableViewHeadView.h; sourceTree = "<group>"; };
+		9E74B87646D5E683D0670F688CBD5A19 /* YWTableViewHeadView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YWTableViewHeadView.m; path = YWExcelView/YWTableViewHeadView.m; sourceTree = "<group>"; };
+		9E9B8015CA28167184C6852F801EA905 /* YWExcelCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YWExcelCell.h; path = YWExcelView/YWExcelCell.h; sourceTree = "<group>"; };
+		B71A8C51B3A5156F03BBEB06AB17019F /* YWExcelViewMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YWExcelViewMode.h; path = YWExcelView/YWExcelViewMode.h; sourceTree = "<group>"; };
+		C853FFF724D5F0FB107CC1365944E54C /* YWExcelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YWExcelView.m; path = YWExcelView/YWExcelView.m; sourceTree = "<group>"; };
+		F0BA6FE891A8F1EE448A10E66F96AB43 /* YWExcelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YWExcelView.h; path = YWExcelView/YWExcelView.h; sourceTree = "<group>"; };
+		F74ABEEE7A9DACDE2FD36423795AE89E /* YWExcel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YWExcel-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4665B6B6DA8FBEBFFDFBB1EAD079E271 /* Frameworks */ = {
+		1AC20E8DE9E14AE8E4E6443712004530 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,31 +49,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		53548A5803932387E9D2A4FDF74DF963 /* Support Files */ = {
+		01F5C69E34E3C7115091900E753B63DF /* YWExcel */ = {
 			isa = PBXGroup;
 			children = (
-				3A72889810A7B15B480E3C3CF6F11DAA /* YWExcel.xcconfig */,
-				76CCD3307C60640FDB9364CC73A0DCC0 /* YWExcel-dummy.m */,
-				A21034FF02357625D8CC79B16C0DF7D2 /* YWExcel-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/YWExcel";
-			sourceTree = "<group>";
-		};
-		54C84F10DCB4EABECAF97E2E24F6FA59 /* YWExcel */ = {
-			isa = PBXGroup;
-			children = (
-				5F8C2F57F648CB881E61B8ED5CBF57F4 /* YWExcelCell.h */,
-				0CDB1F71BC0F009AF5048A69BD8CBE96 /* YWExcelCell.m */,
-				A6ECBB61C081C9BBF6FB88DE50E10C68 /* YWExcelView.h */,
-				FFBDC399FADD4FB6FA7E7B837566474B /* YWExcelView.m */,
-				C7C2967CF79B52D7CD6C8B89AA10F0B5 /* YWExcelViewMode.h */,
-				0A446DB8ABB0758574A87EE96952633D /* YWExcelViewMode.m */,
-				F1100986BEDBEB555E5FAD45B9377265 /* YWIndexPath.h */,
-				15A19A4979985FA2A69091DB34D16E1F /* YWIndexPath.m */,
-				12076BF84198E23720BF58FCE1BDD9E5 /* YWTableViewHeadView.h */,
-				0E312C0379571F388CBEFB39AC81A046 /* YWTableViewHeadView.m */,
-				53548A5803932387E9D2A4FDF74DF963 /* Support Files */,
+				9E9B8015CA28167184C6852F801EA905 /* YWExcelCell.h */,
+				07939D9EC83B6BB9341C14E28022EC9A /* YWExcelCell.m */,
+				F0BA6FE891A8F1EE448A10E66F96AB43 /* YWExcelView.h */,
+				C853FFF724D5F0FB107CC1365944E54C /* YWExcelView.m */,
+				B71A8C51B3A5156F03BBEB06AB17019F /* YWExcelViewMode.h */,
+				9A4EA6C1AE4E9298BE3EFEBEC683EAA8 /* YWExcelViewMode.m */,
+				25424FB996B32B27336F9B28E8841B7A /* YWIndexPath.h */,
+				4A7C786BD675B54AC980E05317B53C66 /* YWIndexPath.m */,
+				9CE6FC4E1F86B34BACC341A11F19765A /* YWTableViewHeadView.h */,
+				9E74B87646D5E683D0670F688CBD5A19 /* YWTableViewHeadView.m */,
+				6D6CC37FF41631687B9D6109B95FB71B /* Support Files */,
 			);
 			name = YWExcel;
 			path = YWExcel;
@@ -83,6 +73,18 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D6CC37FF41631687B9D6109B95FB71B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F74ABEEE7A9DACDE2FD36423795AE89E /* YWExcel-dummy.m */,
+				556A84991AE04A1C2C425EFD2B0116DE /* YWExcel-prefix.pch */,
+				5064FBAF915057AA50F8191E6D24E36B /* YWExcel.debug.xcconfig */,
+				512A8B0237C0B9150FDCDF32C3A036FD /* YWExcel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YWExcel";
 			sourceTree = "<group>";
 		};
 		A91B41F8E4B047014871D792E955EF03 /* Products */ = {
@@ -98,22 +100,22 @@
 			children = (
 				69842AE18401A48A78714CCC43E3B558 /* Frameworks */,
 				A91B41F8E4B047014871D792E955EF03 /* Products */,
-				54C84F10DCB4EABECAF97E2E24F6FA59 /* YWExcel */,
+				01F5C69E34E3C7115091900E753B63DF /* YWExcel */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8142CC92BFDB6E9471804913803550DC /* Headers */ = {
+		AFC9BDB01A44FC2AEF2E35137C193F05 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E65F23721AE7B4DB1167A7DFCE61BE5E /* YWExcelCell.h in Headers */,
-				EB462806A891E79F4B9E45206266C66D /* YWExcelView.h in Headers */,
-				49D4783841A9DDCF45970B006590935F /* YWExcelViewMode.h in Headers */,
-				0F102CADE2872FF5EA8EC78AE7CCE7B1 /* YWIndexPath.h in Headers */,
-				0EF74BA70E7DC66372948BFAF1AB4875 /* YWTableViewHeadView.h in Headers */,
+				5ACA1218E54A2020D944DFEA4A8A402B /* YWExcelCell.h in Headers */,
+				31A6E03686E733E0319367A0232D595B /* YWExcelView.h in Headers */,
+				6943FEC8ABF8FFAAC0FBC222E7A47ABB /* YWExcelViewMode.h in Headers */,
+				9E4437EC0C6707A0A9C4352AB70124C5 /* YWIndexPath.h in Headers */,
+				7DA66FEE81928EAC39F509916EBE3ECB /* YWTableViewHeadView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,11 +124,11 @@
 /* Begin PBXNativeTarget section */
 		4D98A77ABAA342A9F68F55153E95F130 /* YWExcel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0760CE19492CDA28DFE0C4CC255ED61C /* Build configuration list for PBXNativeTarget "YWExcel" */;
+			buildConfigurationList = 7041FAD1F6F1C937EE0651FF232EBCF4 /* Build configuration list for PBXNativeTarget "YWExcel" */;
 			buildPhases = (
-				8142CC92BFDB6E9471804913803550DC /* Headers */,
-				A8008F1B5A361CC1A1C250CCA4C9D812 /* Sources */,
-				4665B6B6DA8FBEBFFDFBB1EAD079E271 /* Frameworks */,
+				AFC9BDB01A44FC2AEF2E35137C193F05 /* Headers */,
+				B3AE72441887D07DF07DCCE30EFB5278 /* Sources */,
+				1AC20E8DE9E14AE8E4E6443712004530 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -143,15 +145,16 @@
 		3004FC74216797C35DD8E8AF171B0349 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 2D86E8E605950B702B60457555E74BE9 /* Build configuration list for PBXProject "YWExcel" */;
 			compatibilityVersion = "Xcode 10.0";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = ACE2C0B21DE388B1F923650C46E1A016;
 			productRefGroup = A91B41F8E4B047014871D792E955EF03 /* Products */;
@@ -164,130 +167,23 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A8008F1B5A361CC1A1C250CCA4C9D812 /* Sources */ = {
+		B3AE72441887D07DF07DCCE30EFB5278 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				665A5831DA6EED5652DF23007ADE62AE /* YWExcel-dummy.m in Sources */,
-				737A7ADF88EEAF379C7EE62772177DC0 /* YWExcelCell.m in Sources */,
-				F2D3CB59F4E2F9DCB5E75447F6BEB1C8 /* YWExcelView.m in Sources */,
-				3852A158A2A46FBEB14D570458A208C5 /* YWExcelViewMode.m in Sources */,
-				BE9B94716925F113879A34DEEFAA83EF /* YWIndexPath.m in Sources */,
-				20D3E5DBA60C5F8BE375F1EDF1BDE54D /* YWTableViewHeadView.m in Sources */,
+				C61E84D3F24C38A7B205C819463770BF /* YWExcel-dummy.m in Sources */,
+				69ACA25EE1573F51B97E35CD9667AD6B /* YWExcelCell.m in Sources */,
+				B072CB209986EAB9CB84E20AAE89144B /* YWExcelView.m in Sources */,
+				9A99262D4266B43813655B3D5EE702CB /* YWExcelViewMode.m in Sources */,
+				8540D98D9932C3393A1F6C717867F3CE /* YWIndexPath.m in Sources */,
+				EF2B48DB248486DB57D9D24170347AB4 /* YWTableViewHeadView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		61FE9F2C6776560F7E2891A1AEFC76BE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		6AEBF7C3A3AF8036873A4CF5B57446E7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A72889810A7B15B480E3C3CF6F11DAA /* YWExcel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/YWExcel/YWExcel-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = YWExcel;
-				PRODUCT_NAME = YWExcel;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B51DA5426E140DBF19BC980F0DECD5D7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A72889810A7B15B480E3C3CF6F11DAA /* YWExcel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/YWExcel/YWExcel-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = YWExcel;
-				PRODUCT_NAME = YWExcel;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D5BBBA73A80F86A96636D0C8E284D1FF /* Debug */ = {
+		5F5A3841E7C1663807E617A908DC78D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -346,28 +242,135 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B18633577837FE9FABCFF0DCAD492C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D2FFCE6BAB21916CC606EF8950E61C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 512A8B0237C0B9150FDCDF32C3A036FD /* YWExcel.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YWExcel/YWExcel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YWExcel;
+				PRODUCT_NAME = YWExcel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4ED9E91513475DEB933235500AE6604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5064FBAF915057AA50F8191E6D24E36B /* YWExcel.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YWExcel/YWExcel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YWExcel;
+				PRODUCT_NAME = YWExcel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0760CE19492CDA28DFE0C4CC255ED61C /* Build configuration list for PBXNativeTarget "YWExcel" */ = {
+		2D86E8E605950B702B60457555E74BE9 /* Build configuration list for PBXProject "YWExcel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6AEBF7C3A3AF8036873A4CF5B57446E7 /* Debug */,
-				B51DA5426E140DBF19BC980F0DECD5D7 /* Release */,
+				5F5A3841E7C1663807E617A908DC78D5 /* Debug */,
+				B18633577837FE9FABCFF0DCAD492C75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D86E8E605950B702B60457555E74BE9 /* Build configuration list for PBXProject "YWExcel" */ = {
+		7041FAD1F6F1C937EE0651FF232EBCF4 /* Build configuration list for PBXNativeTarget "YWExcel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5BBBA73A80F86A96636D0C8E284D1FF /* Debug */,
-				61FE9F2C6776560F7E2891A1AEFC76BE /* Release */,
+				F4ED9E91513475DEB933235500AE6604 /* Debug */,
+				D2FFCE6BAB21916CC606EF8950E61C79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

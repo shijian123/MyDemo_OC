@@ -30,10 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		008F4A594729E84E8E86EAD525ACBB85 /* JPUSHService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
 		0D350C255D1E6A6E734D21928D251D9A /* JCore */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JCore; path = JCore.xcodeproj; sourceTree = "<group>"; };
-		1086474435007DB6B4F576EEADE6E8B5 /* libjpush-ios-3.2.2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.2.2.a"; sourceTree = "<group>"; };
-		446B304A14F24CA388E15A7EE5655A62 /* JPush.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPush.xcconfig; sourceTree = "<group>"; };
-		A2F83D3CA06D2C62E97814313F397C8C /* JPUSHService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		4365A430F5EEAC29B18A3B7BFBBACA31 /* JPush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPush.debug.xcconfig; sourceTree = "<group>"; };
+		A4BAB6814D2DB8FBAF014C885B509932 /* libjpush-ios-3.2.2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.2.2.a"; sourceTree = "<group>"; };
+		C940DB0B045E8CE526DDD24577C0538F /* JPush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPush.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -44,15 +45,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		154D458AD8C75063C8CC4B07B31FDFDA /* JPush */ = {
+		10CF4F10E5CB7F2C930BB75492446082 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A2F83D3CA06D2C62E97814313F397C8C /* JPUSHService.h */,
-				F15D70696E0501996BA62E493785E971 /* Frameworks */,
-				B9FF09DF4139C353ADE63DD0F6F97861 /* Support Files */,
+				4365A430F5EEAC29B18A3B7BFBBACA31 /* JPush.debug.xcconfig */,
+				C940DB0B045E8CE526DDD24577C0538F /* JPush.release.xcconfig */,
 			);
-			name = JPush;
-			path = JPush;
+			name = "Support Files";
+			path = "../Target Support Files/JPush";
 			sourceTree = "<group>";
 		};
 		1F0D9E3D7E3F2F1704CABBD06A6221CB = {
@@ -60,9 +60,20 @@
 			children = (
 				DA69043ABBD287E547F42F4D3B329B80 /* Dependencies */,
 				4CF5BACA9C9C61A8F669B7C54B0D5EB5 /* Frameworks */,
-				154D458AD8C75063C8CC4B07B31FDFDA /* JPush */,
+				23695758515F39FDD67C2716949AE3F3 /* JPush */,
 				0E55D1B7CA850CF86672A998BFE05B6E /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		23695758515F39FDD67C2716949AE3F3 /* JPush */ = {
+			isa = PBXGroup;
+			children = (
+				008F4A594729E84E8E86EAD525ACBB85 /* JPUSHService.h */,
+				6E535D70F2437FF19C96981197025F29 /* Frameworks */,
+				10CF4F10E5CB7F2C930BB75492446082 /* Support Files */,
+			);
+			name = JPush;
+			path = JPush;
 			sourceTree = "<group>";
 		};
 		4CF5BACA9C9C61A8F669B7C54B0D5EB5 /* Frameworks */ = {
@@ -72,13 +83,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B9FF09DF4139C353ADE63DD0F6F97861 /* Support Files */ = {
+		6E535D70F2437FF19C96981197025F29 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				446B304A14F24CA388E15A7EE5655A62 /* JPush.xcconfig */,
+				A4BAB6814D2DB8FBAF014C885B509932 /* libjpush-ios-3.2.2.a */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/JPush";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DA69043ABBD287E547F42F4D3B329B80 /* Dependencies */ = {
@@ -89,29 +99,22 @@
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		F15D70696E0501996BA62E493785E971 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1086474435007DB6B4F576EEADE6E8B5 /* libjpush-ios-3.2.2.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
 		0C69D7AD9A2FC3830B6E0F1BB05E9926 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 0790C7D87018D610888F403F47990319 /* Build configuration list for PBXProject "JPush" */;
 			compatibilityVersion = "Xcode 10.0";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 1F0D9E3D7E3F2F1704CABBD06A6221CB;
 			productRefGroup = 0E55D1B7CA850CF86672A998BFE05B6E /* Products */;
@@ -137,7 +140,40 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1181A865E44626FC9DB61B2F55A977ED /* Release */ = {
+		0F6051BD8DD3BC48E71DCBE32A6A909C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C940DB0B045E8CE526DDD24577C0538F /* JPush.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		220B2EF80113647397D72FF0C3179B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4365A430F5EEAC29B18A3B7BFBBACA31 /* JPush.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		523C154FA3DDD0D1F8E711DE7C5057FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -192,45 +228,12 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		20905D76D4A34414CA0C04BFDE570A29 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 446B304A14F24CA388E15A7EE5655A62 /* JPush.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		39A408477182522735D65006F6B859F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 446B304A14F24CA388E15A7EE5655A62 /* JPush.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		478B5FFBA89F0965DD3FD2575DD08BC6 /* Debug */ = {
+		9EA3DF82A5E342E7BBA4B1CEE270EB32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,7 +292,7 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -300,8 +303,8 @@
 		0790C7D87018D610888F403F47990319 /* Build configuration list for PBXProject "JPush" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				478B5FFBA89F0965DD3FD2575DD08BC6 /* Debug */,
-				1181A865E44626FC9DB61B2F55A977ED /* Release */,
+				9EA3DF82A5E342E7BBA4B1CEE270EB32 /* Debug */,
+				523C154FA3DDD0D1F8E711DE7C5057FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -309,8 +312,8 @@
 		FFA56B0D20BF0D30B444466D60DBE4DE /* Build configuration list for PBXAggregateTarget "JPush" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39A408477182522735D65006F6B859F9 /* Debug */,
-				20905D76D4A34414CA0C04BFDE570A29 /* Release */,
+				220B2EF80113647397D72FF0C3179B9D /* Debug */,
+				0F6051BD8DD3BC48E71DCBE32A6A909C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

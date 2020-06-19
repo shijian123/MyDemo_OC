@@ -19,8 +19,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXFileReference section */
-		06A55097805F345B6A763FAA9F5C8EDF /* JCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCore.xcconfig; sourceTree = "<group>"; };
-		238B2E46F38F11249369A40E30EE3B64 /* libjcore-ios-2.1.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.1.1.a"; sourceTree = "<group>"; };
+		9C69028DD454DCBC9E7F087D0EDB8995 /* JCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCore.debug.xcconfig; sourceTree = "<group>"; };
+		A81A68F94B325158223AA2AD1CA667A6 /* libjcore-ios-2.1.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-2.1.1.a"; sourceTree = "<group>"; };
+		DD8E9CD29A6BEE26F5D3F50DF5784AF2 /* JCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCore.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -31,28 +32,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3A17665A1522E04BA8558F9B4D54A86E /* Frameworks */ = {
+		77B0A335D877A56235EA6360682B3784 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				238B2E46F38F11249369A40E30EE3B64 /* libjcore-ios-2.1.1.a */,
+				A81A68F94B325158223AA2AD1CA667A6 /* libjcore-ios-2.1.1.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		44469639FC33BCB1C63F21156810DB99 /* Support Files */ = {
+		8B8C44EAFCBCFA81735EE4266C913C91 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				06A55097805F345B6A763FAA9F5C8EDF /* JCore.xcconfig */,
+				9C69028DD454DCBC9E7F087D0EDB8995 /* JCore.debug.xcconfig */,
+				DD8E9CD29A6BEE26F5D3F50DF5784AF2 /* JCore.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/JCore";
 			sourceTree = "<group>";
 		};
-		6771291CB7EA54D0E23EE439764FC345 /* JCore */ = {
+		945650784B78C5F46AAE3775DD098D8C /* JCore */ = {
 			isa = PBXGroup;
 			children = (
-				3A17665A1522E04BA8558F9B4D54A86E /* Frameworks */,
-				44469639FC33BCB1C63F21156810DB99 /* Support Files */,
+				77B0A335D877A56235EA6360682B3784 /* Frameworks */,
+				8B8C44EAFCBCFA81735EE4266C913C91 /* Support Files */,
 			);
 			name = JCore;
 			path = JCore;
@@ -62,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				23E137B1DB920D51340FA94486896FFC /* Frameworks */,
-				6771291CB7EA54D0E23EE439764FC345 /* JCore */,
+				945650784B78C5F46AAE3775DD098D8C /* JCore */,
 				F29BA7D3DB54F2693C3289D3D1DECABB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,15 +82,16 @@
 		1AE18794F935E098C6C125315347944F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 7210DA724E9030640E683DAF657606DE /* Build configuration list for PBXProject "JCore" */;
 			compatibilityVersion = "Xcode 10.0";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = DCE9387FF8066E2E6550A704664697B2;
 			productRefGroup = F29BA7D3DB54F2693C3289D3D1DECABB /* Products */;
@@ -101,9 +104,9 @@
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		54CCED07E9A253E87201776846518B81 /* Debug */ = {
+		50600E2D6CD97B306B296612FD85B3F2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06A55097805F345B6A763FAA9F5C8EDF /* JCore.xcconfig */;
+			baseConfigurationReference = DD8E9CD29A6BEE26F5D3F50DF5784AF2 /* JCore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -114,10 +117,11 @@
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		579D105EBB56845A609DF4EE261343E9 /* Debug */ = {
+		A3CA4435D972A8E62198A50D9088BF80 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -176,12 +180,12 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		C33B318C6239719BDBF50A29769A0ABC /* Release */ = {
+		A7E4798BE7478359C6ABAD4A3052F4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,14 +240,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		EC789BA9CD22BFA06A2F99E89FB8BE71 /* Release */ = {
+		FA09D1D0AD74F9990649DE950C7175B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06A55097805F345B6A763FAA9F5C8EDF /* JCore.xcconfig */;
+			baseConfigurationReference = 9C69028DD454DCBC9E7F087D0EDB8995 /* JCore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -254,9 +258,8 @@
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -264,8 +267,8 @@
 		021AF110A21059A1677AF513256819A8 /* Build configuration list for PBXAggregateTarget "JCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54CCED07E9A253E87201776846518B81 /* Debug */,
-				EC789BA9CD22BFA06A2F99E89FB8BE71 /* Release */,
+				FA09D1D0AD74F9990649DE950C7175B7 /* Debug */,
+				50600E2D6CD97B306B296612FD85B3F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -273,8 +276,8 @@
 		7210DA724E9030640E683DAF657606DE /* Build configuration list for PBXProject "JCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				579D105EBB56845A609DF4EE261343E9 /* Debug */,
-				C33B318C6239719BDBF50A29769A0ABC /* Release */,
+				A3CA4435D972A8E62198A50D9088BF80 /* Debug */,
+				A7E4798BE7478359C6ABAD4A3052F4F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,34 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09B6B27276A3E4F0E48A2E4AABD6441A /* UIResponder+TBUIAutoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BB260328EBB05484172AA346A3117384 /* UIResponder+TBUIAutoTest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		179034EC1EA266569C35B5B0D333C99C /* TBUIAutoTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 590EEF927A42EE8399045429F1DAC72E /* TBUIAutoTest.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1B97B9496A31E793E859CEE2D01150F9 /* TBUIAutoTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23980BD9011C9DE13C1DBF5AD39CAADD /* TBUIAutoTest-dummy.m */; };
-		36A6BCB1B222C530443A917B71E0E12C /* UIResponder+TBUIAutoTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 152CB9EDE095B66E677EF89C8A0C49AA /* UIResponder+TBUIAutoTest.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5022EAE642A01EB4E79E942957EE141E /* UIImage+TBUIAutoTest.h in Headers */ = {isa = PBXBuildFile; fileRef = F3CF35D9A71C842C0A17FD6EBE32F5BA /* UIImage+TBUIAutoTest.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		882A5C876C084FD109EA565CD9235BA3 /* TBUIAutoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDFED07EEE16DE33028966256F94290 /* TBUIAutoTest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		BF760BF2F2E09ECAF6A967A5561B906A /* UIImage+TBUIAutoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 725ECD9B600B7D9C1FCB485C03CB76E2 /* UIImage+TBUIAutoTest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C06E7CBECC3AF6BE44A96FA44AD20BBF /* UIView+TBUIAutoTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2967E9D59180BE4A4A1CAB181984EA /* UIView+TBUIAutoTest.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E0471AC61714753F5E1A1CDC78B5E3B0 /* UIView+TBUIAutoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E3807413467BF4D22EBAE23550CBC2BD /* UIView+TBUIAutoTest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		159A8D2DCFE254348F99CE9A4AFE10CF /* UIImage+TBUIAutoTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3533FA0CF53971A6FF4A83726F626C1C /* UIImage+TBUIAutoTest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2C48B6471456CD5113EB72E53117F3CB /* TBUIAutoTest.h in Headers */ = {isa = PBXBuildFile; fileRef = ACAA432B8E8B400F0DCF285CF5BDD0F2 /* TBUIAutoTest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		54D66ECDA177FADCB49E16ED3122CC1D /* UIResponder+TBUIAutoTest.h in Headers */ = {isa = PBXBuildFile; fileRef = F0CA44D27E172BA6149FFB9ED9E056C3 /* UIResponder+TBUIAutoTest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6773CEDDD280AB26253F14952C392FD4 /* UIImage+TBUIAutoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A231E12B98DE3968DB3C7B71E118A731 /* UIImage+TBUIAutoTest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6A60B8A0DDCF6FCB80A947F21954817B /* TBUIAutoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8794165815876A73CD9DC28F354EA7 /* TBUIAutoTest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8DC3AEEC08416F1B9012566CC4A68C9D /* UIResponder+TBUIAutoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 664498BA90083F4AB2BF3B4477E12A98 /* UIResponder+TBUIAutoTest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		98EA88B5EFF7EE488352AFA07C36FEF8 /* UIView+TBUIAutoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F8EFBBC6338DD3F20C7A830FED5906 /* UIView+TBUIAutoTest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9CAA48A7ACFCEBC7B01AB052A8410F7D /* TBUIAutoTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB238879F37C0185D7BD6057086BABF /* TBUIAutoTest-dummy.m */; };
+		E389DBA02555CB9728CD9F92C107999B /* UIView+TBUIAutoTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 87370E4ABA90CF2F4B17A78B8E43DA6F /* UIView+TBUIAutoTest.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0B2967E9D59180BE4A4A1CAB181984EA /* UIView+TBUIAutoTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TBUIAutoTest.h"; path = "TBUIAutoTest/UIView+TBUIAutoTest.h"; sourceTree = "<group>"; };
-		152CB9EDE095B66E677EF89C8A0C49AA /* UIResponder+TBUIAutoTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+TBUIAutoTest.h"; path = "TBUIAutoTest/UIResponder+TBUIAutoTest.h"; sourceTree = "<group>"; };
-		23980BD9011C9DE13C1DBF5AD39CAADD /* TBUIAutoTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBUIAutoTest-dummy.m"; sourceTree = "<group>"; };
-		590EEF927A42EE8399045429F1DAC72E /* TBUIAutoTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBUIAutoTest.h; path = TBUIAutoTest/TBUIAutoTest.h; sourceTree = "<group>"; };
-		725ECD9B600B7D9C1FCB485C03CB76E2 /* UIImage+TBUIAutoTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+TBUIAutoTest.m"; path = "TBUIAutoTest/UIImage+TBUIAutoTest.m"; sourceTree = "<group>"; };
-		7EDFED07EEE16DE33028966256F94290 /* TBUIAutoTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBUIAutoTest.m; path = TBUIAutoTest/TBUIAutoTest.m; sourceTree = "<group>"; };
+		3533FA0CF53971A6FF4A83726F626C1C /* UIImage+TBUIAutoTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+TBUIAutoTest.h"; path = "TBUIAutoTest/UIImage+TBUIAutoTest.h"; sourceTree = "<group>"; };
+		53B069225FCF429B1D97044809F72062 /* TBUIAutoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBUIAutoTest.release.xcconfig; sourceTree = "<group>"; };
+		664498BA90083F4AB2BF3B4477E12A98 /* UIResponder+TBUIAutoTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+TBUIAutoTest.m"; path = "TBUIAutoTest/UIResponder+TBUIAutoTest.m"; sourceTree = "<group>"; };
+		6E8794165815876A73CD9DC28F354EA7 /* TBUIAutoTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBUIAutoTest.m; path = TBUIAutoTest/TBUIAutoTest.m; sourceTree = "<group>"; };
+		81E45C597B6FE469A6A55EE03B76E89E /* TBUIAutoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBUIAutoTest.debug.xcconfig; sourceTree = "<group>"; };
 		85462BE619883ACE2257E02E76B084B3 /* libTBUIAutoTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTBUIAutoTest.a; path = libTBUIAutoTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		99BFF04EE53A721DFD0B81F7EE8F25DA /* TBUIAutoTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBUIAutoTest.xcconfig; sourceTree = "<group>"; };
-		A695245BB3EB0054490CF3C1E4CB4AEF /* TBUIAutoTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBUIAutoTest-prefix.pch"; sourceTree = "<group>"; };
-		BB260328EBB05484172AA346A3117384 /* UIResponder+TBUIAutoTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+TBUIAutoTest.m"; path = "TBUIAutoTest/UIResponder+TBUIAutoTest.m"; sourceTree = "<group>"; };
-		E3807413467BF4D22EBAE23550CBC2BD /* UIView+TBUIAutoTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TBUIAutoTest.m"; path = "TBUIAutoTest/UIView+TBUIAutoTest.m"; sourceTree = "<group>"; };
-		F3CF35D9A71C842C0A17FD6EBE32F5BA /* UIImage+TBUIAutoTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+TBUIAutoTest.h"; path = "TBUIAutoTest/UIImage+TBUIAutoTest.h"; sourceTree = "<group>"; };
+		85F8EFBBC6338DD3F20C7A830FED5906 /* UIView+TBUIAutoTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TBUIAutoTest.m"; path = "TBUIAutoTest/UIView+TBUIAutoTest.m"; sourceTree = "<group>"; };
+		87370E4ABA90CF2F4B17A78B8E43DA6F /* UIView+TBUIAutoTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TBUIAutoTest.h"; path = "TBUIAutoTest/UIView+TBUIAutoTest.h"; sourceTree = "<group>"; };
+		A231E12B98DE3968DB3C7B71E118A731 /* UIImage+TBUIAutoTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+TBUIAutoTest.m"; path = "TBUIAutoTest/UIImage+TBUIAutoTest.m"; sourceTree = "<group>"; };
+		ACAA432B8E8B400F0DCF285CF5BDD0F2 /* TBUIAutoTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBUIAutoTest.h; path = TBUIAutoTest/TBUIAutoTest.h; sourceTree = "<group>"; };
+		AFB238879F37C0185D7BD6057086BABF /* TBUIAutoTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBUIAutoTest-dummy.m"; sourceTree = "<group>"; };
+		E2FE16E9635458981DE360D1BAE051B0 /* TBUIAutoTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBUIAutoTest-prefix.pch"; sourceTree = "<group>"; };
+		F0CA44D27E172BA6149FFB9ED9E056C3 /* UIResponder+TBUIAutoTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+TBUIAutoTest.h"; path = "TBUIAutoTest/UIResponder+TBUIAutoTest.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		992DA650F4EEEB15E3E01E77C841E9C5 /* Frameworks */ = {
+		A88106D61CDE54FA47E1C02C1AC046E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,41 +52,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B05E9169A3EAD30C5F4EB32253E37B85 = {
+		2EDEF69BC5734D700D39BF6319A83DF8 /* TBUIAutoTest */ = {
 			isa = PBXGroup;
 			children = (
-				07DB036F53053340AB6E67AF7AFF2AE9 /* Frameworks */,
-				DEF57430820AB0F2891398AE86B6962D /* Products */,
-				DB0D50177CA34DB4787F2BF6C52F9152 /* TBUIAutoTest */,
+				ACAA432B8E8B400F0DCF285CF5BDD0F2 /* TBUIAutoTest.h */,
+				6E8794165815876A73CD9DC28F354EA7 /* TBUIAutoTest.m */,
+				3533FA0CF53971A6FF4A83726F626C1C /* UIImage+TBUIAutoTest.h */,
+				A231E12B98DE3968DB3C7B71E118A731 /* UIImage+TBUIAutoTest.m */,
+				F0CA44D27E172BA6149FFB9ED9E056C3 /* UIResponder+TBUIAutoTest.h */,
+				664498BA90083F4AB2BF3B4477E12A98 /* UIResponder+TBUIAutoTest.m */,
+				87370E4ABA90CF2F4B17A78B8E43DA6F /* UIView+TBUIAutoTest.h */,
+				85F8EFBBC6338DD3F20C7A830FED5906 /* UIView+TBUIAutoTest.m */,
+				651BC93E03F1F3547D21D70E34CBD0FE /* Support Files */,
 			);
+			name = TBUIAutoTest;
+			path = TBUIAutoTest;
 			sourceTree = "<group>";
 		};
-		CDF6472CF85DA7701CBB7A54A21467E7 /* Support Files */ = {
+		651BC93E03F1F3547D21D70E34CBD0FE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				99BFF04EE53A721DFD0B81F7EE8F25DA /* TBUIAutoTest.xcconfig */,
-				23980BD9011C9DE13C1DBF5AD39CAADD /* TBUIAutoTest-dummy.m */,
-				A695245BB3EB0054490CF3C1E4CB4AEF /* TBUIAutoTest-prefix.pch */,
+				AFB238879F37C0185D7BD6057086BABF /* TBUIAutoTest-dummy.m */,
+				E2FE16E9635458981DE360D1BAE051B0 /* TBUIAutoTest-prefix.pch */,
+				81E45C597B6FE469A6A55EE03B76E89E /* TBUIAutoTest.debug.xcconfig */,
+				53B069225FCF429B1D97044809F72062 /* TBUIAutoTest.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TBUIAutoTest";
 			sourceTree = "<group>";
 		};
-		DB0D50177CA34DB4787F2BF6C52F9152 /* TBUIAutoTest */ = {
+		B05E9169A3EAD30C5F4EB32253E37B85 = {
 			isa = PBXGroup;
 			children = (
-				590EEF927A42EE8399045429F1DAC72E /* TBUIAutoTest.h */,
-				7EDFED07EEE16DE33028966256F94290 /* TBUIAutoTest.m */,
-				F3CF35D9A71C842C0A17FD6EBE32F5BA /* UIImage+TBUIAutoTest.h */,
-				725ECD9B600B7D9C1FCB485C03CB76E2 /* UIImage+TBUIAutoTest.m */,
-				152CB9EDE095B66E677EF89C8A0C49AA /* UIResponder+TBUIAutoTest.h */,
-				BB260328EBB05484172AA346A3117384 /* UIResponder+TBUIAutoTest.m */,
-				0B2967E9D59180BE4A4A1CAB181984EA /* UIView+TBUIAutoTest.h */,
-				E3807413467BF4D22EBAE23550CBC2BD /* UIView+TBUIAutoTest.m */,
-				CDF6472CF85DA7701CBB7A54A21467E7 /* Support Files */,
+				07DB036F53053340AB6E67AF7AFF2AE9 /* Frameworks */,
+				DEF57430820AB0F2891398AE86B6962D /* Products */,
+				2EDEF69BC5734D700D39BF6319A83DF8 /* TBUIAutoTest */,
 			);
-			name = TBUIAutoTest;
-			path = TBUIAutoTest;
 			sourceTree = "<group>";
 		};
 		DEF57430820AB0F2891398AE86B6962D /* Products */ = {
@@ -99,14 +101,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		45CC1386C4B090FC85A269A3E0F316F0 /* Headers */ = {
+		EBB989C584D250397DEF80B4497409F9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				179034EC1EA266569C35B5B0D333C99C /* TBUIAutoTest.h in Headers */,
-				5022EAE642A01EB4E79E942957EE141E /* UIImage+TBUIAutoTest.h in Headers */,
-				36A6BCB1B222C530443A917B71E0E12C /* UIResponder+TBUIAutoTest.h in Headers */,
-				C06E7CBECC3AF6BE44A96FA44AD20BBF /* UIView+TBUIAutoTest.h in Headers */,
+				2C48B6471456CD5113EB72E53117F3CB /* TBUIAutoTest.h in Headers */,
+				159A8D2DCFE254348F99CE9A4AFE10CF /* UIImage+TBUIAutoTest.h in Headers */,
+				54D66ECDA177FADCB49E16ED3122CC1D /* UIResponder+TBUIAutoTest.h in Headers */,
+				E389DBA02555CB9728CD9F92C107999B /* UIView+TBUIAutoTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,11 +117,11 @@
 /* Begin PBXNativeTarget section */
 		7677957840A0C4B8429CE8279C70D843 /* TBUIAutoTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A80A841B4D353D61413C7B634D57907A /* Build configuration list for PBXNativeTarget "TBUIAutoTest" */;
+			buildConfigurationList = A9DBE82F1A775F65F78BE0234B3CC3A9 /* Build configuration list for PBXNativeTarget "TBUIAutoTest" */;
 			buildPhases = (
-				45CC1386C4B090FC85A269A3E0F316F0 /* Headers */,
-				0C09388BB817EC763C3DC2F3B2AFBFAF /* Sources */,
-				992DA650F4EEEB15E3E01E77C841E9C5 /* Frameworks */,
+				EBB989C584D250397DEF80B4497409F9 /* Headers */,
+				6E31A6A60004E7CB93E2423E4A0BC9FE /* Sources */,
+				A88106D61CDE54FA47E1C02C1AC046E6 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +138,16 @@
 		F3CFF2B419F698640751AE14F10FDE36 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = D9F08BCDAC332CB76AB767B14408B446 /* Build configuration list for PBXProject "TBUIAutoTest" */;
 			compatibilityVersion = "Xcode 10.0";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B05E9169A3EAD30C5F4EB32253E37B85;
 			productRefGroup = DEF57430820AB0F2891398AE86B6962D /* Products */;
@@ -157,22 +160,69 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0C09388BB817EC763C3DC2F3B2AFBFAF /* Sources */ = {
+		6E31A6A60004E7CB93E2423E4A0BC9FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B97B9496A31E793E859CEE2D01150F9 /* TBUIAutoTest-dummy.m in Sources */,
-				882A5C876C084FD109EA565CD9235BA3 /* TBUIAutoTest.m in Sources */,
-				BF760BF2F2E09ECAF6A967A5561B906A /* UIImage+TBUIAutoTest.m in Sources */,
-				09B6B27276A3E4F0E48A2E4AABD6441A /* UIResponder+TBUIAutoTest.m in Sources */,
-				E0471AC61714753F5E1A1CDC78B5E3B0 /* UIView+TBUIAutoTest.m in Sources */,
+				9CAA48A7ACFCEBC7B01AB052A8410F7D /* TBUIAutoTest-dummy.m in Sources */,
+				6A60B8A0DDCF6FCB80A947F21954817B /* TBUIAutoTest.m in Sources */,
+				6773CEDDD280AB26253F14952C392FD4 /* UIImage+TBUIAutoTest.m in Sources */,
+				8DC3AEEC08416F1B9012566CC4A68C9D /* UIResponder+TBUIAutoTest.m in Sources */,
+				98EA88B5EFF7EE488352AFA07C36FEF8 /* UIView+TBUIAutoTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		173B7B68F85AA8BFB9F0122E0386C392 /* Release */ = {
+		16597F7D54C2B48A4C2F4326BA697871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E45C597B6FE469A6A55EE03B76E89E /* TBUIAutoTest.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TBUIAutoTest/TBUIAutoTest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TBUIAutoTest;
+				PRODUCT_NAME = TBUIAutoTest;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DA7D84CC61DC847D79128F5DA4D80DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B069225FCF429B1D97044809F72062 /* TBUIAutoTest.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TBUIAutoTest/TBUIAutoTest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TBUIAutoTest;
+				PRODUCT_NAME = TBUIAutoTest;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECE4BB38774B33246CFA5DAAD9885B08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,35 +277,12 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		68913A3D9A99C1DD2349417009FD1983 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99BFF04EE53A721DFD0B81F7EE8F25DA /* TBUIAutoTest.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TBUIAutoTest/TBUIAutoTest-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TBUIAutoTest;
-				PRODUCT_NAME = TBUIAutoTest;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		941DC9198405604B636ED46B797ADBF9 /* Debug */ = {
+		F503B4BDF5A62D1A82B6B4CA05AEC131 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -314,43 +341,19 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		C410C4E7F09914E758D1F6FE318817DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99BFF04EE53A721DFD0B81F7EE8F25DA /* TBUIAutoTest.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TBUIAutoTest/TBUIAutoTest-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TBUIAutoTest;
-				PRODUCT_NAME = TBUIAutoTest;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A80A841B4D353D61413C7B634D57907A /* Build configuration list for PBXNativeTarget "TBUIAutoTest" */ = {
+		A9DBE82F1A775F65F78BE0234B3CC3A9 /* Build configuration list for PBXNativeTarget "TBUIAutoTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68913A3D9A99C1DD2349417009FD1983 /* Debug */,
-				C410C4E7F09914E758D1F6FE318817DF /* Release */,
+				16597F7D54C2B48A4C2F4326BA697871 /* Debug */,
+				7DA7D84CC61DC847D79128F5DA4D80DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -358,8 +361,8 @@
 		D9F08BCDAC332CB76AB767B14408B446 /* Build configuration list for PBXProject "TBUIAutoTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				941DC9198405604B636ED46B797ADBF9 /* Debug */,
-				173B7B68F85AA8BFB9F0122E0386C392 /* Release */,
+				F503B4BDF5A62D1A82B6B4CA05AEC131 /* Debug */,
+				ECE4BB38774B33246CFA5DAAD9885B08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,201 +7,209 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A251825AE411234081C2F07EF8039E19 /* Pods-MyDemo_OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA4D26EEE1E9379BD6E7F5B9F7F1F72 /* Pods-MyDemo_OC-dummy.m */; };
+		8407766666BABD71A2E9C97DF9D32396 /* Pods-MyDemo_OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA4D26EEE1E9379BD6E7F5B9F7F1F72 /* Pods-MyDemo_OC-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		06BB93A251DB76769034D79560A5E7C4 /* PBXContainerItemProxy */ = {
+		03DC1125C7C3E81584738DDE0C0455B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 62C0AB654AFDEBCD6843FC64FB3A8264 /* TZImagePickerController.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 6090C91802307673CBF0A57EF1608978;
-			remoteInfo = TZImagePickerController;
-		};
-		10408B27300A2C9B6944D3863C2C9E62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0CEB7C4EAF8F415B9E0098C94E31E5AA /* Masonry.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = C0965FF775F51458AD4A8E41ABAB7D1E;
-			remoteInfo = Masonry;
-		};
-		1679D4D6626623F3A1F292DB75FB1784 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2825F8AAF94ACEA10ACB071F5ED9641F /* AFNetworking.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = B561AD1B13C486A61C9BF66B4E6D8F89;
-			remoteInfo = AFNetworking;
-		};
-		18186FA831CDD7FA7EA05FA3E446691F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 71D5EF44F173424FDC4867651C8FF231 /* UMCSecurityPlugins.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 88026F641AA82B8816C3A997FD675125;
-			remoteInfo = UMCSecurityPlugins;
-		};
-		23D1267762D90DA1A91CD14F5AFA0F92 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C85ECBE31D533168504C1F3D483215A8 /* FSCalendar.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 9D471508DD1663804BB101BEEC2EDC31;
-			remoteInfo = FSCalendar;
-		};
-		2C95B85D75CE8C79C3FC17E87EFCCC04 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CD28F4629F8877DE0868EC676C2F0076 /* YWExcel.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D98A77ABAA342A9F68F55153E95F130;
-			remoteInfo = YWExcel;
-		};
-		3E2C44089BF99A96FD8189613E6EBA7A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83F300B1C3F69F46457E0824CA4A7EC0 /* MJExtension.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 7DCB41C64D8AA20B24D05162BE708C8F;
-			remoteInfo = MJExtension;
-		};
-		56A09D8BC78B6AD7CDB7F287788DDD31 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91BED72966DD5C968C94C4C9C08EF5E0 /* IQKeyboardManager.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 6D332532246486EC88B3F9B6BD9DC92A;
-			remoteInfo = IQKeyboardManager;
-		};
-		7B98FC15C6B853B34B06268C76D6B36D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F662D5F9203137F60A4ECECECE505013 /* MJRefresh.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E94AEF767442EDAAAAB2129CDFA2C2ED;
-			remoteInfo = MJRefresh;
-		};
-		7DA458F51BAC129E33EA72AC62E77CC6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F08D6FB36BE26FED3CD489F1257F7892 /* TBUIAutoTest.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 7677957840A0C4B8429CE8279C70D843;
-			remoteInfo = TBUIAutoTest;
-		};
-		86248147FCFEF9011308AB89E8E931DC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1AE4721EF5D441D0516365B652028782 /* FDFullscreenPopGesture.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = A8BAA0D80184552CA0F0647BF03C3D1B;
-			remoteInfo = FDFullscreenPopGesture;
-		};
-		92DA3E0A7AE0E2EEEB059977F298A09B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D918616C3425651F3517215681276955 /* UMCPush.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 66B8FB16FC36434B8196A17CFA6CE933;
-			remoteInfo = UMCPush;
-		};
-		A3A96070098AE67B79D4714B07B48836 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA4300A3F13E61A3F2FD813D16915182 /* JPush.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 1B09860709F0AAD1311B968AB0A3F828;
-			remoteInfo = JPush;
-		};
-		A3EF681969301E110A146EE11B4CBF16 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6D6961E51327DEC085C3E015831F9CFA /* iCarousel.xcodeproj */;
+			containerPortal = DAE6A4921E1678AAE12EBBD674F4EDA2 /* iCarousel.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 7FE0BC88338B533CC2387E18AE79A453;
 			remoteInfo = iCarousel;
 		};
-		ADFC17B5EF4B54E40EE90F6194F31482 /* PBXContainerItemProxy */ = {
+		0A95C434B1DA9455FAA07F00A3028044 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 99582BA075C580632FB9684A2937FA65 /* JCore.xcodeproj */;
+			containerPortal = E72EB3C1A76DCF9D17F2344514F04753 /* JPush.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = B8A6F7F03566569D5BCDDCE87A1131EB;
-			remoteInfo = JCore;
+			remoteGlobalIDString = 1B09860709F0AAD1311B968AB0A3F828;
+			remoteInfo = JPush;
 		};
-		B02FA46C46C3F578E1F6074BEC017414 /* PBXContainerItemProxy */ = {
+		104A631C06F17E1DFE194D4B83126990 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7F4E5DA3251A311816B079A37583FD1B /* WechatOpenSDK.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = EB0370CB3F7210DE9CF031081FD10E74;
-			remoteInfo = WechatOpenSDK;
-		};
-		B58FBD53B8E579A8D80AB36DA2867D61 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 30452A039ED0A8B84C0E473E1AFFD0B1 /* MBProgressHUD.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 0F48A71D28991325602E8C8A19DF1F64;
-			remoteInfo = MBProgressHUD;
-		};
-		BC6E4F72C41279D20E93AF75BFAFC9FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FCBC7ADA5FA4AD2EB7C848D177910A2F /* UMCCommon.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = CDB0574DA87E5D448B9702D49C8383B5;
-			remoteInfo = UMCCommon;
-		};
-		E157BAE558F072DE3A4CB1524ED0496A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3A6344F88C84559E27FE0672DC83195A /* SDWebImage.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 4ECF4E662EEBE4FA58102FF984D920CC;
-			remoteInfo = SDWebImage;
-		};
-		E175BDCE7F5CDCC8872EA566706EEA90 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8EF97096E0E0909609C04268839A86F6 /* lottie-ios_Oc.xcodeproj */;
+			containerPortal = 3CBEE4F9C008D9447BB5C12EA8E9C457 /* lottie-ios_Oc.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = EADD7D7A8937A3CFAEFAA470E39D2ACF;
 			remoteInfo = "lottie-ios_Oc";
 		};
-		EB0C81C1E25CF9158C4993C1D8EFA065 /* PBXContainerItemProxy */ = {
+		123302FDE0F51E1EC46414A8BD97D260 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 108ED52A03E0318B783B22022C67448D /* JMessage.xcodeproj */;
+			containerPortal = 8475B1DB7290AB66F8C01B46DAD61204 /* FSCalendar.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D471508DD1663804BB101BEEC2EDC31;
+			remoteInfo = FSCalendar;
+		};
+		32831380C255C08895ABCC52485AEE89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 147611CCA7FB6F5E8B345169AC728F2C /* UMCSecurityPlugins.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 88026F641AA82B8816C3A997FD675125;
+			remoteInfo = UMCSecurityPlugins;
+		};
+		47CA8E0E5F407EAD3F34C9B072668496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AE8A734FD9F22E546403B48561CAECD /* TBUIAutoTest.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7677957840A0C4B8429CE8279C70D843;
+			remoteInfo = TBUIAutoTest;
+		};
+		6FA597B5113E02BCEAC6FE8302470D79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFC7973D3423CFF830DCBF8485251342 /* WechatOpenSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EB0370CB3F7210DE9CF031081FD10E74;
+			remoteInfo = WechatOpenSDK;
+		};
+		7090E2EB1B4DF7DB5FAAB6CA267331B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D2499520349170013F528376BE9CDD6 /* MJExtension.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DCB41C64D8AA20B24D05162BE708C8F;
+			remoteInfo = MJExtension;
+		};
+		82F4E98C0CC9144F3484ABDF3DE20B7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E91EAAC9831768FA11BE3EC0D91A4D46 /* YWExcel.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D98A77ABAA342A9F68F55153E95F130;
+			remoteInfo = YWExcel;
+		};
+		8A83D0B21B350CC2FED4C05F2AF9614B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F5662C90DF63CE53963BC107D1D2F83 /* FDFullscreenPopGesture.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A8BAA0D80184552CA0F0647BF03C3D1B;
+			remoteInfo = FDFullscreenPopGesture;
+		};
+		9FCC6E214F1823D1D565F116FAD512A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD501595ED30A341832FB21B9E860C8E /* MBProgressHUD.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F48A71D28991325602E8C8A19DF1F64;
+			remoteInfo = MBProgressHUD;
+		};
+		A718B2C09087A3ACF38B98EE67760436 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D803CED19AFCF8447DD572CFCE93B81B /* SDWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ECF4E662EEBE4FA58102FF984D920CC;
+			remoteInfo = SDWebImage;
+		};
+		A7C3A4DD3996582A2DD42C86FA654712 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C4D4C38A255FB0C22DAA3266CBC2135 /* TZImagePickerController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6090C91802307673CBF0A57EF1608978;
+			remoteInfo = TZImagePickerController;
+		};
+		C0C3040735150DA9F61E557DC60BDA71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B933F581FCE7886668DC969B4BC538B /* IQKeyboardManager.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D332532246486EC88B3F9B6BD9DC92A;
+			remoteInfo = IQKeyboardManager;
+		};
+		C45EF25A06BAFE824483C875337F796F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7741007EECA915D73429E5C853EBB10F /* TYSnapshotScroll.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A516A7D2F26CA77C6DE3489F838FF4C4;
+			remoteInfo = TYSnapshotScroll;
+		};
+		CE1ED74E4CE18172E4117B0F9C19DDD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36806597DBC2CD8C83096EBA41728FA2 /* UMCPush.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 66B8FB16FC36434B8196A17CFA6CE933;
+			remoteInfo = UMCPush;
+		};
+		D300FDF3137DC56A0081F8D2EF83FF44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EC896AA2805C92F2A60D2FBF6ED387C /* JCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B8A6F7F03566569D5BCDDCE87A1131EB;
+			remoteInfo = JCore;
+		};
+		DB06CEAC97AA76E51CF01D8C71D0A1B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 224B48263107AC926EFB02B5942BC0DE /* JMessage.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 5902010E56837294234E56C925FE2468;
 			remoteInfo = JMessage;
 		};
-		F756F12BCDEFF25BEA4854B49D35F328 /* PBXContainerItemProxy */ = {
+		DC1F869627E138383FD58CB49B9B165A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 29E980379395006BF712AC11264A7DE9 /* GPUImage.xcodeproj */;
+			containerPortal = 72B63E4CF143F5867F0BA361332C5177 /* GPUImage.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 3772A8DA3246D0A6BD895109DE678AD8;
 			remoteInfo = GPUImage;
 		};
+		E698A2ECAC858F47EE9161DA791E0351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05E39DFDD4BDAD2ADDC438A0290A952F /* MJRefresh.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E94AEF767442EDAAAAB2129CDFA2C2ED;
+			remoteInfo = MJRefresh;
+		};
+		EB0EA012F49D031D970FB2215D6CAC83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B969EA9F70D9A98C4E4C4242B95D7D /* AFNetworking.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B561AD1B13C486A61C9BF66B4E6D8F89;
+			remoteInfo = AFNetworking;
+		};
+		F800441307EB28269F3FE33AD5029110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B590F03EC7F7102386EEE2F9AD95B51 /* Masonry.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C0965FF775F51458AD4A8E41ABAB7D1E;
+			remoteInfo = Masonry;
+		};
+		F89325D93D92CA635348A265E18F3D7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19271E995BC68328C5292ADC596F8959 /* UMCCommon.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB0574DA87E5D448B9702D49C8383B5;
+			remoteInfo = UMCCommon;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05E39DFDD4BDAD2ADDC438A0290A952F /* MJRefresh */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MJRefresh; path = MJRefresh.xcodeproj; sourceTree = "<group>"; };
 		095EF4F7FBE1E933829FB56164CF76CE /* Pods-MyDemo_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyDemo_OC.release.xcconfig"; sourceTree = "<group>"; };
-		0CEB7C4EAF8F415B9E0098C94E31E5AA /* Masonry */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Masonry; path = Masonry.xcodeproj; sourceTree = "<group>"; };
+		0B590F03EC7F7102386EEE2F9AD95B51 /* Masonry */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Masonry; path = Masonry.xcodeproj; sourceTree = "<group>"; };
 		10084EA3A9C47E5495029D554B3A0B84 /* Pods-MyDemo_OC-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyDemo_OC-resources.sh"; sourceTree = "<group>"; };
-		108ED52A03E0318B783B22022C67448D /* JMessage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JMessage; path = JMessage.xcodeproj; sourceTree = "<group>"; };
-		1AE4721EF5D441D0516365B652028782 /* FDFullscreenPopGesture */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FDFullscreenPopGesture; path = FDFullscreenPopGesture.xcodeproj; sourceTree = "<group>"; };
-		2825F8AAF94ACEA10ACB071F5ED9641F /* AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AFNetworking; path = AFNetworking.xcodeproj; sourceTree = "<group>"; };
-		29E980379395006BF712AC11264A7DE9 /* GPUImage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage; path = GPUImage.xcodeproj; sourceTree = "<group>"; };
-		30452A039ED0A8B84C0E473E1AFFD0B1 /* MBProgressHUD */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MBProgressHUD; path = MBProgressHUD.xcodeproj; sourceTree = "<group>"; };
-		3A6344F88C84559E27FE0672DC83195A /* SDWebImage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage; path = SDWebImage.xcodeproj; sourceTree = "<group>"; };
-		62C0AB654AFDEBCD6843FC64FB3A8264 /* TZImagePickerController */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TZImagePickerController; path = TZImagePickerController.xcodeproj; sourceTree = "<group>"; };
+		147611CCA7FB6F5E8B345169AC728F2C /* UMCSecurityPlugins */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCSecurityPlugins; path = UMCSecurityPlugins.xcodeproj; sourceTree = "<group>"; };
+		19271E995BC68328C5292ADC596F8959 /* UMCCommon */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCCommon; path = UMCCommon.xcodeproj; sourceTree = "<group>"; };
+		224B48263107AC926EFB02B5942BC0DE /* JMessage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JMessage; path = JMessage.xcodeproj; sourceTree = "<group>"; };
+		2B933F581FCE7886668DC969B4BC538B /* IQKeyboardManager */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IQKeyboardManager; path = IQKeyboardManager.xcodeproj; sourceTree = "<group>"; };
+		2C4D4C38A255FB0C22DAA3266CBC2135 /* TZImagePickerController */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TZImagePickerController; path = TZImagePickerController.xcodeproj; sourceTree = "<group>"; };
+		2EC896AA2805C92F2A60D2FBF6ED387C /* JCore */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JCore; path = JCore.xcodeproj; sourceTree = "<group>"; };
+		36806597DBC2CD8C83096EBA41728FA2 /* UMCPush */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCPush; path = UMCPush.xcodeproj; sourceTree = "<group>"; };
+		3CBEE4F9C008D9447BB5C12EA8E9C457 /* lottie-ios_Oc */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "lottie-ios_Oc"; path = "lottie-ios_Oc.xcodeproj"; sourceTree = "<group>"; };
+		5D2499520349170013F528376BE9CDD6 /* MJExtension */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MJExtension; path = MJExtension.xcodeproj; sourceTree = "<group>"; };
 		69E0692002A47C2A5D18F725B076B972 /* Pods-MyDemo_OC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyDemo_OC-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6D6961E51327DEC085C3E015831F9CFA /* iCarousel */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iCarousel; path = iCarousel.xcodeproj; sourceTree = "<group>"; };
-		71D5EF44F173424FDC4867651C8FF231 /* UMCSecurityPlugins */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCSecurityPlugins; path = UMCSecurityPlugins.xcodeproj; sourceTree = "<group>"; };
+		6F5662C90DF63CE53963BC107D1D2F83 /* FDFullscreenPopGesture */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FDFullscreenPopGesture; path = FDFullscreenPopGesture.xcodeproj; sourceTree = "<group>"; };
+		72B63E4CF143F5867F0BA361332C5177 /* GPUImage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage; path = GPUImage.xcodeproj; sourceTree = "<group>"; };
+		7741007EECA915D73429E5C853EBB10F /* TYSnapshotScroll */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TYSnapshotScroll; path = TYSnapshotScroll.xcodeproj; sourceTree = "<group>"; };
+		7AE8A734FD9F22E546403B48561CAECD /* TBUIAutoTest */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TBUIAutoTest; path = TBUIAutoTest.xcodeproj; sourceTree = "<group>"; };
 		7DDAC3CBFDE90497BC528F1BA584175D /* Pods-MyDemo_OC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyDemo_OC-acknowledgements.plist"; sourceTree = "<group>"; };
-		7F4E5DA3251A311816B079A37583FD1B /* WechatOpenSDK */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WechatOpenSDK; path = WechatOpenSDK.xcodeproj; sourceTree = "<group>"; };
-		83F300B1C3F69F46457E0824CA4A7EC0 /* MJExtension */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MJExtension; path = MJExtension.xcodeproj; sourceTree = "<group>"; };
-		8EF97096E0E0909609C04268839A86F6 /* lottie-ios_Oc */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "lottie-ios_Oc"; path = "lottie-ios_Oc.xcodeproj"; sourceTree = "<group>"; };
-		91BED72966DD5C968C94C4C9C08EF5E0 /* IQKeyboardManager */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IQKeyboardManager; path = IQKeyboardManager.xcodeproj; sourceTree = "<group>"; };
-		99582BA075C580632FB9684A2937FA65 /* JCore */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JCore; path = JCore.xcodeproj; sourceTree = "<group>"; };
+		8475B1DB7290AB66F8C01B46DAD61204 /* FSCalendar */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FSCalendar; path = FSCalendar.xcodeproj; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7ABA04D5DECEA2354A1289E6991C5DA /* Pods-MyDemo_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyDemo_OC.debug.xcconfig"; sourceTree = "<group>"; };
 		ABA4D26EEE1E9379BD6E7F5B9F7F1F72 /* Pods-MyDemo_OC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyDemo_OC-dummy.m"; sourceTree = "<group>"; };
-		C85ECBE31D533168504C1F3D483215A8 /* FSCalendar */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FSCalendar; path = FSCalendar.xcodeproj; sourceTree = "<group>"; };
-		CD28F4629F8877DE0868EC676C2F0076 /* YWExcel */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YWExcel; path = YWExcel.xcodeproj; sourceTree = "<group>"; };
+		BFC7973D3423CFF830DCBF8485251342 /* WechatOpenSDK */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WechatOpenSDK; path = WechatOpenSDK.xcodeproj; sourceTree = "<group>"; };
+		D4B969EA9F70D9A98C4E4C4242B95D7D /* AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AFNetworking; path = AFNetworking.xcodeproj; sourceTree = "<group>"; };
+		D803CED19AFCF8447DD572CFCE93B81B /* SDWebImage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage; path = SDWebImage.xcodeproj; sourceTree = "<group>"; };
 		D8E761B1237404837DBCAB3AD1F161BB /* libPods-MyDemo_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MyDemo_OC.a"; path = "libPods-MyDemo_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D918616C3425651F3517215681276955 /* UMCPush */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCPush; path = UMCPush.xcodeproj; sourceTree = "<group>"; };
-		EA4300A3F13E61A3F2FD813D16915182 /* JPush */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JPush; path = JPush.xcodeproj; sourceTree = "<group>"; };
-		F08D6FB36BE26FED3CD489F1257F7892 /* TBUIAutoTest */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TBUIAutoTest; path = TBUIAutoTest.xcodeproj; sourceTree = "<group>"; };
-		F662D5F9203137F60A4ECECECE505013 /* MJRefresh */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MJRefresh; path = MJRefresh.xcodeproj; sourceTree = "<group>"; };
-		FCBC7ADA5FA4AD2EB7C848D177910A2F /* UMCCommon */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCCommon; path = UMCCommon.xcodeproj; sourceTree = "<group>"; };
+		DAE6A4921E1678AAE12EBBD674F4EDA2 /* iCarousel */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iCarousel; path = iCarousel.xcodeproj; sourceTree = "<group>"; };
+		DD501595ED30A341832FB21B9E860C8E /* MBProgressHUD */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MBProgressHUD; path = MBProgressHUD.xcodeproj; sourceTree = "<group>"; };
+		E72EB3C1A76DCF9D17F2344514F04753 /* JPush */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JPush; path = JPush.xcodeproj; sourceTree = "<group>"; };
+		E91EAAC9831768FA11BE3EC0D91A4D46 /* YWExcel */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YWExcel; path = YWExcel.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		60BD13579350131DD329D97F6ADF6567 /* Frameworks */ = {
+		1D561B906C9A428BC8079EB2883BE4D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -241,31 +249,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C8D4FBA5E896D258B887631711FCDC0 /* Pods */ = {
+		A0B694D0446168503DD6F71313DE42D6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2825F8AAF94ACEA10ACB071F5ED9641F /* AFNetworking */,
-				1AE4721EF5D441D0516365B652028782 /* FDFullscreenPopGesture */,
-				C85ECBE31D533168504C1F3D483215A8 /* FSCalendar */,
-				29E980379395006BF712AC11264A7DE9 /* GPUImage */,
-				6D6961E51327DEC085C3E015831F9CFA /* iCarousel */,
-				91BED72966DD5C968C94C4C9C08EF5E0 /* IQKeyboardManager */,
-				99582BA075C580632FB9684A2937FA65 /* JCore */,
-				108ED52A03E0318B783B22022C67448D /* JMessage */,
-				EA4300A3F13E61A3F2FD813D16915182 /* JPush */,
-				8EF97096E0E0909609C04268839A86F6 /* lottie-ios_Oc */,
-				0CEB7C4EAF8F415B9E0098C94E31E5AA /* Masonry */,
-				30452A039ED0A8B84C0E473E1AFFD0B1 /* MBProgressHUD */,
-				83F300B1C3F69F46457E0824CA4A7EC0 /* MJExtension */,
-				F662D5F9203137F60A4ECECECE505013 /* MJRefresh */,
-				3A6344F88C84559E27FE0672DC83195A /* SDWebImage */,
-				F08D6FB36BE26FED3CD489F1257F7892 /* TBUIAutoTest */,
-				62C0AB654AFDEBCD6843FC64FB3A8264 /* TZImagePickerController */,
-				FCBC7ADA5FA4AD2EB7C848D177910A2F /* UMCCommon */,
-				D918616C3425651F3517215681276955 /* UMCPush */,
-				71D5EF44F173424FDC4867651C8FF231 /* UMCSecurityPlugins */,
-				7F4E5DA3251A311816B079A37583FD1B /* WechatOpenSDK */,
-				CD28F4629F8877DE0868EC676C2F0076 /* YWExcel */,
+				D4B969EA9F70D9A98C4E4C4242B95D7D /* AFNetworking */,
+				6F5662C90DF63CE53963BC107D1D2F83 /* FDFullscreenPopGesture */,
+				8475B1DB7290AB66F8C01B46DAD61204 /* FSCalendar */,
+				72B63E4CF143F5867F0BA361332C5177 /* GPUImage */,
+				DAE6A4921E1678AAE12EBBD674F4EDA2 /* iCarousel */,
+				2B933F581FCE7886668DC969B4BC538B /* IQKeyboardManager */,
+				2EC896AA2805C92F2A60D2FBF6ED387C /* JCore */,
+				224B48263107AC926EFB02B5942BC0DE /* JMessage */,
+				E72EB3C1A76DCF9D17F2344514F04753 /* JPush */,
+				3CBEE4F9C008D9447BB5C12EA8E9C457 /* lottie-ios_Oc */,
+				0B590F03EC7F7102386EEE2F9AD95B51 /* Masonry */,
+				DD501595ED30A341832FB21B9E860C8E /* MBProgressHUD */,
+				5D2499520349170013F528376BE9CDD6 /* MJExtension */,
+				05E39DFDD4BDAD2ADDC438A0290A952F /* MJRefresh */,
+				D803CED19AFCF8447DD572CFCE93B81B /* SDWebImage */,
+				7AE8A734FD9F22E546403B48561CAECD /* TBUIAutoTest */,
+				7741007EECA915D73429E5C853EBB10F /* TYSnapshotScroll */,
+				2C4D4C38A255FB0C22DAA3266CBC2135 /* TZImagePickerController */,
+				19271E995BC68328C5292ADC596F8959 /* UMCCommon */,
+				36806597DBC2CD8C83096EBA41728FA2 /* UMCPush */,
+				147611CCA7FB6F5E8B345169AC728F2C /* UMCSecurityPlugins */,
+				BFC7973D3423CFF830DCBF8485251342 /* WechatOpenSDK */,
+				E91EAAC9831768FA11BE3EC0D91A4D46 /* YWExcel */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -275,7 +284,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				9C8D4FBA5E896D258B887631711FCDC0 /* Pods */,
+				A0B694D0446168503DD6F71313DE42D6 /* Pods */,
 				7A04263665ECD2CAA5F0AB6729FFA44A /* Products */,
 				2DEFBEBD4777FD6A7592CE9F8E67BCB0 /* Targets Support Files */,
 			);
@@ -291,7 +300,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0A1AD1C711BBAFBAD3C370CDE4A1DDBB /* Headers */ = {
+		0A7F74ECF178D376C2F248A26EA6348B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,37 +312,38 @@
 /* Begin PBXNativeTarget section */
 		77943B7D9266F1265F980FA75C0A25C8 /* Pods-MyDemo_OC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C69136A0D345C4614E953DF7565F33ED /* Build configuration list for PBXNativeTarget "Pods-MyDemo_OC" */;
+			buildConfigurationList = E6486D9F83916D8827BCC3FA1704B424 /* Build configuration list for PBXNativeTarget "Pods-MyDemo_OC" */;
 			buildPhases = (
-				0A1AD1C711BBAFBAD3C370CDE4A1DDBB /* Headers */,
-				9684521498B6C5828D572BC26625C33F /* Sources */,
-				60BD13579350131DD329D97F6ADF6567 /* Frameworks */,
+				0A7F74ECF178D376C2F248A26EA6348B /* Headers */,
+				21721A3D47705D493759266F7E3BB2F3 /* Sources */,
+				1D561B906C9A428BC8079EB2883BE4D6 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				73BA2F84B1DF0AB0B4FCE952FC46ED4B /* PBXTargetDependency */,
-				F9CC63B7136C661FFDDDD2AA2181E204 /* PBXTargetDependency */,
-				3DE646AC83AECB510C930D56E6DDEEF0 /* PBXTargetDependency */,
-				A1C349E14DCB08F7C948DBB8E0B185D8 /* PBXTargetDependency */,
-				565A170CA8FDA198A487FB647F86FEF9 /* PBXTargetDependency */,
-				AC02B14D1834BA1E5AA613CE9D04D59D /* PBXTargetDependency */,
-				BD4EF8FA3ADC4068A762B1B564D27D6C /* PBXTargetDependency */,
-				E345C40ACA3695A28D103E3600A19CFA /* PBXTargetDependency */,
-				9EF994822C439B0A6D50758479AF455C /* PBXTargetDependency */,
-				83C9939C39287358DB4361664395CDB2 /* PBXTargetDependency */,
-				8A8CF257AE1D051AD614A59A298FBAA9 /* PBXTargetDependency */,
-				C387810B2897CE7478F9A5DEBEE9D5EE /* PBXTargetDependency */,
-				E237F24A1D8D3E125DC06A40271F0E31 /* PBXTargetDependency */,
-				C8B77731C5133ECCAD9A9E3582CCB3C1 /* PBXTargetDependency */,
-				9455961DFCC019EF2B77D519146D9DEC /* PBXTargetDependency */,
-				6E091461E3A65EA7B3D1835124C6634A /* PBXTargetDependency */,
-				71796B341E8DB64845B0D0879F45F19C /* PBXTargetDependency */,
-				384B4C0A53DD405EBA122071DE2F97FD /* PBXTargetDependency */,
-				AA8E510AF9035BDD0C4B5B0FF4863F47 /* PBXTargetDependency */,
-				DB38B8CB8962B2B6DEA026DB36AB4627 /* PBXTargetDependency */,
-				EEF8CA9FF624E09E3ED675C47BFD9AA9 /* PBXTargetDependency */,
-				15F1B12A2A3423E4199106D27245C7C0 /* PBXTargetDependency */,
+				4E9F72BFDBE0608E6E138DF786E10CE0 /* PBXTargetDependency */,
+				34577B52984AD3BED244EE81DC850723 /* PBXTargetDependency */,
+				1C3F9F59C0C034E58B7A214F52E50D33 /* PBXTargetDependency */,
+				D529AEEC17D8A14A6D648FEAE30B7FE5 /* PBXTargetDependency */,
+				64CD9973FEC73ABE7F047BE39E5C752B /* PBXTargetDependency */,
+				67646924AC6706EB8E677519E4B7DC77 /* PBXTargetDependency */,
+				32B5ABEE5AEEC175E77CC40111F28A34 /* PBXTargetDependency */,
+				2D86709293F42326FB157A05FCF4685A /* PBXTargetDependency */,
+				EE941CE587DF6540C71180D804917684 /* PBXTargetDependency */,
+				EC24F69DE1DCE2790BCCCC0A32C4F4CB /* PBXTargetDependency */,
+				40FD12DE88958428A92D88608BAD56E3 /* PBXTargetDependency */,
+				73DF9F205A7F3A84B62D2D1BFE5D5AFC /* PBXTargetDependency */,
+				269EC05F0F3DC2695C730F838ECB891F /* PBXTargetDependency */,
+				BF908D69411A0A49828CB37E611BE9AD /* PBXTargetDependency */,
+				7D63A605CD1EA7C272B870D8C34BD75D /* PBXTargetDependency */,
+				311EF1EDE5956A2A9F6ADED0B0926939 /* PBXTargetDependency */,
+				149E3130E5180F1BA018DA9C649A8A28 /* PBXTargetDependency */,
+				C07AF0FC36B8C5726C67E2486CD5E92B /* PBXTargetDependency */,
+				F6148690AC31FCA7D68FFCB1274EB802 /* PBXTargetDependency */,
+				A63BB01636A5B81EE8C57C7EF1C9C40B /* PBXTargetDependency */,
+				742F2F60162CC74F9F006E607FCAEAED /* PBXTargetDependency */,
+				5CCCBB1123B7908B85D3DDBE556EFBBE /* PBXTargetDependency */,
+				BCF2B5AA8A40468AF9F856BF651D6FD1 /* PBXTargetDependency */,
 			);
 			name = "Pods-MyDemo_OC";
 			productName = "Pods-MyDemo_OC";
@@ -346,85 +356,89 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 7A04263665ECD2CAA5F0AB6729FFA44A /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProjectRef = 2825F8AAF94ACEA10ACB071F5ED9641F /* AFNetworking */;
+					ProjectRef = D4B969EA9F70D9A98C4E4C4242B95D7D /* AFNetworking */;
 				},
 				{
-					ProjectRef = 1AE4721EF5D441D0516365B652028782 /* FDFullscreenPopGesture */;
+					ProjectRef = 6F5662C90DF63CE53963BC107D1D2F83 /* FDFullscreenPopGesture */;
 				},
 				{
-					ProjectRef = C85ECBE31D533168504C1F3D483215A8 /* FSCalendar */;
+					ProjectRef = 8475B1DB7290AB66F8C01B46DAD61204 /* FSCalendar */;
 				},
 				{
-					ProjectRef = 29E980379395006BF712AC11264A7DE9 /* GPUImage */;
+					ProjectRef = 72B63E4CF143F5867F0BA361332C5177 /* GPUImage */;
 				},
 				{
-					ProjectRef = 91BED72966DD5C968C94C4C9C08EF5E0 /* IQKeyboardManager */;
+					ProjectRef = 2B933F581FCE7886668DC969B4BC538B /* IQKeyboardManager */;
 				},
 				{
-					ProjectRef = 99582BA075C580632FB9684A2937FA65 /* JCore */;
+					ProjectRef = 2EC896AA2805C92F2A60D2FBF6ED387C /* JCore */;
 				},
 				{
-					ProjectRef = 108ED52A03E0318B783B22022C67448D /* JMessage */;
+					ProjectRef = 224B48263107AC926EFB02B5942BC0DE /* JMessage */;
 				},
 				{
-					ProjectRef = EA4300A3F13E61A3F2FD813D16915182 /* JPush */;
+					ProjectRef = E72EB3C1A76DCF9D17F2344514F04753 /* JPush */;
 				},
 				{
-					ProjectRef = 30452A039ED0A8B84C0E473E1AFFD0B1 /* MBProgressHUD */;
+					ProjectRef = DD501595ED30A341832FB21B9E860C8E /* MBProgressHUD */;
 				},
 				{
-					ProjectRef = 83F300B1C3F69F46457E0824CA4A7EC0 /* MJExtension */;
+					ProjectRef = 5D2499520349170013F528376BE9CDD6 /* MJExtension */;
 				},
 				{
-					ProjectRef = F662D5F9203137F60A4ECECECE505013 /* MJRefresh */;
+					ProjectRef = 05E39DFDD4BDAD2ADDC438A0290A952F /* MJRefresh */;
 				},
 				{
-					ProjectRef = 0CEB7C4EAF8F415B9E0098C94E31E5AA /* Masonry */;
+					ProjectRef = 0B590F03EC7F7102386EEE2F9AD95B51 /* Masonry */;
 				},
 				{
-					ProjectRef = 3A6344F88C84559E27FE0672DC83195A /* SDWebImage */;
+					ProjectRef = D803CED19AFCF8447DD572CFCE93B81B /* SDWebImage */;
 				},
 				{
-					ProjectRef = F08D6FB36BE26FED3CD489F1257F7892 /* TBUIAutoTest */;
+					ProjectRef = 7AE8A734FD9F22E546403B48561CAECD /* TBUIAutoTest */;
 				},
 				{
-					ProjectRef = 62C0AB654AFDEBCD6843FC64FB3A8264 /* TZImagePickerController */;
+					ProjectRef = 7741007EECA915D73429E5C853EBB10F /* TYSnapshotScroll */;
 				},
 				{
-					ProjectRef = FCBC7ADA5FA4AD2EB7C848D177910A2F /* UMCCommon */;
+					ProjectRef = 2C4D4C38A255FB0C22DAA3266CBC2135 /* TZImagePickerController */;
 				},
 				{
-					ProjectRef = D918616C3425651F3517215681276955 /* UMCPush */;
+					ProjectRef = 19271E995BC68328C5292ADC596F8959 /* UMCCommon */;
 				},
 				{
-					ProjectRef = 71D5EF44F173424FDC4867651C8FF231 /* UMCSecurityPlugins */;
+					ProjectRef = 36806597DBC2CD8C83096EBA41728FA2 /* UMCPush */;
 				},
 				{
-					ProjectRef = 7F4E5DA3251A311816B079A37583FD1B /* WechatOpenSDK */;
+					ProjectRef = 147611CCA7FB6F5E8B345169AC728F2C /* UMCSecurityPlugins */;
 				},
 				{
-					ProjectRef = CD28F4629F8877DE0868EC676C2F0076 /* YWExcel */;
+					ProjectRef = BFC7973D3423CFF830DCBF8485251342 /* WechatOpenSDK */;
 				},
 				{
-					ProjectRef = 6D6961E51327DEC085C3E015831F9CFA /* iCarousel */;
+					ProjectRef = E91EAAC9831768FA11BE3EC0D91A4D46 /* YWExcel */;
 				},
 				{
-					ProjectRef = 8EF97096E0E0909609C04268839A86F6 /* lottie-ios_Oc */;
+					ProjectRef = DAE6A4921E1678AAE12EBBD674F4EDA2 /* iCarousel */;
+				},
+				{
+					ProjectRef = 3CBEE4F9C008D9447BB5C12EA8E9C457 /* lottie-ios_Oc */;
 				},
 			);
 			projectRoot = "";
@@ -435,213 +449,136 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9684521498B6C5828D572BC26625C33F /* Sources */ = {
+		21721A3D47705D493759266F7E3BB2F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A251825AE411234081C2F07EF8039E19 /* Pods-MyDemo_OC-dummy.m in Sources */,
+				8407766666BABD71A2E9C97DF9D32396 /* Pods-MyDemo_OC-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		15F1B12A2A3423E4199106D27245C7C0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "lottie-ios_Oc";
-			targetProxy = E175BDCE7F5CDCC8872EA566706EEA90 /* PBXContainerItemProxy */;
-		};
-		384B4C0A53DD405EBA122071DE2F97FD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UMCSecurityPlugins;
-			targetProxy = 18186FA831CDD7FA7EA05FA3E446691F /* PBXContainerItemProxy */;
-		};
-		3DE646AC83AECB510C930D56E6DDEEF0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FSCalendar;
-			targetProxy = 23D1267762D90DA1A91CD14F5AFA0F92 /* PBXContainerItemProxy */;
-		};
-		565A170CA8FDA198A487FB647F86FEF9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = IQKeyboardManager;
-			targetProxy = 56A09D8BC78B6AD7CDB7F287788DDD31 /* PBXContainerItemProxy */;
-		};
-		6E091461E3A65EA7B3D1835124C6634A /* PBXTargetDependency */ = {
+		149E3130E5180F1BA018DA9C649A8A28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UMCCommon;
-			targetProxy = BC6E4F72C41279D20E93AF75BFAFC9FA /* PBXContainerItemProxy */;
+			targetProxy = F89325D93D92CA635348A265E18F3D7E /* PBXContainerItemProxy */;
 		};
-		71796B341E8DB64845B0D0879F45F19C /* PBXTargetDependency */ = {
+		1C3F9F59C0C034E58B7A214F52E50D33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = UMCPush;
-			targetProxy = 92DA3E0A7AE0E2EEEB059977F298A09B /* PBXContainerItemProxy */;
+			name = FSCalendar;
+			targetProxy = 123302FDE0F51E1EC46414A8BD97D260 /* PBXContainerItemProxy */;
 		};
-		73BA2F84B1DF0AB0B4FCE952FC46ED4B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFNetworking;
-			targetProxy = 1679D4D6626623F3A1F292DB75FB1784 /* PBXContainerItemProxy */;
-		};
-		83C9939C39287358DB4361664395CDB2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MJExtension;
-			targetProxy = 3E2C44089BF99A96FD8189613E6EBA7A /* PBXContainerItemProxy */;
-		};
-		8A8CF257AE1D051AD614A59A298FBAA9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MJRefresh;
-			targetProxy = 7B98FC15C6B853B34B06268C76D6B36D /* PBXContainerItemProxy */;
-		};
-		9455961DFCC019EF2B77D519146D9DEC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TZImagePickerController;
-			targetProxy = 06BB93A251DB76769034D79560A5E7C4 /* PBXContainerItemProxy */;
-		};
-		9EF994822C439B0A6D50758479AF455C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MBProgressHUD;
-			targetProxy = B58FBD53B8E579A8D80AB36DA2867D61 /* PBXContainerItemProxy */;
-		};
-		A1C349E14DCB08F7C948DBB8E0B185D8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GPUImage;
-			targetProxy = F756F12BCDEFF25BEA4854B49D35F328 /* PBXContainerItemProxy */;
-		};
-		AA8E510AF9035BDD0C4B5B0FF4863F47 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WechatOpenSDK;
-			targetProxy = B02FA46C46C3F578E1F6074BEC017414 /* PBXContainerItemProxy */;
-		};
-		AC02B14D1834BA1E5AA613CE9D04D59D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JCore;
-			targetProxy = ADFC17B5EF4B54E40EE90F6194F31482 /* PBXContainerItemProxy */;
-		};
-		BD4EF8FA3ADC4068A762B1B564D27D6C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JMessage;
-			targetProxy = EB0C81C1E25CF9158C4993C1D8EFA065 /* PBXContainerItemProxy */;
-		};
-		C387810B2897CE7478F9A5DEBEE9D5EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			targetProxy = 10408B27300A2C9B6944D3863C2C9E62 /* PBXContainerItemProxy */;
-		};
-		C8B77731C5133ECCAD9A9E3582CCB3C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TBUIAutoTest;
-			targetProxy = 7DA458F51BAC129E33EA72AC62E77CC6 /* PBXContainerItemProxy */;
-		};
-		DB38B8CB8962B2B6DEA026DB36AB4627 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YWExcel;
-			targetProxy = 2C95B85D75CE8C79C3FC17E87EFCCC04 /* PBXContainerItemProxy */;
-		};
-		E237F24A1D8D3E125DC06A40271F0E31 /* PBXTargetDependency */ = {
+		269EC05F0F3DC2695C730F838ECB891F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SDWebImage;
-			targetProxy = E157BAE558F072DE3A4CB1524ED0496A /* PBXContainerItemProxy */;
+			targetProxy = A718B2C09087A3ACF38B98EE67760436 /* PBXContainerItemProxy */;
 		};
-		E345C40ACA3695A28D103E3600A19CFA /* PBXTargetDependency */ = {
+		2D86709293F42326FB157A05FCF4685A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JPush;
-			targetProxy = A3A96070098AE67B79D4714B07B48836 /* PBXContainerItemProxy */;
+			targetProxy = 0A95C434B1DA9455FAA07F00A3028044 /* PBXContainerItemProxy */;
 		};
-		EEF8CA9FF624E09E3ED675C47BFD9AA9 /* PBXTargetDependency */ = {
+		311EF1EDE5956A2A9F6ADED0B0926939 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = iCarousel;
-			targetProxy = A3EF681969301E110A146EE11B4CBF16 /* PBXContainerItemProxy */;
+			name = TZImagePickerController;
+			targetProxy = A7C3A4DD3996582A2DD42C86FA654712 /* PBXContainerItemProxy */;
 		};
-		F9CC63B7136C661FFDDDD2AA2181E204 /* PBXTargetDependency */ = {
+		32B5ABEE5AEEC175E77CC40111F28A34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JMessage;
+			targetProxy = DB06CEAC97AA76E51CF01D8C71D0A1B5 /* PBXContainerItemProxy */;
+		};
+		34577B52984AD3BED244EE81DC850723 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FDFullscreenPopGesture;
-			targetProxy = 86248147FCFEF9011308AB89E8E931DC /* PBXContainerItemProxy */;
+			targetProxy = 8A83D0B21B350CC2FED4C05F2AF9614B /* PBXContainerItemProxy */;
+		};
+		40FD12DE88958428A92D88608BAD56E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			targetProxy = E698A2ECAC858F47EE9161DA791E0351 /* PBXContainerItemProxy */;
+		};
+		4E9F72BFDBE0608E6E138DF786E10CE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			targetProxy = EB0EA012F49D031D970FB2215D6CAC83 /* PBXContainerItemProxy */;
+		};
+		5CCCBB1123B7908B85D3DDBE556EFBBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iCarousel;
+			targetProxy = 03DC1125C7C3E81584738DDE0C0455B4 /* PBXContainerItemProxy */;
+		};
+		64CD9973FEC73ABE7F047BE39E5C752B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManager;
+			targetProxy = C0C3040735150DA9F61E557DC60BDA71 /* PBXContainerItemProxy */;
+		};
+		67646924AC6706EB8E677519E4B7DC77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JCore;
+			targetProxy = D300FDF3137DC56A0081F8D2EF83FF44 /* PBXContainerItemProxy */;
+		};
+		73DF9F205A7F3A84B62D2D1BFE5D5AFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			targetProxy = F800441307EB28269F3FE33AD5029110 /* PBXContainerItemProxy */;
+		};
+		742F2F60162CC74F9F006E607FCAEAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YWExcel;
+			targetProxy = 82F4E98C0CC9144F3484ABDF3DE20B7D /* PBXContainerItemProxy */;
+		};
+		7D63A605CD1EA7C272B870D8C34BD75D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TYSnapshotScroll;
+			targetProxy = C45EF25A06BAFE824483C875337F796F /* PBXContainerItemProxy */;
+		};
+		A63BB01636A5B81EE8C57C7EF1C9C40B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			targetProxy = 6FA597B5113E02BCEAC6FE8302470D79 /* PBXContainerItemProxy */;
+		};
+		BCF2B5AA8A40468AF9F856BF651D6FD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "lottie-ios_Oc";
+			targetProxy = 104A631C06F17E1DFE194D4B83126990 /* PBXContainerItemProxy */;
+		};
+		BF908D69411A0A49828CB37E611BE9AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TBUIAutoTest;
+			targetProxy = 47CA8E0E5F407EAD3F34C9B072668496 /* PBXContainerItemProxy */;
+		};
+		C07AF0FC36B8C5726C67E2486CD5E92B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCPush;
+			targetProxy = CE1ED74E4CE18172E4117B0F9C19DDD1 /* PBXContainerItemProxy */;
+		};
+		D529AEEC17D8A14A6D648FEAE30B7FE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImage;
+			targetProxy = DC1F869627E138383FD58CB49B9B165A /* PBXContainerItemProxy */;
+		};
+		EC24F69DE1DCE2790BCCCC0A32C4F4CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			targetProxy = 7090E2EB1B4DF7DB5FAAB6CA267331B4 /* PBXContainerItemProxy */;
+		};
+		EE941CE587DF6540C71180D804917684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			targetProxy = 9FCC6E214F1823D1D565F116FAD512A1 /* PBXContainerItemProxy */;
+		};
+		F6148690AC31FCA7D68FFCB1274EB802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCSecurityPlugins;
+			targetProxy = 32831380C255C08895ABCC52485AEE89 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		4092086AB45354AEAB6E49AA81B624F5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7ABA04D5DECEA2354A1289E6991C5DA /* Pods-MyDemo_OC.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -700,12 +637,34 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		679BB05EE55866A5B1804E41EFCA7EAC /* Release */ = {
+		59991F3626365BCE3F43DBC51F01CBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7ABA04D5DECEA2354A1289E6991C5DA /* Pods-MyDemo_OC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3929CDEB1FA7BCD948D4EA37AF86DE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 095EF4F7FBE1E933829FB56164CF76CE /* Pods-MyDemo_OC.release.xcconfig */;
 			buildSettings = {
@@ -728,23 +687,83 @@
 			};
 			name = Release;
 		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
-				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C69136A0D345C4614E953DF7565F33ED /* Build configuration list for PBXNativeTarget "Pods-MyDemo_OC" */ = {
+		E6486D9F83916D8827BCC3FA1704B424 /* Build configuration list for PBXNativeTarget "Pods-MyDemo_OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4092086AB45354AEAB6E49AA81B624F5 /* Debug */,
-				679BB05EE55866A5B1804E41EFCA7EAC /* Release */,
+				59991F3626365BCE3F43DBC51F01CBC5 /* Debug */,
+				A3929CDEB1FA7BCD948D4EA37AF86DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

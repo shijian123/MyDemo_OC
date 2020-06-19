@@ -1,0 +1,1 @@
+../../../TYSnapshotScroll/TYSnapshotScroll/TYSnapshotManager.h

@@ -7,22 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		161EB882D46A80AA11682B02DC649B44 /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 331EEDEF4AC01E38A4B695134AA9A3A6 /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		44B79826D4CB2FE1A2793FB6C0C109D4 /* FDFullscreenPopGesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CCBD2D3C1AD585D82E01043E3ADCD5 /* FDFullscreenPopGesture-dummy.m */; };
-		58A8A18667FC57FE073B482DBF883A2E /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 211DE1400D21B382835AB27270603269 /* UINavigationController+FDFullscreenPopGesture.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C1FE73CE38325CE899F084B72274FA35 /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1085F58F5CD07C9E526F5C45D9A4CD /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D77AE65CA03EB8F8C7632E040B4E9650 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFFB79180040676EBF8019F07B39F7 /* UINavigationController+FDFullscreenPopGesture.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F207A149187F37EBF36949A2F31CD4C8 /* FDFullscreenPopGesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D34653A9BEA114FC9B1A08308A684566 /* FDFullscreenPopGesture-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		211DE1400D21B382835AB27270603269 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
-		331EEDEF4AC01E38A4B695134AA9A3A6 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
-		52CCBD2D3C1AD585D82E01043E3ADCD5 /* FDFullscreenPopGesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FDFullscreenPopGesture-dummy.m"; sourceTree = "<group>"; };
+		0CBFFB79180040676EBF8019F07B39F7 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		43881FDCE00DBA9F8827BFB172C55D07 /* FDFullscreenPopGesture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FDFullscreenPopGesture.release.xcconfig; sourceTree = "<group>"; };
 		647138C6D5F4D7B77416F217E4115BB7 /* libFDFullscreenPopGesture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFDFullscreenPopGesture.a; path = libFDFullscreenPopGesture.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CD0D023169110CE1F9B192805A4F8A6 /* FDFullscreenPopGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-prefix.pch"; sourceTree = "<group>"; };
-		DB373BFDDC0D37D6C90CD5F942C39706 /* FDFullscreenPopGesture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FDFullscreenPopGesture.xcconfig; sourceTree = "<group>"; };
+		981B4929C132234589C25568F0D89624 /* FDFullscreenPopGesture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FDFullscreenPopGesture.debug.xcconfig; sourceTree = "<group>"; };
+		D34653A9BEA114FC9B1A08308A684566 /* FDFullscreenPopGesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FDFullscreenPopGesture-dummy.m"; sourceTree = "<group>"; };
+		DC1085F58F5CD07C9E526F5C45D9A4CD /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		FC3EDCB7904BA783FFBD90AA3810A30F /* FDFullscreenPopGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7BC6B7EDC9C85C0003DA11582939BE5E /* Frameworks */ = {
+		EEB5E35B6D2250E6C2EFDA9A0F9A3EAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,15 +33,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E296EDB55FBA79371080DB762974FF4 /* Support Files */ = {
+		1BA36FC2ACFFFEC67DDD05EDD330FC13 /* FDFullscreenPopGesture */ = {
 			isa = PBXGroup;
 			children = (
-				DB373BFDDC0D37D6C90CD5F942C39706 /* FDFullscreenPopGesture.xcconfig */,
-				52CCBD2D3C1AD585D82E01043E3ADCD5 /* FDFullscreenPopGesture-dummy.m */,
-				9CD0D023169110CE1F9B192805A4F8A6 /* FDFullscreenPopGesture-prefix.pch */,
+				DC1085F58F5CD07C9E526F5C45D9A4CD /* UINavigationController+FDFullscreenPopGesture.h */,
+				0CBFFB79180040676EBF8019F07B39F7 /* UINavigationController+FDFullscreenPopGesture.m */,
+				8219E48FFFBBEA8028E9A81F38BE22A6 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FDFullscreenPopGesture";
+			name = FDFullscreenPopGesture;
+			path = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
 		1E7BBB757A5829E17D4437029909963D /* Products */ = {
@@ -54,7 +55,7 @@
 		36B6711F9529BB5DFBCF89662990DC79 = {
 			isa = PBXGroup;
 			children = (
-				B3A522E2E3000F67D1B5342F68937CA3 /* FDFullscreenPopGesture */,
+				1BA36FC2ACFFFEC67DDD05EDD330FC13 /* FDFullscreenPopGesture */,
 				6C8A5E36D7ABA667EEC8675FDE57ED2E /* Frameworks */,
 				1E7BBB757A5829E17D4437029909963D /* Products */,
 			);
@@ -67,25 +68,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B3A522E2E3000F67D1B5342F68937CA3 /* FDFullscreenPopGesture */ = {
+		8219E48FFFBBEA8028E9A81F38BE22A6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				331EEDEF4AC01E38A4B695134AA9A3A6 /* UINavigationController+FDFullscreenPopGesture.h */,
-				211DE1400D21B382835AB27270603269 /* UINavigationController+FDFullscreenPopGesture.m */,
-				0E296EDB55FBA79371080DB762974FF4 /* Support Files */,
+				D34653A9BEA114FC9B1A08308A684566 /* FDFullscreenPopGesture-dummy.m */,
+				FC3EDCB7904BA783FFBD90AA3810A30F /* FDFullscreenPopGesture-prefix.pch */,
+				981B4929C132234589C25568F0D89624 /* FDFullscreenPopGesture.debug.xcconfig */,
+				43881FDCE00DBA9F8827BFB172C55D07 /* FDFullscreenPopGesture.release.xcconfig */,
 			);
-			name = FDFullscreenPopGesture;
-			path = FDFullscreenPopGesture;
+			name = "Support Files";
+			path = "../Target Support Files/FDFullscreenPopGesture";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C90B94092B38C18EBB00D6EFCC0B0760 /* Headers */ = {
+		70296CD6A42D175241A01CB907F37DD0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				161EB882D46A80AA11682B02DC649B44 /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
+				C1FE73CE38325CE899F084B72274FA35 /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,11 +96,11 @@
 /* Begin PBXNativeTarget section */
 		A8BAA0D80184552CA0F0647BF03C3D1B /* FDFullscreenPopGesture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B5B0B94AAD32C9F06EBD30AED321C96 /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */;
+			buildConfigurationList = 5D2A859F4C4022FF34ECB1D88C30C49B /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */;
 			buildPhases = (
-				C90B94092B38C18EBB00D6EFCC0B0760 /* Headers */,
-				E834282A342DC492E315D59610384079 /* Sources */,
-				7BC6B7EDC9C85C0003DA11582939BE5E /* Frameworks */,
+				70296CD6A42D175241A01CB907F37DD0 /* Headers */,
+				AC4D35DA5BD11DB37BFB9F80E9C2E309 /* Sources */,
+				EEB5E35B6D2250E6C2EFDA9A0F9A3EAE /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -115,15 +117,16 @@
 		D866A8E7E3B7C15B8CA393D72C310963 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = DC8F4C97B07ED0D19369D41D6D324894 /* Build configuration list for PBXProject "FDFullscreenPopGesture" */;
 			compatibilityVersion = "Xcode 10.0";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 36B6711F9529BB5DFBCF89662990DC79;
 			productRefGroup = 1E7BBB757A5829E17D4437029909963D /* Products */;
@@ -136,21 +139,21 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E834282A342DC492E315D59610384079 /* Sources */ = {
+		AC4D35DA5BD11DB37BFB9F80E9C2E309 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44B79826D4CB2FE1A2793FB6C0C109D4 /* FDFullscreenPopGesture-dummy.m in Sources */,
-				58A8A18667FC57FE073B482DBF883A2E /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				F207A149187F37EBF36949A2F31CD4C8 /* FDFullscreenPopGesture-dummy.m in Sources */,
+				D77AE65CA03EB8F8C7632E040B4E9650 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1BDAD5A4D599002F9DBD562F07ED1E6C /* Debug */ = {
+		1A3471F7BC34D1F4CE3CC450DF486348 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB373BFDDC0D37D6C90CD5F942C39706 /* FDFullscreenPopGesture.xcconfig */;
+			baseConfigurationReference = 43881FDCE00DBA9F8827BFB172C55D07 /* FDFullscreenPopGesture.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -168,10 +171,11 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		68E7275FDD67834A68BED628CF956CDC /* Debug */ = {
+		229B91001989D12BF166CF312FB635DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,12 +234,35 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		D16ED0C00203906F737D2ABC14F9B5AC /* Release */ = {
+		7D7E38B877136051F6393BE322C50534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 981B4929C132234589C25568F0D89624 /* FDFullscreenPopGesture.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FDFullscreenPopGesture;
+				PRODUCT_NAME = FDFullscreenPopGesture;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3E7C93B90801A5FAB479ABD3A0BA6DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -290,43 +317,19 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		E94FABD75C21C5779B7DCD606C2D41C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB373BFDDC0D37D6C90CD5F942C39706 /* FDFullscreenPopGesture.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = FDFullscreenPopGesture;
-				PRODUCT_NAME = FDFullscreenPopGesture;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B5B0B94AAD32C9F06EBD30AED321C96 /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */ = {
+		5D2A859F4C4022FF34ECB1D88C30C49B /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BDAD5A4D599002F9DBD562F07ED1E6C /* Debug */,
-				E94FABD75C21C5779B7DCD606C2D41C6 /* Release */,
+				7D7E38B877136051F6393BE322C50534 /* Debug */,
+				1A3471F7BC34D1F4CE3CC450DF486348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -334,8 +337,8 @@
 		DC8F4C97B07ED0D19369D41D6D324894 /* Build configuration list for PBXProject "FDFullscreenPopGesture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68E7275FDD67834A68BED628CF956CDC /* Debug */,
-				D16ED0C00203906F737D2ABC14F9B5AC /* Release */,
+				229B91001989D12BF166CF312FB635DA /* Debug */,
+				A3E7C93B90801A5FAB479ABD3A0BA6DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

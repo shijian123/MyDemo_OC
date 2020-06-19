@@ -48,6 +48,8 @@
 	<string>是否允许该App使用录像功能？</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>是否允许该App使用相册？</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>是否允许此App保存图片</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>

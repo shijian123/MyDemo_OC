@@ -19,7 +19,6 @@
 #import "Masonry.h"
 
 
-
 extern NSString *const CYDeviceBangKey;
 extern NSString *const CYFaceIDImageKey;
 

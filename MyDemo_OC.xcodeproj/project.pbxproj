@@ -27,6 +27,8 @@
 		B408A210231530E900519301 /* FloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = B408A20E231530E900519301 /* FloatView.m */; };
 		B408A219231536D600519301 /* CYHelperTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B408A218231536D600519301 /* CYHelperTool.m */; };
 		B408A21C2315376B00519301 /* CYConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B408A21B2315376B00519301 /* CYConst.m */; };
+		B41D1C6024974F6E006243AD /* CYChangeThemeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B41D1C5F24974F6E006243AD /* CYChangeThemeController.m */; };
+		B41D1C6424974FEE006243AD /* 海贼王_27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B41D1C6324974FEE006243AD /* 海贼王_27.jpg */; };
 		B42B15B322CF48CA00CA8933 /* CYCustomPageControlController.m in Sources */ = {isa = PBXBuildFile; fileRef = B42B15B122CF48CA00CA8933 /* CYCustomPageControlController.m */; };
 		B42B15B722CF4F9E00CA8933 /* CYPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B42B15B622CF4F9E00CA8933 /* CYPageControl.m */; };
 		B439C17A22E5A5E6008C835A /* CYPlayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B439C17922E5A5E6008C835A /* CYPlayerTool.m */; };
@@ -36,6 +38,9 @@
 		B4441F2722C32151005870F5 /* CYVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4441F2622C32151005870F5 /* CYVoiceView.m */; };
 		B4441F2D22C34346005870F5 /* CYRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4441F2C22C34346005870F5 /* CYRecordView.m */; };
 		B4441F3022C344EE005870F5 /* CYRecordStateView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4441F2F22C344EE005870F5 /* CYRecordStateView.m */; };
+		B4464D822498C6DB00D3E989 /* CYSnapshotController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4464D812498C6DB00D3E989 /* CYSnapshotController.m */; };
+		B4464D852498C9DB00D3E989 /* CYSnapshotPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4464D842498C9DB00D3E989 /* CYSnapshotPreviewController.m */; };
+		B4464D882498DA6700D3E989 /* CYSnapshotDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4464D872498DA6700D3E989 /* CYSnapshotDetailController.m */; };
 		B44F2E962322791800C79A24 /* CYWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = B44F2E952322791800C79A24 /* CYWebView.m */; };
 		B44F2E9923227A0800C79A24 /* CYRequestWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44F2E9823227A0800C79A24 /* CYRequestWebController.m */; };
 		B4502FCA247E042A00D08CB1 /* CYLifeCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4502FC9247E042A00D08CB1 /* CYLifeCycleView.m */; };
@@ -89,6 +94,8 @@
 		B492A9B72330E2780096D966 /* CYSystemShareController.m in Sources */ = {isa = PBXBuildFile; fileRef = B492A9B62330E2780096D966 /* CYSystemShareController.m */; };
 		B492A9B92330E2E50096D966 /* Steve.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B492A9B82330E2E50096D966 /* Steve.pdf */; };
 		B492A9BB2330E2EF0096D966 /* 海贼路飞.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B492A9BA2330E2EF0096D966 /* 海贼路飞.jpg */; };
+		B49403AB2493322D003CE70C /* CYTestXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = B49403AA2493322D003CE70C /* CYTestXibView.m */; };
+		B49403AD24933265003CE70C /* CYTestXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49403AC24933265003CE70C /* CYTestXibView.xib */; };
 		B49717F122D4B0B300F27094 /* CYDrawHeartController.m in Sources */ = {isa = PBXBuildFile; fileRef = B49717EF22D4B0B300F27094 /* CYDrawHeartController.m */; };
 		B49717F222D4B0B300F27094 /* CYDrawHeartController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49717F022D4B0B300F27094 /* CYDrawHeartController.xib */; };
 		B49717F522D4B38F00F27094 /* TYWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = B49717F422D4B38F00F27094 /* TYWaterWaveView.m */; };
@@ -268,6 +275,9 @@
 		B408A21A2315376B00519301 /* CYConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYConst.h; sourceTree = "<group>"; };
 		B408A21B2315376B00519301 /* CYConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYConst.m; sourceTree = "<group>"; };
 		B411169922F81CF7009729B7 /* MyDemo_OC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyDemo_OC.entitlements; sourceTree = "<group>"; };
+		B41D1C5E24974F6E006243AD /* CYChangeThemeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYChangeThemeController.h; sourceTree = "<group>"; };
+		B41D1C5F24974F6E006243AD /* CYChangeThemeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYChangeThemeController.m; sourceTree = "<group>"; };
+		B41D1C6324974FEE006243AD /* 海贼王_27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼王_27.jpg"; sourceTree = "<group>"; };
 		B42B15B022CF48CA00CA8933 /* CYCustomPageControlController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYCustomPageControlController.h; sourceTree = "<group>"; };
 		B42B15B122CF48CA00CA8933 /* CYCustomPageControlController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYCustomPageControlController.m; sourceTree = "<group>"; };
 		B42B15B522CF4F9E00CA8933 /* CYPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYPageControl.h; sourceTree = "<group>"; };
@@ -286,6 +296,12 @@
 		B4441F2C22C34346005870F5 /* CYRecordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYRecordView.m; sourceTree = "<group>"; };
 		B4441F2E22C344EE005870F5 /* CYRecordStateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYRecordStateView.h; sourceTree = "<group>"; };
 		B4441F2F22C344EE005870F5 /* CYRecordStateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYRecordStateView.m; sourceTree = "<group>"; };
+		B4464D802498C6DB00D3E989 /* CYSnapshotController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYSnapshotController.h; sourceTree = "<group>"; };
+		B4464D812498C6DB00D3E989 /* CYSnapshotController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYSnapshotController.m; sourceTree = "<group>"; };
+		B4464D832498C9DB00D3E989 /* CYSnapshotPreviewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYSnapshotPreviewController.h; sourceTree = "<group>"; };
+		B4464D842498C9DB00D3E989 /* CYSnapshotPreviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYSnapshotPreviewController.m; sourceTree = "<group>"; };
+		B4464D862498DA6700D3E989 /* CYSnapshotDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYSnapshotDetailController.h; sourceTree = "<group>"; };
+		B4464D872498DA6700D3E989 /* CYSnapshotDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYSnapshotDetailController.m; sourceTree = "<group>"; };
 		B44F2E942322791800C79A24 /* CYWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYWebView.h; sourceTree = "<group>"; };
 		B44F2E952322791800C79A24 /* CYWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYWebView.m; sourceTree = "<group>"; };
 		B44F2E9723227A0800C79A24 /* CYRequestWebController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYRequestWebController.h; sourceTree = "<group>"; };
@@ -373,6 +389,9 @@
 		B492A9B62330E2780096D966 /* CYSystemShareController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYSystemShareController.m; sourceTree = "<group>"; };
 		B492A9B82330E2E50096D966 /* Steve.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Steve.pdf; sourceTree = "<group>"; };
 		B492A9BA2330E2EF0096D966 /* 海贼路飞.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼路飞.jpg"; sourceTree = "<group>"; };
+		B49403A92493322D003CE70C /* CYTestXibView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYTestXibView.h; sourceTree = "<group>"; };
+		B49403AA2493322D003CE70C /* CYTestXibView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYTestXibView.m; sourceTree = "<group>"; };
+		B49403AC24933265003CE70C /* CYTestXibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYTestXibView.xib; sourceTree = "<group>"; };
 		B49717EE22D4B0B300F27094 /* CYDrawHeartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYDrawHeartController.h; sourceTree = "<group>"; };
 		B49717EF22D4B0B300F27094 /* CYDrawHeartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYDrawHeartController.m; sourceTree = "<group>"; };
 		B49717F022D4B0B300F27094 /* CYDrawHeartController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYDrawHeartController.xib; sourceTree = "<group>"; };
@@ -774,6 +793,14 @@
 				B4BFF3C9247E0D9C00BBAA6D /* CYLifeCycleController.xib */,
 				B4BFF401247E623F00BBAA6D /* CYAnimateResetController.h */,
 				B4BFF402247E623F00BBAA6D /* CYAnimateResetController.m */,
+				B41D1C5E24974F6E006243AD /* CYChangeThemeController.h */,
+				B41D1C5F24974F6E006243AD /* CYChangeThemeController.m */,
+				B4464D802498C6DB00D3E989 /* CYSnapshotController.h */,
+				B4464D812498C6DB00D3E989 /* CYSnapshotController.m */,
+				B4464D862498DA6700D3E989 /* CYSnapshotDetailController.h */,
+				B4464D872498DA6700D3E989 /* CYSnapshotDetailController.m */,
+				B4464D832498C9DB00D3E989 /* CYSnapshotPreviewController.h */,
+				B4464D842498C9DB00D3E989 /* CYSnapshotPreviewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -851,6 +878,7 @@
 			children = (
 				B492A9B82330E2E50096D966 /* Steve.pdf */,
 				B492A9BA2330E2EF0096D966 /* 海贼路飞.jpg */,
+				B41D1C6324974FEE006243AD /* 海贼王_27.jpg */,
 				B463DAE9231FA56600BF9279 /* dog.jpg */,
 				B463DAEA231FA56600BF9279 /* voice.mp3 */,
 				B463DAEB231FA56600BF9279 /* jiguang.jpg */,
@@ -1131,6 +1159,9 @@
 				B44F2E952322791800C79A24 /* CYWebView.m */,
 				B4502FC8247E042A00D08CB1 /* CYLifeCycleView.h */,
 				B4502FC9247E042A00D08CB1 /* CYLifeCycleView.m */,
+				B49403A92493322D003CE70C /* CYTestXibView.h */,
+				B49403AA2493322D003CE70C /* CYTestXibView.m */,
+				B49403AC24933265003CE70C /* CYTestXibView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1224,15 +1255,15 @@
 		B4F0268F232A9F4C00A5C053 /* YYKit */ = {
 			isa = PBXGroup;
 			children = (
-				B4F02690232A9F4C00A5C053 /* YYImage */,
+				B4F026D4232A9F4D00A5C053 /* FaceDefine.h */,
+				B4F026D6232A9F4D00A5C053 /* NSBundle+YYAdd.h */,
 				B4F0269C232A9F4C00A5C053 /* NSBundle+YYAdd.m */,
 				B4F0269D232A9F4C00A5C053 /* NSString+YYAdd.h */,
-				B4F0269E232A9F4C00A5C053 /* UIView+YYAdd.m */,
-				B4F0269F232A9F4C00A5C053 /* YYText */,
-				B4F026D4232A9F4D00A5C053 /* FaceDefine.h */,
 				B4F026D5232A9F4D00A5C053 /* NSString+YYAdd.m */,
-				B4F026D6232A9F4D00A5C053 /* NSBundle+YYAdd.h */,
 				B4F026D7232A9F4D00A5C053 /* UIView+YYAdd.h */,
+				B4F0269E232A9F4C00A5C053 /* UIView+YYAdd.m */,
+				B4F02690232A9F4C00A5C053 /* YYImage */,
+				B4F0269F232A9F4C00A5C053 /* YYText */,
 			);
 			path = YYKit;
 			sourceTree = "<group>";
@@ -1521,6 +1552,7 @@
 				B4AC6AB12316CDB1001D8F4F /* CYUploadPhotoCell.xib in Resources */,
 				B4B7896C22DC2B57007DEA3E /* CYStackTestController.xib in Resources */,
 				B4F02713232AA18800A5C053 /* Keyboard_gradient_mask@3x.png in Resources */,
+				B49403AD24933265003CE70C /* CYTestXibView.xib in Resources */,
 				B4F02711232AA18800A5C053 /* Keyboard_first_emoticon@2x.png in Resources */,
 				B492A90B233071EE0096D966 /* com.baidu.idl.face.model.bundle in Resources */,
 				B40062B522A766C600FEE0BD /* LaunchScreen.storyboard in Resources */,
@@ -1536,6 +1568,7 @@
 				B492A930233073C40096D966 /* CYFaceLicenseController.xib in Resources */,
 				B463DAF2231FA56600BF9279 /* jiguang.jpg in Resources */,
 				B40062EB22A766F100FEE0BD /* CYLocalizationController.xib in Resources */,
+				B41D1C6424974FEE006243AD /* 海贼王_27.jpg in Resources */,
 				B463DAF4231FA56600BF9279 /* docFile.docx in Resources */,
 				B463DAF6231FA56600BF9279 /* com_icon_default_user@3x.png in Resources */,
 				B4F02712232AA18800A5C053 /* Keyboard_gradient_mask@2x.png in Resources */,
@@ -1652,12 +1685,14 @@
 				B4F0268D232A9B0B00A5C053 /* LHChatVideoBubbleView.m in Sources */,
 				B4F02715232AA18800A5C053 /* KeyboardEmojiModel.m in Sources */,
 				B4F0268B232A9B0B00A5C053 /* LHChatBaseBubbleView.m in Sources */,
+				B41D1C6024974F6E006243AD /* CYChangeThemeController.m in Sources */,
 				B4B7896B22DC2B57007DEA3E /* CYStackTestController.m in Sources */,
 				B4441F2D22C34346005870F5 /* CYRecordView.m in Sources */,
 				B463DAD8231FA4B900BF9279 /* JMSGTools.m in Sources */,
 				B4BFF3CA247E0D9C00BBAA6D /* CYLifeCycleController.m in Sources */,
 				B4AC6AB02316CDB1001D8F4F /* CYUploadPhotoCell.m in Sources */,
 				B44F2E962322791800C79A24 /* CYWebView.m in Sources */,
+				B4464D822498C6DB00D3E989 /* CYSnapshotController.m in Sources */,
 				B492A90A233071EE0096D966 /* LivingConfigModel.m in Sources */,
 				B4F026E4232A9F4D00A5C053 /* YYTextInput.m in Sources */,
 				B492A933233077840096D966 /* CYNavigationController.m in Sources */,
@@ -1685,6 +1720,7 @@
 				B492A9B72330E2780096D966 /* CYSystemShareController.m in Sources */,
 				B4AC6AAC2316A5CC001D8F4F /* CYFloatController.m in Sources */,
 				B4A315D6231CF48900DBB746 /* WXApiResponseHandler.m in Sources */,
+				B49403AB2493322D003CE70C /* CYTestXibView.m in Sources */,
 				B49717F122D4B0B300F27094 /* CYDrawHeartController.m in Sources */,
 				B40062E822A766F100FEE0BD /* ViewController.m in Sources */,
 				B4A31603231D157600DBB746 /* CYFloatDeleteView.m in Sources */,
@@ -1701,6 +1737,7 @@
 				B4F026F7232A9F4D00A5C053 /* YYTextWeakProxy.m in Sources */,
 				B4F0268E232A9B0B00A5C053 /* LHChatBarView.m in Sources */,
 				B4F026ED232A9F4D00A5C053 /* YYTextAttribute.m in Sources */,
+				B4464D882498DA6700D3E989 /* CYSnapshotDetailController.m in Sources */,
 				B4F026F3232A9F4D00A5C053 /* UIPasteboard+YYText.m in Sources */,
 				B4B7896422DC1EEC007DEA3E /* CYRunLoopController.m in Sources */,
 				B4B4A9E5233AFCC300EE1FF7 /* CYScrollBGImgController.m in Sources */,
@@ -1709,6 +1746,7 @@
 				B4F02686232A9B0B00A5C053 /* LHChatViewCell.m in Sources */,
 				B492A91C2330725A0096D966 /* JKCKeyChainStore.m in Sources */,
 				B492A90D233071EE0096D966 /* LivenessViewController.m in Sources */,
+				B4464D852498C9DB00D3E989 /* CYSnapshotPreviewController.m in Sources */,
 				B4F026F8232A9F4D00A5C053 /* NSString+YYAdd.m in Sources */,
 				B42B15B722CF4F9E00CA8933 /* CYPageControl.m in Sources */,
 				B4F026F2232A9F4D00A5C053 /* NSAttributedString+YYText.m in Sources */,
