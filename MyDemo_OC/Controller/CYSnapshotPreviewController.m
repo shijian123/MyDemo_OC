@@ -29,7 +29,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.title = @"预览"
+    self.title = @"预览";
     
     self.imageView = [UIImageView new];
     self.imageView.image = self.image;
