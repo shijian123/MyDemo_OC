@@ -24,11 +24,12 @@
 		B40062ED22A766F100FEE0BD /* CYCircleLoadController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40062E622A766F100FEE0BD /* CYCircleLoadController.m */; };
 		B40062F322A7682B00FEE0BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B40062F522A7682B00FEE0BD /* InfoPlist.strings */; };
 		B40062F922A76AAA00FEE0BD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B40062FB22A76AAA00FEE0BD /* Localizable.strings */; };
-		B408A210231530E900519301 /* FloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = B408A20E231530E900519301 /* FloatView.m */; };
 		B408A219231536D600519301 /* CYHelperTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B408A218231536D600519301 /* CYHelperTool.m */; };
 		B408A21C2315376B00519301 /* CYConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B408A21B2315376B00519301 /* CYConst.m */; };
 		B41D1C6024974F6E006243AD /* CYChangeThemeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B41D1C5F24974F6E006243AD /* CYChangeThemeController.m */; };
 		B41D1C6424974FEE006243AD /* 海贼王_27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B41D1C6324974FEE006243AD /* 海贼王_27.jpg */; };
+		B41F788F24B472E800DC37A4 /* CYFloatPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = B41F788E24B472E800DC37A4 /* CYFloatPlayView.m */; };
+		B41F789224B4747A00DC37A4 /* CYFloatDeleteView.m in Sources */ = {isa = PBXBuildFile; fileRef = B41F789124B4747A00DC37A4 /* CYFloatDeleteView.m */; };
 		B42B15B322CF48CA00CA8933 /* CYCustomPageControlController.m in Sources */ = {isa = PBXBuildFile; fileRef = B42B15B122CF48CA00CA8933 /* CYCustomPageControlController.m */; };
 		B42B15B722CF4F9E00CA8933 /* CYPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B42B15B622CF4F9E00CA8933 /* CYPageControl.m */; };
 		B439C17A22E5A5E6008C835A /* CYPlayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B439C17922E5A5E6008C835A /* CYPlayerTool.m */; };
@@ -109,13 +110,11 @@
 		B4A315D6231CF48900DBB746 /* WXApiResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A315D1231CF48900DBB746 /* WXApiResponseHandler.m */; };
 		B4A315D7231CF48A00DBB746 /* WXApiRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A315D2231CF48900DBB746 /* WXApiRequestHandler.m */; };
 		B4A315D8231CF48A00DBB746 /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A315D5231CF48900DBB746 /* WXApiManager.m */; };
-		B4A31603231D157600DBB746 /* CYFloatDeleteView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A31602231D157600DBB746 /* CYFloatDeleteView.m */; };
 		B4AC6AAC2316A5CC001D8F4F /* CYFloatController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AC6AAB2316A5CC001D8F4F /* CYFloatController.m */; };
 		B4AC6AB02316CDB1001D8F4F /* CYUploadPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AC6AAE2316CDB1001D8F4F /* CYUploadPhotoCell.m */; };
 		B4AC6AB12316CDB1001D8F4F /* CYUploadPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AC6AAF2316CDB1001D8F4F /* CYUploadPhotoCell.xib */; };
 		B4AC6AF423176582001D8F4F /* CYImageWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AC6AF323176582001D8F4F /* CYImageWebController.m */; };
 		B4AC6AFA2317738F001D8F4F /* UIColor+CY.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AC6AF92317738F001D8F4F /* UIColor+CY.m */; };
-		B4AC6B1F2317AACD001D8F4F /* CYFloatPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AC6B1E2317AACD001D8F4F /* CYFloatPlayView.m */; };
 		B4AF3E2B23A8CAB900B426A3 /* CYPresentController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AF3E2A23A8CAB900B426A3 /* CYPresentController.m */; };
 		B4B1D14722F032B200706DCC /* CYExcelController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B1D14622F032B200706DCC /* CYExcelController.m */; };
 		B4B4A9E5233AFCC300EE1FF7 /* CYScrollBGImgController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B4A9E4233AFCC300EE1FF7 /* CYScrollBGImgController.m */; };
@@ -212,6 +211,7 @@
 		B4F02718232AA18800A5C053 /* KeyboardEmojiTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F0270A232AA18800A5C053 /* KeyboardEmojiTextView.m */; };
 		B4F02719232AA18800A5C053 /* KeyboardEmojiAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F0270D232AA18800A5C053 /* KeyboardEmojiAttachment.m */; };
 		B4F0271A232AA18800A5C053 /* emoticons.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4F0270F232AA18800A5C053 /* emoticons.plist */; };
+		B4F2F7D224A053B100F43230 /* CYFileAPPController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F2F7D124A053B100F43230 /* CYFileAPPController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -268,8 +268,6 @@
 		B40062F622A7682C00FEE0BD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		B40062FA22A76AAA00FEE0BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B40062FC22A76AAE00FEE0BD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		B408A20E231530E900519301 /* FloatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatView.m; sourceTree = "<group>"; };
-		B408A20F231530E900519301 /* FloatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatView.h; sourceTree = "<group>"; };
 		B408A217231536D600519301 /* CYHelperTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYHelperTool.h; sourceTree = "<group>"; };
 		B408A218231536D600519301 /* CYHelperTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYHelperTool.m; sourceTree = "<group>"; };
 		B408A21A2315376B00519301 /* CYConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYConst.h; sourceTree = "<group>"; };
@@ -278,6 +276,10 @@
 		B41D1C5E24974F6E006243AD /* CYChangeThemeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYChangeThemeController.h; sourceTree = "<group>"; };
 		B41D1C5F24974F6E006243AD /* CYChangeThemeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYChangeThemeController.m; sourceTree = "<group>"; };
 		B41D1C6324974FEE006243AD /* 海贼王_27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海贼王_27.jpg"; sourceTree = "<group>"; };
+		B41F788D24B472E800DC37A4 /* CYFloatPlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYFloatPlayView.h; sourceTree = "<group>"; };
+		B41F788E24B472E800DC37A4 /* CYFloatPlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYFloatPlayView.m; sourceTree = "<group>"; };
+		B41F789024B4747A00DC37A4 /* CYFloatDeleteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYFloatDeleteView.h; sourceTree = "<group>"; };
+		B41F789124B4747A00DC37A4 /* CYFloatDeleteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYFloatDeleteView.m; sourceTree = "<group>"; };
 		B42B15B022CF48CA00CA8933 /* CYCustomPageControlController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYCustomPageControlController.h; sourceTree = "<group>"; };
 		B42B15B122CF48CA00CA8933 /* CYCustomPageControlController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYCustomPageControlController.m; sourceTree = "<group>"; };
 		B42B15B522CF4F9E00CA8933 /* CYPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYPageControl.h; sourceTree = "<group>"; };
@@ -416,8 +418,6 @@
 		B4A315D3231CF48900DBB746 /* WXApiRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiRequestHandler.h; sourceTree = "<group>"; };
 		B4A315D4231CF48900DBB746 /* WXApiResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiResponseHandler.h; sourceTree = "<group>"; };
 		B4A315D5231CF48900DBB746 /* WXApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiManager.m; sourceTree = "<group>"; };
-		B4A31601231D157600DBB746 /* CYFloatDeleteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYFloatDeleteView.h; sourceTree = "<group>"; };
-		B4A31602231D157600DBB746 /* CYFloatDeleteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYFloatDeleteView.m; sourceTree = "<group>"; };
 		B4AC6AAA2316A5CC001D8F4F /* CYFloatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYFloatController.h; sourceTree = "<group>"; };
 		B4AC6AAB2316A5CC001D8F4F /* CYFloatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYFloatController.m; sourceTree = "<group>"; };
 		B4AC6AAD2316CDB1001D8F4F /* CYUploadPhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYUploadPhotoCell.h; sourceTree = "<group>"; };
@@ -427,8 +427,6 @@
 		B4AC6AF323176582001D8F4F /* CYImageWebController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYImageWebController.m; sourceTree = "<group>"; };
 		B4AC6AF82317738F001D8F4F /* UIColor+CY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CY.h"; sourceTree = "<group>"; };
 		B4AC6AF92317738F001D8F4F /* UIColor+CY.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CY.m"; sourceTree = "<group>"; };
-		B4AC6B1D2317AACD001D8F4F /* CYFloatPlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYFloatPlayView.h; sourceTree = "<group>"; };
-		B4AC6B1E2317AACD001D8F4F /* CYFloatPlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYFloatPlayView.m; sourceTree = "<group>"; };
 		B4AF3E2923A8CAB900B426A3 /* CYPresentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYPresentController.h; sourceTree = "<group>"; };
 		B4AF3E2A23A8CAB900B426A3 /* CYPresentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYPresentController.m; sourceTree = "<group>"; };
 		B4B1D14522F032B200706DCC /* CYExcelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYExcelController.h; sourceTree = "<group>"; };
@@ -610,6 +608,8 @@
 		B4F0270C232AA18800A5C053 /* KeyboardEmojiTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardEmojiTextView.h; sourceTree = "<group>"; };
 		B4F0270D232AA18800A5C053 /* KeyboardEmojiAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardEmojiAttachment.m; sourceTree = "<group>"; };
 		B4F0270F232AA18800A5C053 /* emoticons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emoticons.plist; sourceTree = "<group>"; };
+		B4F2F7D024A053B100F43230 /* CYFileAPPController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYFileAPPController.h; sourceTree = "<group>"; };
+		B4F2F7D124A053B100F43230 /* CYFileAPPController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYFileAPPController.m; sourceTree = "<group>"; };
 		C93A8972786EB1F9AA942DD1 /* libPods-MyDemo_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyDemo_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -701,18 +701,15 @@
 			path = MyDemo_OCUITests;
 			sourceTree = "<group>";
 		};
-		B408A20D231530E900519301 /* FloatView */ = {
+		B41F788C24B472BF00DC37A4 /* FloatPlayView */ = {
 			isa = PBXGroup;
 			children = (
-				B408A20F231530E900519301 /* FloatView.h */,
-				B408A20E231530E900519301 /* FloatView.m */,
-				B4AC6B1D2317AACD001D8F4F /* CYFloatPlayView.h */,
-				B4AC6B1E2317AACD001D8F4F /* CYFloatPlayView.m */,
-				B4A31601231D157600DBB746 /* CYFloatDeleteView.h */,
-				B4A31602231D157600DBB746 /* CYFloatDeleteView.m */,
+				B41F788D24B472E800DC37A4 /* CYFloatPlayView.h */,
+				B41F788E24B472E800DC37A4 /* CYFloatPlayView.m */,
+				B41F789024B4747A00DC37A4 /* CYFloatDeleteView.h */,
+				B41F789124B4747A00DC37A4 /* CYFloatDeleteView.m */,
 			);
-			name = FloatView;
-			path = ../../../FloatViewDome/FloatViewDome/FloatView;
+			name = FloatPlayView;
 			sourceTree = "<group>";
 		};
 		B45F38E82314DC0B000880EE /* Controller */ = {
@@ -801,6 +798,8 @@
 				B4464D872498DA6700D3E989 /* CYSnapshotDetailController.m */,
 				B4464D832498C9DB00D3E989 /* CYSnapshotPreviewController.h */,
 				B4464D842498C9DB00D3E989 /* CYSnapshotPreviewController.m */,
+				B4F2F7D024A053B100F43230 /* CYFileAPPController.h */,
+				B4F2F7D124A053B100F43230 /* CYFileAPPController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1141,7 +1140,7 @@
 		B4C403AD2313C7CC00512E85 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B408A20D231530E900519301 /* FloatView */,
+				B41F788C24B472BF00DC37A4 /* FloatPlayView */,
 				B4C403AE2313C83E00512E85 /* VKSelectRankView.h */,
 				B4C403AF2313C83E00512E85 /* VKSelectRankView.m */,
 				B4C403B12313C85300512E85 /* VKSelectRankView.xib */,
@@ -1680,7 +1679,6 @@
 				B4F02717232AA18800A5C053 /* KeyboardButton.m in Sources */,
 				B49DABEF23289AD600CEEC5A /* CYSelectFilterReusableView.m in Sources */,
 				B4F026DA232A9F4D00A5C053 /* YYImage.m in Sources */,
-				B408A210231530E900519301 /* FloatView.m in Sources */,
 				B49DABEA23288EB500CEEC5A /* CYSelectFilterViewCell.m in Sources */,
 				B4F0268D232A9B0B00A5C053 /* LHChatVideoBubbleView.m in Sources */,
 				B4F02715232AA18800A5C053 /* KeyboardEmojiModel.m in Sources */,
@@ -1713,6 +1711,7 @@
 				B4D7843D23165B9C008F2522 /* CYUploadContentController.m in Sources */,
 				B4A315D8231CF48A00DBB746 /* WXApiManager.m in Sources */,
 				B408A21C2315376B00519301 /* CYConst.m in Sources */,
+				B41F788F24B472E800DC37A4 /* CYFloatPlayView.m in Sources */,
 				B4F026DD232A9F4D00A5C053 /* YYAnimatedImageView.m in Sources */,
 				B4F026F5232A9F4D00A5C053 /* UIView+YYText.m in Sources */,
 				B4C403AB2313B82100512E85 /* CYSelectItemController.m in Sources */,
@@ -1723,7 +1722,6 @@
 				B49403AB2493322D003CE70C /* CYTestXibView.m in Sources */,
 				B49717F122D4B0B300F27094 /* CYDrawHeartController.m in Sources */,
 				B40062E822A766F100FEE0BD /* ViewController.m in Sources */,
-				B4A31603231D157600DBB746 /* CYFloatDeleteView.m in Sources */,
 				B4D941AC23150E0000221511 /* NSDate+CY.m in Sources */,
 				B4775BD922E162360012CD98 /* CYPlayAudioController.m in Sources */,
 				B4F026E9232A9F4D00A5C053 /* YYTextDebugOption.m in Sources */,
@@ -1784,6 +1782,7 @@
 				B45EBF3F233CCE5000C17A1C /* CYPropertyRuntimeController2.m in Sources */,
 				B462138E23339AFB0039C07D /* CYHttpTool.m in Sources */,
 				B4F02683232A9B0B00A5C053 /* LHMessageModel.m in Sources */,
+				B41F789224B4747A00DC37A4 /* CYFloatDeleteView.m in Sources */,
 				B492A93F233087D40096D966 /* LFGPUImageBeautyFilter.m in Sources */,
 				B4441F2722C32151005870F5 /* CYVoiceView.m in Sources */,
 				B4D941A3231509E400221511 /* CYMyCalendarController.m in Sources */,
@@ -1798,6 +1797,7 @@
 				B4C403B02313C83E00512E85 /* VKSelectRankView.m in Sources */,
 				B40062AA22A766C300FEE0BD /* AppDelegate.m in Sources */,
 				B4F02718232AA18800A5C053 /* KeyboardEmojiTextView.m in Sources */,
+				B4F2F7D224A053B100F43230 /* CYFileAPPController.m in Sources */,
 				B492A92B2330728C0096D966 /* XFPhotoLibraryManager.m in Sources */,
 				B439C18622E5B61A008C835A /* CYPlayerResourceLoader.m in Sources */,
 				B4F0268C232A9B0B00A5C053 /* LHChatLocationBubbleView.m in Sources */,
@@ -1808,7 +1808,6 @@
 				B4BB645D22D43B970014B418 /* CYCarouselController.m in Sources */,
 				B4C0BC9E232F885600CF2027 /* UIWindow+CY.m in Sources */,
 				B4F0268A232A9B0B00A5C053 /* LHChatAudioBubbleView.m in Sources */,
-				B4AC6B1F2317AACD001D8F4F /* CYFloatPlayView.m in Sources */,
 				B4A300282333584000D380BF /* CYLottieAnimationController.m in Sources */,
 				B48F514A2325FCC700E833B3 /* CYBlockTestController.m in Sources */,
 				B4F02714232AA18800A5C053 /* KeyboardVC.m in Sources */,
@@ -2008,7 +2007,7 @@
 				CODE_SIGN_ENTITLEMENTS = MyDemo_OC/MyDemo_OC.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2Q4LJ2ECCS;
+				DEVELOPMENT_TEAM = 3V68Z8G5A8;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2021,7 +2020,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.MyDemoOC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryan.myDemoOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2036,7 +2035,7 @@
 				CODE_SIGN_ENTITLEMENTS = MyDemo_OC/MyDemo_OC.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2Q4LJ2ECCS;
+				DEVELOPMENT_TEAM = 3V68Z8G5A8;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2049,7 +2048,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.MyDemoOC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryan.MyDemoOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";

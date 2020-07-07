@@ -33,8 +33,6 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>LSSupportsOpeningDocumentsInPlace</key>
-	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
@@ -46,17 +44,19 @@
 	<string>是否允许该App使用相机？</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>是否允许该App使用录像功能？</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>是否允许该App使用相册？</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>是否允许此App保存图片</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>是否允许该App使用相册？</string>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>UIFileSharingEnabled</key>
+	<true/>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>
 		<string>remote-notification</string>
 	</array>
-	<key>UIFileSharingEnabled</key>
-	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
