@@ -25,6 +25,9 @@ PODS:
   - JPush (3.2.2):
     - JCore (< 3.0.0, >= 2.0.0)
   - lottie-ios_Oc (0.0.1)
+  - Mantle (1.5):
+    - Mantle/extobjc (= 1.5)
+  - Mantle/extobjc (1.5)
   - Masonry (1.1.0)
   - MBProgressHUD (0.9.2)
   - MJExtension (2.5.16)
@@ -52,6 +55,7 @@ DEPENDENCIES:
   - JMessage
   - JPush
   - lottie-ios_Oc
+  - Mantle (= 1.5)
   - Masonry (~> 1.1.0)
   - MBProgressHUD (~> 0.9.2)
   - MJExtension (~> 2.5.16)
@@ -91,6 +95,7 @@ SPEC REPOS:
     - WechatOpenSDK
     - YWExcel
   trunk:
+    - Mantle
     - TYSnapshotScroll
 
 SPEC CHECKSUMS:
@@ -104,6 +109,7 @@ SPEC CHECKSUMS:
   JMessage: 43dfcd5348573b2f4f24357b12e9b19076322606
   JPush: 0e9088c85c73275629facc311fe5992dfac36eeb
   lottie-ios_Oc: 246311aa2a6106fe03cb34e3e30f8daf7e1e7d9a
+  Mantle: 3bf6db311c8b4a19b6be01f2483fa4590aa166f3
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MJExtension: b8c1321a77d91bcc007b94d38cbf5383c95ea30e
@@ -118,6 +124,6 @@ SPEC CHECKSUMS:
   WechatOpenSDK: 9b721089507c895d05f997408c30bb6e6f5f9b60
   YWExcel: bf69ee0ff96a6e8209b66ae6dbc164a307ef2ce1
 
-PODFILE CHECKSUM: ff22e40d4b26ff3257cb35237c4c4779e2324904
+PODFILE CHECKSUM: ea1b00faf34b8af7579d28235fac9138e4239dc9
 
 COCOAPODS: 1.9.1

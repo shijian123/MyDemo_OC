@@ -11,15 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CYHelperTool : NSObject
-/**
- 保存当前手机是否含有刘海
- */
-+ (void)saveIsHaveBang;
 
-/**
- 获取当前手机是否含有刘海
- */
-+ (BOOL)isHaveBang;
 
 @end
 

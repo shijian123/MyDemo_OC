@@ -40,4 +40,8 @@ pod 'lottie-ios_Oc'
 pod 'AFNetworking', '~> 3.2.1'
 
 
+#音视频编码
+
+pod 'Mantle', '1.5' #由 Github 开发一款模型框架
+
 end

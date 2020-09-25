@@ -7,209 +7,217 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8407766666BABD71A2E9C97DF9D32396 /* Pods-MyDemo_OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA4D26EEE1E9379BD6E7F5B9F7F1F72 /* Pods-MyDemo_OC-dummy.m */; };
+		9EF2973094F328D940C71C559AFCC245 /* Pods-MyDemo_OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA4D26EEE1E9379BD6E7F5B9F7F1F72 /* Pods-MyDemo_OC-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		03DC1125C7C3E81584738DDE0C0455B4 /* PBXContainerItemProxy */ = {
+		01331B4854378A39D47767214D93C039 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DAE6A4921E1678AAE12EBBD674F4EDA2 /* iCarousel.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 7FE0BC88338B533CC2387E18AE79A453;
-			remoteInfo = iCarousel;
-		};
-		0A95C434B1DA9455FAA07F00A3028044 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E72EB3C1A76DCF9D17F2344514F04753 /* JPush.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 1B09860709F0AAD1311B968AB0A3F828;
-			remoteInfo = JPush;
-		};
-		104A631C06F17E1DFE194D4B83126990 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3CBEE4F9C008D9447BB5C12EA8E9C457 /* lottie-ios_Oc.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = EADD7D7A8937A3CFAEFAA470E39D2ACF;
-			remoteInfo = "lottie-ios_Oc";
-		};
-		123302FDE0F51E1EC46414A8BD97D260 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8475B1DB7290AB66F8C01B46DAD61204 /* FSCalendar.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 9D471508DD1663804BB101BEEC2EDC31;
-			remoteInfo = FSCalendar;
-		};
-		32831380C255C08895ABCC52485AEE89 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 147611CCA7FB6F5E8B345169AC728F2C /* UMCSecurityPlugins.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 88026F641AA82B8816C3A997FD675125;
-			remoteInfo = UMCSecurityPlugins;
-		};
-		47CA8E0E5F407EAD3F34C9B072668496 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7AE8A734FD9F22E546403B48561CAECD /* TBUIAutoTest.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 7677957840A0C4B8429CE8279C70D843;
-			remoteInfo = TBUIAutoTest;
-		};
-		6FA597B5113E02BCEAC6FE8302470D79 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFC7973D3423CFF830DCBF8485251342 /* WechatOpenSDK.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = EB0370CB3F7210DE9CF031081FD10E74;
-			remoteInfo = WechatOpenSDK;
-		};
-		7090E2EB1B4DF7DB5FAAB6CA267331B4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D2499520349170013F528376BE9CDD6 /* MJExtension.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 7DCB41C64D8AA20B24D05162BE708C8F;
-			remoteInfo = MJExtension;
-		};
-		82F4E98C0CC9144F3484ABDF3DE20B7D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E91EAAC9831768FA11BE3EC0D91A4D46 /* YWExcel.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D98A77ABAA342A9F68F55153E95F130;
-			remoteInfo = YWExcel;
-		};
-		8A83D0B21B350CC2FED4C05F2AF9614B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6F5662C90DF63CE53963BC107D1D2F83 /* FDFullscreenPopGesture.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = A8BAA0D80184552CA0F0647BF03C3D1B;
-			remoteInfo = FDFullscreenPopGesture;
-		};
-		9FCC6E214F1823D1D565F116FAD512A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DD501595ED30A341832FB21B9E860C8E /* MBProgressHUD.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 0F48A71D28991325602E8C8A19DF1F64;
-			remoteInfo = MBProgressHUD;
-		};
-		A718B2C09087A3ACF38B98EE67760436 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D803CED19AFCF8447DD572CFCE93B81B /* SDWebImage.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 4ECF4E662EEBE4FA58102FF984D920CC;
-			remoteInfo = SDWebImage;
-		};
-		A7C3A4DD3996582A2DD42C86FA654712 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2C4D4C38A255FB0C22DAA3266CBC2135 /* TZImagePickerController.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 6090C91802307673CBF0A57EF1608978;
-			remoteInfo = TZImagePickerController;
-		};
-		C0C3040735150DA9F61E557DC60BDA71 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2B933F581FCE7886668DC969B4BC538B /* IQKeyboardManager.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 6D332532246486EC88B3F9B6BD9DC92A;
-			remoteInfo = IQKeyboardManager;
-		};
-		C45EF25A06BAFE824483C875337F796F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7741007EECA915D73429E5C853EBB10F /* TYSnapshotScroll.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = A516A7D2F26CA77C6DE3489F838FF4C4;
-			remoteInfo = TYSnapshotScroll;
-		};
-		CE1ED74E4CE18172E4117B0F9C19DDD1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 36806597DBC2CD8C83096EBA41728FA2 /* UMCPush.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 66B8FB16FC36434B8196A17CFA6CE933;
-			remoteInfo = UMCPush;
-		};
-		D300FDF3137DC56A0081F8D2EF83FF44 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2EC896AA2805C92F2A60D2FBF6ED387C /* JCore.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = B8A6F7F03566569D5BCDDCE87A1131EB;
-			remoteInfo = JCore;
-		};
-		DB06CEAC97AA76E51CF01D8C71D0A1B5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 224B48263107AC926EFB02B5942BC0DE /* JMessage.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 5902010E56837294234E56C925FE2468;
-			remoteInfo = JMessage;
-		};
-		DC1F869627E138383FD58CB49B9B165A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 72B63E4CF143F5867F0BA361332C5177 /* GPUImage.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 3772A8DA3246D0A6BD895109DE678AD8;
-			remoteInfo = GPUImage;
-		};
-		E698A2ECAC858F47EE9161DA791E0351 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 05E39DFDD4BDAD2ADDC438A0290A952F /* MJRefresh.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E94AEF767442EDAAAAB2129CDFA2C2ED;
-			remoteInfo = MJRefresh;
-		};
-		EB0EA012F49D031D970FB2215D6CAC83 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D4B969EA9F70D9A98C4E4C4242B95D7D /* AFNetworking.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = B561AD1B13C486A61C9BF66B4E6D8F89;
-			remoteInfo = AFNetworking;
-		};
-		F800441307EB28269F3FE33AD5029110 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0B590F03EC7F7102386EEE2F9AD95B51 /* Masonry.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = C0965FF775F51458AD4A8E41ABAB7D1E;
-			remoteInfo = Masonry;
-		};
-		F89325D93D92CA635348A265E18F3D7E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 19271E995BC68328C5292ADC596F8959 /* UMCCommon.xcodeproj */;
+			containerPortal = 2978E1A4C6D865C28CB1CECAFAE7510E /* UMCCommon.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = CDB0574DA87E5D448B9702D49C8383B5;
 			remoteInfo = UMCCommon;
 		};
+		0A64E0D8B34BD4E90CF4BE6FC11D84DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1F9730A9D100F52D180785C1DF8594F /* JPush.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B09860709F0AAD1311B968AB0A3F828;
+			remoteInfo = JPush;
+		};
+		0AC62D88ADD879D7A6D1C55DE52B2109 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED76C3E07DEF272B410D4CF2A48A972A /* UMCPush.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 66B8FB16FC36434B8196A17CFA6CE933;
+			remoteInfo = UMCPush;
+		};
+		12CC4A23829C78E02FFDF74350A83D73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 103B6DBF2306A856160FA85B3CD055AC /* MJExtension.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DCB41C64D8AA20B24D05162BE708C8F;
+			remoteInfo = MJExtension;
+		};
+		2E7F170710B101C4D373F6795E597BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1B3C59F9735D6932EBC2BA3851DDF12 /* FDFullscreenPopGesture.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A8BAA0D80184552CA0F0647BF03C3D1B;
+			remoteInfo = FDFullscreenPopGesture;
+		};
+		389D2B2EBC52F29ECABD806CE0204BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2016CF5E2E13921D1AA3B6E18A650D46 /* Masonry.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C0965FF775F51458AD4A8E41ABAB7D1E;
+			remoteInfo = Masonry;
+		};
+		3CF621F5878BC0FEE57CCCBCBF4360AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 422439B3CD91E0B27232EE9AD353F07E /* TYSnapshotScroll.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A516A7D2F26CA77C6DE3489F838FF4C4;
+			remoteInfo = TYSnapshotScroll;
+		};
+		557459B36BE76E401214B9CCD7B076C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75FE07FD2A853D7E46ED859A1E747C9D /* lottie-ios_Oc.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EADD7D7A8937A3CFAEFAA470E39D2ACF;
+			remoteInfo = "lottie-ios_Oc";
+		};
+		5A8378C4A799D363F2665F1165003C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 020A18D22BFEBE900E6F214014D195FD /* JCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B8A6F7F03566569D5BCDDCE87A1131EB;
+			remoteInfo = JCore;
+		};
+		5E5962E751788EF1AFA97898117AE812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBB54FD8F633FD90CC13A8544256C138 /* TBUIAutoTest.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7677957840A0C4B8429CE8279C70D843;
+			remoteInfo = TBUIAutoTest;
+		};
+		68DE502881AD98FA5AA5E8B753BC9297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AB78004B9DC7CCC5743DE305F693838 /* JMessage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5902010E56837294234E56C925FE2468;
+			remoteInfo = JMessage;
+		};
+		6EEA59EE8EE901F18CA9D61B31795627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CB2B2ABDA5A6646C761C58D6A416BF7 /* SDWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ECF4E662EEBE4FA58102FF984D920CC;
+			remoteInfo = SDWebImage;
+		};
+		719FCF051F7A26F1B591399273B38E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 114935F7626666ED65E725CC556A7870 /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3772A8DA3246D0A6BD895109DE678AD8;
+			remoteInfo = GPUImage;
+		};
+		8F948F944F248EC971FF7EC8AAC2F28A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 120A9D3C03071A0C9511E163E2A3E788 /* AFNetworking.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B561AD1B13C486A61C9BF66B4E6D8F89;
+			remoteInfo = AFNetworking;
+		};
+		9CD0321365EE72E2849E603524E0CC57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70273A757B767B88D909F773ACDB0331 /* YWExcel.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D98A77ABAA342A9F68F55153E95F130;
+			remoteInfo = YWExcel;
+		};
+		B2DA2623E9A860408E24EC223A46458C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 731EAFF6226B6B84C9892308D3C103CC /* Mantle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B7928CF315C1C12DD2CB477EBBE02285;
+			remoteInfo = Mantle;
+		};
+		B49D91F75CCB5BD8A38FA1578E2BCFCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A35D3091D12F583D44A7D6D385E84D66 /* FSCalendar.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D471508DD1663804BB101BEEC2EDC31;
+			remoteInfo = FSCalendar;
+		};
+		B7B9B56925A053690AFFB3939B726FBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6223824FBF638AEB998613407D8059BD /* iCarousel.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FE0BC88338B533CC2387E18AE79A453;
+			remoteInfo = iCarousel;
+		};
+		BA28BAB638B49A54E42529B3638BFAD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45F2DAE4E4972B95FC474B98830EDE5 /* MJRefresh.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E94AEF767442EDAAAAB2129CDFA2C2ED;
+			remoteInfo = MJRefresh;
+		};
+		CC10385E2E618ACD8DBD7E1AD32CCCC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC960679B70A53492CA1AD202AC8F898 /* MBProgressHUD.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F48A71D28991325602E8C8A19DF1F64;
+			remoteInfo = MBProgressHUD;
+		};
+		CF184F626D528418DA0D23A6BA6775FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC02C469790F82C8FBF1DD0121E082C /* WechatOpenSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EB0370CB3F7210DE9CF031081FD10E74;
+			remoteInfo = WechatOpenSDK;
+		};
+		D6407CB495ED6A226E6AB7EFEE3F4F54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F23316405E6C6AC0767328AC306DC8F9 /* IQKeyboardManager.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D332532246486EC88B3F9B6BD9DC92A;
+			remoteInfo = IQKeyboardManager;
+		};
+		F96B4E8C48F66C9AB7403EA826557131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FF1877399FB77CCCB103D5AD2C9D4F1 /* TZImagePickerController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6090C91802307673CBF0A57EF1608978;
+			remoteInfo = TZImagePickerController;
+		};
+		F992FA3580AFE211386D83EA05C94F21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD396D9341EE9FD5793E0AB124E63137 /* UMCSecurityPlugins.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 88026F641AA82B8816C3A997FD675125;
+			remoteInfo = UMCSecurityPlugins;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05E39DFDD4BDAD2ADDC438A0290A952F /* MJRefresh */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MJRefresh; path = MJRefresh.xcodeproj; sourceTree = "<group>"; };
+		020A18D22BFEBE900E6F214014D195FD /* JCore */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JCore; path = JCore.xcodeproj; sourceTree = "<group>"; };
 		095EF4F7FBE1E933829FB56164CF76CE /* Pods-MyDemo_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyDemo_OC.release.xcconfig"; sourceTree = "<group>"; };
-		0B590F03EC7F7102386EEE2F9AD95B51 /* Masonry */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Masonry; path = Masonry.xcodeproj; sourceTree = "<group>"; };
 		10084EA3A9C47E5495029D554B3A0B84 /* Pods-MyDemo_OC-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyDemo_OC-resources.sh"; sourceTree = "<group>"; };
-		147611CCA7FB6F5E8B345169AC728F2C /* UMCSecurityPlugins */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCSecurityPlugins; path = UMCSecurityPlugins.xcodeproj; sourceTree = "<group>"; };
-		19271E995BC68328C5292ADC596F8959 /* UMCCommon */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCCommon; path = UMCCommon.xcodeproj; sourceTree = "<group>"; };
-		224B48263107AC926EFB02B5942BC0DE /* JMessage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JMessage; path = JMessage.xcodeproj; sourceTree = "<group>"; };
-		2B933F581FCE7886668DC969B4BC538B /* IQKeyboardManager */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IQKeyboardManager; path = IQKeyboardManager.xcodeproj; sourceTree = "<group>"; };
-		2C4D4C38A255FB0C22DAA3266CBC2135 /* TZImagePickerController */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TZImagePickerController; path = TZImagePickerController.xcodeproj; sourceTree = "<group>"; };
-		2EC896AA2805C92F2A60D2FBF6ED387C /* JCore */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JCore; path = JCore.xcodeproj; sourceTree = "<group>"; };
-		36806597DBC2CD8C83096EBA41728FA2 /* UMCPush */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCPush; path = UMCPush.xcodeproj; sourceTree = "<group>"; };
-		3CBEE4F9C008D9447BB5C12EA8E9C457 /* lottie-ios_Oc */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "lottie-ios_Oc"; path = "lottie-ios_Oc.xcodeproj"; sourceTree = "<group>"; };
-		5D2499520349170013F528376BE9CDD6 /* MJExtension */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MJExtension; path = MJExtension.xcodeproj; sourceTree = "<group>"; };
+		103B6DBF2306A856160FA85B3CD055AC /* MJExtension */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MJExtension; path = MJExtension.xcodeproj; sourceTree = "<group>"; };
+		114935F7626666ED65E725CC556A7870 /* GPUImage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage; path = GPUImage.xcodeproj; sourceTree = "<group>"; };
+		120A9D3C03071A0C9511E163E2A3E788 /* AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AFNetworking; path = AFNetworking.xcodeproj; sourceTree = "<group>"; };
+		1AC02C469790F82C8FBF1DD0121E082C /* WechatOpenSDK */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WechatOpenSDK; path = WechatOpenSDK.xcodeproj; sourceTree = "<group>"; };
+		1CB2B2ABDA5A6646C761C58D6A416BF7 /* SDWebImage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage; path = SDWebImage.xcodeproj; sourceTree = "<group>"; };
+		2016CF5E2E13921D1AA3B6E18A650D46 /* Masonry */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Masonry; path = Masonry.xcodeproj; sourceTree = "<group>"; };
+		2978E1A4C6D865C28CB1CECAFAE7510E /* UMCCommon */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCCommon; path = UMCCommon.xcodeproj; sourceTree = "<group>"; };
+		2FF1877399FB77CCCB103D5AD2C9D4F1 /* TZImagePickerController */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TZImagePickerController; path = TZImagePickerController.xcodeproj; sourceTree = "<group>"; };
+		422439B3CD91E0B27232EE9AD353F07E /* TYSnapshotScroll */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TYSnapshotScroll; path = TYSnapshotScroll.xcodeproj; sourceTree = "<group>"; };
+		5AB78004B9DC7CCC5743DE305F693838 /* JMessage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JMessage; path = JMessage.xcodeproj; sourceTree = "<group>"; };
+		6223824FBF638AEB998613407D8059BD /* iCarousel */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iCarousel; path = iCarousel.xcodeproj; sourceTree = "<group>"; };
 		69E0692002A47C2A5D18F725B076B972 /* Pods-MyDemo_OC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyDemo_OC-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6F5662C90DF63CE53963BC107D1D2F83 /* FDFullscreenPopGesture */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FDFullscreenPopGesture; path = FDFullscreenPopGesture.xcodeproj; sourceTree = "<group>"; };
-		72B63E4CF143F5867F0BA361332C5177 /* GPUImage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage; path = GPUImage.xcodeproj; sourceTree = "<group>"; };
-		7741007EECA915D73429E5C853EBB10F /* TYSnapshotScroll */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TYSnapshotScroll; path = TYSnapshotScroll.xcodeproj; sourceTree = "<group>"; };
-		7AE8A734FD9F22E546403B48561CAECD /* TBUIAutoTest */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TBUIAutoTest; path = TBUIAutoTest.xcodeproj; sourceTree = "<group>"; };
+		70273A757B767B88D909F773ACDB0331 /* YWExcel */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YWExcel; path = YWExcel.xcodeproj; sourceTree = "<group>"; };
+		731EAFF6226B6B84C9892308D3C103CC /* Mantle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mantle; path = Mantle.xcodeproj; sourceTree = "<group>"; };
+		75FE07FD2A853D7E46ED859A1E747C9D /* lottie-ios_Oc */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "lottie-ios_Oc"; path = "lottie-ios_Oc.xcodeproj"; sourceTree = "<group>"; };
 		7DDAC3CBFDE90497BC528F1BA584175D /* Pods-MyDemo_OC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyDemo_OC-acknowledgements.plist"; sourceTree = "<group>"; };
-		8475B1DB7290AB66F8C01B46DAD61204 /* FSCalendar */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FSCalendar; path = FSCalendar.xcodeproj; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A35D3091D12F583D44A7D6D385E84D66 /* FSCalendar */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FSCalendar; path = FSCalendar.xcodeproj; sourceTree = "<group>"; };
 		A7ABA04D5DECEA2354A1289E6991C5DA /* Pods-MyDemo_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyDemo_OC.debug.xcconfig"; sourceTree = "<group>"; };
 		ABA4D26EEE1E9379BD6E7F5B9F7F1F72 /* Pods-MyDemo_OC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyDemo_OC-dummy.m"; sourceTree = "<group>"; };
-		BFC7973D3423CFF830DCBF8485251342 /* WechatOpenSDK */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WechatOpenSDK; path = WechatOpenSDK.xcodeproj; sourceTree = "<group>"; };
-		D4B969EA9F70D9A98C4E4C4242B95D7D /* AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AFNetworking; path = AFNetworking.xcodeproj; sourceTree = "<group>"; };
-		D803CED19AFCF8447DD572CFCE93B81B /* SDWebImage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage; path = SDWebImage.xcodeproj; sourceTree = "<group>"; };
+		BBB54FD8F633FD90CC13A8544256C138 /* TBUIAutoTest */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TBUIAutoTest; path = TBUIAutoTest.xcodeproj; sourceTree = "<group>"; };
+		BD396D9341EE9FD5793E0AB124E63137 /* UMCSecurityPlugins */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCSecurityPlugins; path = UMCSecurityPlugins.xcodeproj; sourceTree = "<group>"; };
 		D8E761B1237404837DBCAB3AD1F161BB /* libPods-MyDemo_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MyDemo_OC.a"; path = "libPods-MyDemo_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAE6A4921E1678AAE12EBBD674F4EDA2 /* iCarousel */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iCarousel; path = iCarousel.xcodeproj; sourceTree = "<group>"; };
-		DD501595ED30A341832FB21B9E860C8E /* MBProgressHUD */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MBProgressHUD; path = MBProgressHUD.xcodeproj; sourceTree = "<group>"; };
-		E72EB3C1A76DCF9D17F2344514F04753 /* JPush */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JPush; path = JPush.xcodeproj; sourceTree = "<group>"; };
-		E91EAAC9831768FA11BE3EC0D91A4D46 /* YWExcel */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YWExcel; path = YWExcel.xcodeproj; sourceTree = "<group>"; };
+		E1B3C59F9735D6932EBC2BA3851DDF12 /* FDFullscreenPopGesture */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FDFullscreenPopGesture; path = FDFullscreenPopGesture.xcodeproj; sourceTree = "<group>"; };
+		ED76C3E07DEF272B410D4CF2A48A972A /* UMCPush */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCPush; path = UMCPush.xcodeproj; sourceTree = "<group>"; };
+		F1F9730A9D100F52D180785C1DF8594F /* JPush */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JPush; path = JPush.xcodeproj; sourceTree = "<group>"; };
+		F23316405E6C6AC0767328AC306DC8F9 /* IQKeyboardManager */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IQKeyboardManager; path = IQKeyboardManager.xcodeproj; sourceTree = "<group>"; };
+		F45F2DAE4E4972B95FC474B98830EDE5 /* MJRefresh */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MJRefresh; path = MJRefresh.xcodeproj; sourceTree = "<group>"; };
+		FC960679B70A53492CA1AD202AC8F898 /* MBProgressHUD */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MBProgressHUD; path = MBProgressHUD.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D561B906C9A428BC8079EB2883BE4D6 /* Frameworks */ = {
+		4936F0E81C4DE7F657600C7A7F73FCAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -241,6 +249,37 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		447C20A9DA771422618E4DA4F3018CB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				120A9D3C03071A0C9511E163E2A3E788 /* AFNetworking */,
+				E1B3C59F9735D6932EBC2BA3851DDF12 /* FDFullscreenPopGesture */,
+				A35D3091D12F583D44A7D6D385E84D66 /* FSCalendar */,
+				114935F7626666ED65E725CC556A7870 /* GPUImage */,
+				6223824FBF638AEB998613407D8059BD /* iCarousel */,
+				F23316405E6C6AC0767328AC306DC8F9 /* IQKeyboardManager */,
+				020A18D22BFEBE900E6F214014D195FD /* JCore */,
+				5AB78004B9DC7CCC5743DE305F693838 /* JMessage */,
+				F1F9730A9D100F52D180785C1DF8594F /* JPush */,
+				75FE07FD2A853D7E46ED859A1E747C9D /* lottie-ios_Oc */,
+				731EAFF6226B6B84C9892308D3C103CC /* Mantle */,
+				2016CF5E2E13921D1AA3B6E18A650D46 /* Masonry */,
+				FC960679B70A53492CA1AD202AC8F898 /* MBProgressHUD */,
+				103B6DBF2306A856160FA85B3CD055AC /* MJExtension */,
+				F45F2DAE4E4972B95FC474B98830EDE5 /* MJRefresh */,
+				1CB2B2ABDA5A6646C761C58D6A416BF7 /* SDWebImage */,
+				BBB54FD8F633FD90CC13A8544256C138 /* TBUIAutoTest */,
+				422439B3CD91E0B27232EE9AD353F07E /* TYSnapshotScroll */,
+				2FF1877399FB77CCCB103D5AD2C9D4F1 /* TZImagePickerController */,
+				2978E1A4C6D865C28CB1CECAFAE7510E /* UMCCommon */,
+				ED76C3E07DEF272B410D4CF2A48A972A /* UMCPush */,
+				BD396D9341EE9FD5793E0AB124E63137 /* UMCSecurityPlugins */,
+				1AC02C469790F82C8FBF1DD0121E082C /* WechatOpenSDK */,
+				70273A757B767B88D909F773ACDB0331 /* YWExcel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7A04263665ECD2CAA5F0AB6729FFA44A /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,42 +288,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A0B694D0446168503DD6F71313DE42D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D4B969EA9F70D9A98C4E4C4242B95D7D /* AFNetworking */,
-				6F5662C90DF63CE53963BC107D1D2F83 /* FDFullscreenPopGesture */,
-				8475B1DB7290AB66F8C01B46DAD61204 /* FSCalendar */,
-				72B63E4CF143F5867F0BA361332C5177 /* GPUImage */,
-				DAE6A4921E1678AAE12EBBD674F4EDA2 /* iCarousel */,
-				2B933F581FCE7886668DC969B4BC538B /* IQKeyboardManager */,
-				2EC896AA2805C92F2A60D2FBF6ED387C /* JCore */,
-				224B48263107AC926EFB02B5942BC0DE /* JMessage */,
-				E72EB3C1A76DCF9D17F2344514F04753 /* JPush */,
-				3CBEE4F9C008D9447BB5C12EA8E9C457 /* lottie-ios_Oc */,
-				0B590F03EC7F7102386EEE2F9AD95B51 /* Masonry */,
-				DD501595ED30A341832FB21B9E860C8E /* MBProgressHUD */,
-				5D2499520349170013F528376BE9CDD6 /* MJExtension */,
-				05E39DFDD4BDAD2ADDC438A0290A952F /* MJRefresh */,
-				D803CED19AFCF8447DD572CFCE93B81B /* SDWebImage */,
-				7AE8A734FD9F22E546403B48561CAECD /* TBUIAutoTest */,
-				7741007EECA915D73429E5C853EBB10F /* TYSnapshotScroll */,
-				2C4D4C38A255FB0C22DAA3266CBC2135 /* TZImagePickerController */,
-				19271E995BC68328C5292ADC596F8959 /* UMCCommon */,
-				36806597DBC2CD8C83096EBA41728FA2 /* UMCPush */,
-				147611CCA7FB6F5E8B345169AC728F2C /* UMCSecurityPlugins */,
-				BFC7973D3423CFF830DCBF8485251342 /* WechatOpenSDK */,
-				E91EAAC9831768FA11BE3EC0D91A4D46 /* YWExcel */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				A0B694D0446168503DD6F71313DE42D6 /* Pods */,
+				447C20A9DA771422618E4DA4F3018CB5 /* Pods */,
 				7A04263665ECD2CAA5F0AB6729FFA44A /* Products */,
 				2DEFBEBD4777FD6A7592CE9F8E67BCB0 /* Targets Support Files */,
 			);
@@ -300,7 +309,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0A7F74ECF178D376C2F248A26EA6348B /* Headers */ = {
+		AB2B3E572EBEC61852DC0CA5BB58046C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -312,38 +321,39 @@
 /* Begin PBXNativeTarget section */
 		77943B7D9266F1265F980FA75C0A25C8 /* Pods-MyDemo_OC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E6486D9F83916D8827BCC3FA1704B424 /* Build configuration list for PBXNativeTarget "Pods-MyDemo_OC" */;
+			buildConfigurationList = 9A5C16A143311C7AC14AC555D4C863CF /* Build configuration list for PBXNativeTarget "Pods-MyDemo_OC" */;
 			buildPhases = (
-				0A7F74ECF178D376C2F248A26EA6348B /* Headers */,
-				21721A3D47705D493759266F7E3BB2F3 /* Sources */,
-				1D561B906C9A428BC8079EB2883BE4D6 /* Frameworks */,
+				AB2B3E572EBEC61852DC0CA5BB58046C /* Headers */,
+				37A7B89BCEEB45B92893F59EDEB3DC49 /* Sources */,
+				4936F0E81C4DE7F657600C7A7F73FCAE /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4E9F72BFDBE0608E6E138DF786E10CE0 /* PBXTargetDependency */,
-				34577B52984AD3BED244EE81DC850723 /* PBXTargetDependency */,
-				1C3F9F59C0C034E58B7A214F52E50D33 /* PBXTargetDependency */,
-				D529AEEC17D8A14A6D648FEAE30B7FE5 /* PBXTargetDependency */,
-				64CD9973FEC73ABE7F047BE39E5C752B /* PBXTargetDependency */,
-				67646924AC6706EB8E677519E4B7DC77 /* PBXTargetDependency */,
-				32B5ABEE5AEEC175E77CC40111F28A34 /* PBXTargetDependency */,
-				2D86709293F42326FB157A05FCF4685A /* PBXTargetDependency */,
-				EE941CE587DF6540C71180D804917684 /* PBXTargetDependency */,
-				EC24F69DE1DCE2790BCCCC0A32C4F4CB /* PBXTargetDependency */,
-				40FD12DE88958428A92D88608BAD56E3 /* PBXTargetDependency */,
-				73DF9F205A7F3A84B62D2D1BFE5D5AFC /* PBXTargetDependency */,
-				269EC05F0F3DC2695C730F838ECB891F /* PBXTargetDependency */,
-				BF908D69411A0A49828CB37E611BE9AD /* PBXTargetDependency */,
-				7D63A605CD1EA7C272B870D8C34BD75D /* PBXTargetDependency */,
-				311EF1EDE5956A2A9F6ADED0B0926939 /* PBXTargetDependency */,
-				149E3130E5180F1BA018DA9C649A8A28 /* PBXTargetDependency */,
-				C07AF0FC36B8C5726C67E2486CD5E92B /* PBXTargetDependency */,
-				F6148690AC31FCA7D68FFCB1274EB802 /* PBXTargetDependency */,
-				A63BB01636A5B81EE8C57C7EF1C9C40B /* PBXTargetDependency */,
-				742F2F60162CC74F9F006E607FCAEAED /* PBXTargetDependency */,
-				5CCCBB1123B7908B85D3DDBE556EFBBE /* PBXTargetDependency */,
-				BCF2B5AA8A40468AF9F856BF651D6FD1 /* PBXTargetDependency */,
+				9435C3F8B40D9BC92510704751240D32 /* PBXTargetDependency */,
+				1C63FDA831B13108C40817DF65F012CB /* PBXTargetDependency */,
+				56DAA571510FB7ABFFDE74DC1F4FA74B /* PBXTargetDependency */,
+				F56CD7991A829B6656214A8F35908853 /* PBXTargetDependency */,
+				289209BD73C3EDED198E37637E62DF61 /* PBXTargetDependency */,
+				C69D078F663711AF395895A329FF15B6 /* PBXTargetDependency */,
+				9726A916F79B67EBF7DD0FC3C9E4E9EF /* PBXTargetDependency */,
+				6B73B05B97C34242A1CD2D4C7D7CBBB2 /* PBXTargetDependency */,
+				493FA5A1EEF8668DF637A553BCB47CA2 /* PBXTargetDependency */,
+				B28374E55DD64F167403EA1BED8F9B8E /* PBXTargetDependency */,
+				AC3810B3018F74D093FF4918F264BF95 /* PBXTargetDependency */,
+				688202FDF0CBD3E46FD0534DFD06A02B /* PBXTargetDependency */,
+				694F2A766745B08F37C093E56DBA87A9 /* PBXTargetDependency */,
+				AEF16E212054DC41D517D0887A7F45B6 /* PBXTargetDependency */,
+				E8150A8FA3A9D23CA4761B825D5B6BBE /* PBXTargetDependency */,
+				EA37A42253BF299D58E9D76286DDC17F /* PBXTargetDependency */,
+				1DDD5067D05A4B8E82B1A8155B5F581B /* PBXTargetDependency */,
+				817C88A5CA84927BBC920F5D673269AC /* PBXTargetDependency */,
+				9BE53CA4267DDEECB6ECB46526311B5A /* PBXTargetDependency */,
+				5868B0876A34C6252AF51E2844BD3C84 /* PBXTargetDependency */,
+				02E45BDFE45FEF5BFAA86909E51046A8 /* PBXTargetDependency */,
+				A85851FAE5BCC09A8A672D79D274E75A /* PBXTargetDependency */,
+				BF1BE6B4E928EC9CC34EBB3554B74196 /* PBXTargetDependency */,
+				17C58AB7C70BA9279CABFC64C1420B80 /* PBXTargetDependency */,
 			);
 			name = "Pods-MyDemo_OC";
 			productName = "Pods-MyDemo_OC";
@@ -372,73 +382,76 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProjectRef = D4B969EA9F70D9A98C4E4C4242B95D7D /* AFNetworking */;
+					ProjectRef = 120A9D3C03071A0C9511E163E2A3E788 /* AFNetworking */;
 				},
 				{
-					ProjectRef = 6F5662C90DF63CE53963BC107D1D2F83 /* FDFullscreenPopGesture */;
+					ProjectRef = E1B3C59F9735D6932EBC2BA3851DDF12 /* FDFullscreenPopGesture */;
 				},
 				{
-					ProjectRef = 8475B1DB7290AB66F8C01B46DAD61204 /* FSCalendar */;
+					ProjectRef = A35D3091D12F583D44A7D6D385E84D66 /* FSCalendar */;
 				},
 				{
-					ProjectRef = 72B63E4CF143F5867F0BA361332C5177 /* GPUImage */;
+					ProjectRef = 114935F7626666ED65E725CC556A7870 /* GPUImage */;
 				},
 				{
-					ProjectRef = 2B933F581FCE7886668DC969B4BC538B /* IQKeyboardManager */;
+					ProjectRef = F23316405E6C6AC0767328AC306DC8F9 /* IQKeyboardManager */;
 				},
 				{
-					ProjectRef = 2EC896AA2805C92F2A60D2FBF6ED387C /* JCore */;
+					ProjectRef = 020A18D22BFEBE900E6F214014D195FD /* JCore */;
 				},
 				{
-					ProjectRef = 224B48263107AC926EFB02B5942BC0DE /* JMessage */;
+					ProjectRef = 5AB78004B9DC7CCC5743DE305F693838 /* JMessage */;
 				},
 				{
-					ProjectRef = E72EB3C1A76DCF9D17F2344514F04753 /* JPush */;
+					ProjectRef = F1F9730A9D100F52D180785C1DF8594F /* JPush */;
 				},
 				{
-					ProjectRef = DD501595ED30A341832FB21B9E860C8E /* MBProgressHUD */;
+					ProjectRef = FC960679B70A53492CA1AD202AC8F898 /* MBProgressHUD */;
 				},
 				{
-					ProjectRef = 5D2499520349170013F528376BE9CDD6 /* MJExtension */;
+					ProjectRef = 103B6DBF2306A856160FA85B3CD055AC /* MJExtension */;
 				},
 				{
-					ProjectRef = 05E39DFDD4BDAD2ADDC438A0290A952F /* MJRefresh */;
+					ProjectRef = F45F2DAE4E4972B95FC474B98830EDE5 /* MJRefresh */;
 				},
 				{
-					ProjectRef = 0B590F03EC7F7102386EEE2F9AD95B51 /* Masonry */;
+					ProjectRef = 731EAFF6226B6B84C9892308D3C103CC /* Mantle */;
 				},
 				{
-					ProjectRef = D803CED19AFCF8447DD572CFCE93B81B /* SDWebImage */;
+					ProjectRef = 2016CF5E2E13921D1AA3B6E18A650D46 /* Masonry */;
 				},
 				{
-					ProjectRef = 7AE8A734FD9F22E546403B48561CAECD /* TBUIAutoTest */;
+					ProjectRef = 1CB2B2ABDA5A6646C761C58D6A416BF7 /* SDWebImage */;
 				},
 				{
-					ProjectRef = 7741007EECA915D73429E5C853EBB10F /* TYSnapshotScroll */;
+					ProjectRef = BBB54FD8F633FD90CC13A8544256C138 /* TBUIAutoTest */;
 				},
 				{
-					ProjectRef = 2C4D4C38A255FB0C22DAA3266CBC2135 /* TZImagePickerController */;
+					ProjectRef = 422439B3CD91E0B27232EE9AD353F07E /* TYSnapshotScroll */;
 				},
 				{
-					ProjectRef = 19271E995BC68328C5292ADC596F8959 /* UMCCommon */;
+					ProjectRef = 2FF1877399FB77CCCB103D5AD2C9D4F1 /* TZImagePickerController */;
 				},
 				{
-					ProjectRef = 36806597DBC2CD8C83096EBA41728FA2 /* UMCPush */;
+					ProjectRef = 2978E1A4C6D865C28CB1CECAFAE7510E /* UMCCommon */;
 				},
 				{
-					ProjectRef = 147611CCA7FB6F5E8B345169AC728F2C /* UMCSecurityPlugins */;
+					ProjectRef = ED76C3E07DEF272B410D4CF2A48A972A /* UMCPush */;
 				},
 				{
-					ProjectRef = BFC7973D3423CFF830DCBF8485251342 /* WechatOpenSDK */;
+					ProjectRef = BD396D9341EE9FD5793E0AB124E63137 /* UMCSecurityPlugins */;
 				},
 				{
-					ProjectRef = E91EAAC9831768FA11BE3EC0D91A4D46 /* YWExcel */;
+					ProjectRef = 1AC02C469790F82C8FBF1DD0121E082C /* WechatOpenSDK */;
 				},
 				{
-					ProjectRef = DAE6A4921E1678AAE12EBBD674F4EDA2 /* iCarousel */;
+					ProjectRef = 70273A757B767B88D909F773ACDB0331 /* YWExcel */;
 				},
 				{
-					ProjectRef = 3CBEE4F9C008D9447BB5C12EA8E9C457 /* lottie-ios_Oc */;
+					ProjectRef = 6223824FBF638AEB998613407D8059BD /* iCarousel */;
+				},
+				{
+					ProjectRef = 75FE07FD2A853D7E46ED859A1E747C9D /* lottie-ios_Oc */;
 				},
 			);
 			projectRoot = "";
@@ -449,131 +462,136 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		21721A3D47705D493759266F7E3BB2F3 /* Sources */ = {
+		37A7B89BCEEB45B92893F59EDEB3DC49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8407766666BABD71A2E9C97DF9D32396 /* Pods-MyDemo_OC-dummy.m in Sources */,
+				9EF2973094F328D940C71C559AFCC245 /* Pods-MyDemo_OC-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		149E3130E5180F1BA018DA9C649A8A28 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UMCCommon;
-			targetProxy = F89325D93D92CA635348A265E18F3D7E /* PBXContainerItemProxy */;
-		};
-		1C3F9F59C0C034E58B7A214F52E50D33 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FSCalendar;
-			targetProxy = 123302FDE0F51E1EC46414A8BD97D260 /* PBXContainerItemProxy */;
-		};
-		269EC05F0F3DC2695C730F838ECB891F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SDWebImage;
-			targetProxy = A718B2C09087A3ACF38B98EE67760436 /* PBXContainerItemProxy */;
-		};
-		2D86709293F42326FB157A05FCF4685A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JPush;
-			targetProxy = 0A95C434B1DA9455FAA07F00A3028044 /* PBXContainerItemProxy */;
-		};
-		311EF1EDE5956A2A9F6ADED0B0926939 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TZImagePickerController;
-			targetProxy = A7C3A4DD3996582A2DD42C86FA654712 /* PBXContainerItemProxy */;
-		};
-		32B5ABEE5AEEC175E77CC40111F28A34 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JMessage;
-			targetProxy = DB06CEAC97AA76E51CF01D8C71D0A1B5 /* PBXContainerItemProxy */;
-		};
-		34577B52984AD3BED244EE81DC850723 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FDFullscreenPopGesture;
-			targetProxy = 8A83D0B21B350CC2FED4C05F2AF9614B /* PBXContainerItemProxy */;
-		};
-		40FD12DE88958428A92D88608BAD56E3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MJRefresh;
-			targetProxy = E698A2ECAC858F47EE9161DA791E0351 /* PBXContainerItemProxy */;
-		};
-		4E9F72BFDBE0608E6E138DF786E10CE0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFNetworking;
-			targetProxy = EB0EA012F49D031D970FB2215D6CAC83 /* PBXContainerItemProxy */;
-		};
-		5CCCBB1123B7908B85D3DDBE556EFBBE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = iCarousel;
-			targetProxy = 03DC1125C7C3E81584738DDE0C0455B4 /* PBXContainerItemProxy */;
-		};
-		64CD9973FEC73ABE7F047BE39E5C752B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = IQKeyboardManager;
-			targetProxy = C0C3040735150DA9F61E557DC60BDA71 /* PBXContainerItemProxy */;
-		};
-		67646924AC6706EB8E677519E4B7DC77 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JCore;
-			targetProxy = D300FDF3137DC56A0081F8D2EF83FF44 /* PBXContainerItemProxy */;
-		};
-		73DF9F205A7F3A84B62D2D1BFE5D5AFC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			targetProxy = F800441307EB28269F3FE33AD5029110 /* PBXContainerItemProxy */;
-		};
-		742F2F60162CC74F9F006E607FCAEAED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YWExcel;
-			targetProxy = 82F4E98C0CC9144F3484ABDF3DE20B7D /* PBXContainerItemProxy */;
-		};
-		7D63A605CD1EA7C272B870D8C34BD75D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TYSnapshotScroll;
-			targetProxy = C45EF25A06BAFE824483C875337F796F /* PBXContainerItemProxy */;
-		};
-		A63BB01636A5B81EE8C57C7EF1C9C40B /* PBXTargetDependency */ = {
+		02E45BDFE45FEF5BFAA86909E51046A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WechatOpenSDK;
-			targetProxy = 6FA597B5113E02BCEAC6FE8302470D79 /* PBXContainerItemProxy */;
+			targetProxy = CF184F626D528418DA0D23A6BA6775FD /* PBXContainerItemProxy */;
 		};
-		BCF2B5AA8A40468AF9F856BF651D6FD1 /* PBXTargetDependency */ = {
+		17C58AB7C70BA9279CABFC64C1420B80 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "lottie-ios_Oc";
-			targetProxy = 104A631C06F17E1DFE194D4B83126990 /* PBXContainerItemProxy */;
+			targetProxy = 557459B36BE76E401214B9CCD7B076C0 /* PBXContainerItemProxy */;
 		};
-		BF908D69411A0A49828CB37E611BE9AD /* PBXTargetDependency */ = {
+		1C63FDA831B13108C40817DF65F012CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = TBUIAutoTest;
-			targetProxy = 47CA8E0E5F407EAD3F34C9B072668496 /* PBXContainerItemProxy */;
+			name = FDFullscreenPopGesture;
+			targetProxy = 2E7F170710B101C4D373F6795E597BEE /* PBXContainerItemProxy */;
 		};
-		C07AF0FC36B8C5726C67E2486CD5E92B /* PBXTargetDependency */ = {
+		1DDD5067D05A4B8E82B1A8155B5F581B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = UMCPush;
-			targetProxy = CE1ED74E4CE18172E4117B0F9C19DDD1 /* PBXContainerItemProxy */;
+			name = TZImagePickerController;
+			targetProxy = F96B4E8C48F66C9AB7403EA826557131 /* PBXContainerItemProxy */;
 		};
-		D529AEEC17D8A14A6D648FEAE30B7FE5 /* PBXTargetDependency */ = {
+		289209BD73C3EDED198E37637E62DF61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = GPUImage;
-			targetProxy = DC1F869627E138383FD58CB49B9B165A /* PBXContainerItemProxy */;
+			name = IQKeyboardManager;
+			targetProxy = D6407CB495ED6A226E6AB7EFEE3F4F54 /* PBXContainerItemProxy */;
 		};
-		EC24F69DE1DCE2790BCCCC0A32C4F4CB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MJExtension;
-			targetProxy = 7090E2EB1B4DF7DB5FAAB6CA267331B4 /* PBXContainerItemProxy */;
-		};
-		EE941CE587DF6540C71180D804917684 /* PBXTargetDependency */ = {
+		493FA5A1EEF8668DF637A553BCB47CA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
-			targetProxy = 9FCC6E214F1823D1D565F116FAD512A1 /* PBXContainerItemProxy */;
+			targetProxy = CC10385E2E618ACD8DBD7E1AD32CCCC7 /* PBXContainerItemProxy */;
 		};
-		F6148690AC31FCA7D68FFCB1274EB802 /* PBXTargetDependency */ = {
+		56DAA571510FB7ABFFDE74DC1F4FA74B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSCalendar;
+			targetProxy = B49D91F75CCB5BD8A38FA1578E2BCFCB /* PBXContainerItemProxy */;
+		};
+		5868B0876A34C6252AF51E2844BD3C84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UMCSecurityPlugins;
-			targetProxy = 32831380C255C08895ABCC52485AEE89 /* PBXContainerItemProxy */;
+			targetProxy = F992FA3580AFE211386D83EA05C94F21 /* PBXContainerItemProxy */;
+		};
+		688202FDF0CBD3E46FD0534DFD06A02B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mantle;
+			targetProxy = B2DA2623E9A860408E24EC223A46458C /* PBXContainerItemProxy */;
+		};
+		694F2A766745B08F37C093E56DBA87A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			targetProxy = 389D2B2EBC52F29ECABD806CE0204BA6 /* PBXContainerItemProxy */;
+		};
+		6B73B05B97C34242A1CD2D4C7D7CBBB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JPush;
+			targetProxy = 0A64E0D8B34BD4E90CF4BE6FC11D84DE /* PBXContainerItemProxy */;
+		};
+		817C88A5CA84927BBC920F5D673269AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCCommon;
+			targetProxy = 01331B4854378A39D47767214D93C039 /* PBXContainerItemProxy */;
+		};
+		9435C3F8B40D9BC92510704751240D32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			targetProxy = 8F948F944F248EC971FF7EC8AAC2F28A /* PBXContainerItemProxy */;
+		};
+		9726A916F79B67EBF7DD0FC3C9E4E9EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JMessage;
+			targetProxy = 68DE502881AD98FA5AA5E8B753BC9297 /* PBXContainerItemProxy */;
+		};
+		9BE53CA4267DDEECB6ECB46526311B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCPush;
+			targetProxy = 0AC62D88ADD879D7A6D1C55DE52B2109 /* PBXContainerItemProxy */;
+		};
+		A85851FAE5BCC09A8A672D79D274E75A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YWExcel;
+			targetProxy = 9CD0321365EE72E2849E603524E0CC57 /* PBXContainerItemProxy */;
+		};
+		AC3810B3018F74D093FF4918F264BF95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			targetProxy = BA28BAB638B49A54E42529B3638BFAD2 /* PBXContainerItemProxy */;
+		};
+		AEF16E212054DC41D517D0887A7F45B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			targetProxy = 6EEA59EE8EE901F18CA9D61B31795627 /* PBXContainerItemProxy */;
+		};
+		B28374E55DD64F167403EA1BED8F9B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			targetProxy = 12CC4A23829C78E02FFDF74350A83D73 /* PBXContainerItemProxy */;
+		};
+		BF1BE6B4E928EC9CC34EBB3554B74196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iCarousel;
+			targetProxy = B7B9B56925A053690AFFB3939B726FBB /* PBXContainerItemProxy */;
+		};
+		C69D078F663711AF395895A329FF15B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JCore;
+			targetProxy = 5A8378C4A799D363F2665F1165003C80 /* PBXContainerItemProxy */;
+		};
+		E8150A8FA3A9D23CA4761B825D5B6BBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TBUIAutoTest;
+			targetProxy = 5E5962E751788EF1AFA97898117AE812 /* PBXContainerItemProxy */;
+		};
+		EA37A42253BF299D58E9D76286DDC17F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TYSnapshotScroll;
+			targetProxy = 3CF621F5878BC0FEE57CCCBCBF4360AC /* PBXContainerItemProxy */;
+		};
+		F56CD7991A829B6656214A8F35908853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImage;
+			targetProxy = 719FCF051F7A26F1B591399273B38E38 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -642,7 +660,7 @@
 			};
 			name = Debug;
 		};
-		59991F3626365BCE3F43DBC51F01CBC5 /* Debug */ = {
+		58F3C25213E1B8354C66480027ACCE71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A7ABA04D5DECEA2354A1289E6991C5DA /* Pods-MyDemo_OC.debug.xcconfig */;
 			buildSettings = {
@@ -664,7 +682,7 @@
 			};
 			name = Debug;
 		};
-		A3929CDEB1FA7BCD948D4EA37AF86DE3 /* Release */ = {
+		8DE9C2D5DC45371D985EC3EE25AA1F8D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 095EF4F7FBE1E933829FB56164CF76CE /* Pods-MyDemo_OC.release.xcconfig */;
 			buildSettings = {
@@ -759,11 +777,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E6486D9F83916D8827BCC3FA1704B424 /* Build configuration list for PBXNativeTarget "Pods-MyDemo_OC" */ = {
+		9A5C16A143311C7AC14AC555D4C863CF /* Build configuration list for PBXNativeTarget "Pods-MyDemo_OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59991F3626365BCE3F43DBC51F01CBC5 /* Debug */,
-				A3929CDEB1FA7BCD948D4EA37AF86DE3 /* Release */,
+				58F3C25213E1B8354C66480027ACCE71 /* Debug */,
+				8DE9C2D5DC45371D985EC3EE25AA1F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

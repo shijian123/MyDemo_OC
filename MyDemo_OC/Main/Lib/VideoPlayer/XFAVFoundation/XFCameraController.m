@@ -472,12 +472,12 @@ typedef void(^PropertyChangeBlock)(AVCaptureDevice *captureDevice);
     NSString *str = [NSString stringWithFormat:@" 我是%@。鉴于%@欲与道口贷开展供应链金融业务合作，我现亲自在线签署本最高额担保函。",self.userName,self.coreEnterpriseName];
     CGFloat labH = [str sizeWithFont:[UIFont systemFontOfSize:14] maxW:(MainScreenWidth - 40)].height;
     
-    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(10, IPHONE_X?105:25, MainScreenWidth - 20, labH + 20)];
+    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(10, CYIsBangsScreen?105:25, MainScreenWidth - 20, labH + 20)];
     view.backgroundColor = [[UIColor colorWithHex:0x51495D] colorWithAlphaComponent:0.8];
     view.layer.masksToBounds = YES;
     view.layer.cornerRadius = 15;
     
-    UILabel *lab = [[UILabel alloc]initWithFrame:CGRectMake(20,IPHONE_X?115:35, view.width - 20, labH)];
+    UILabel *lab = [[UILabel alloc]initWithFrame:CGRectMake(20,CYIsBangsScreen?115:35, view.width - 20, labH)];
     lab.text = str;
     lab.textColor = [UIColor whiteColor];
     lab.textAlignment = NSTextAlignmentLeft;

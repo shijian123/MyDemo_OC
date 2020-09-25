@@ -102,7 +102,7 @@
     CGFloat stayWidth = frame.size.width;
     CGFloat initX = MainScreenWidth - self.stayEdgeDistance - stayWidth;
     CGFloat initY;
-    if (IPHONE_X) {
+    if (CYIsBangsScreen) {
         initY = (MainScreenHeight - 64 - 44 - 34) * (2.0/3.0) + 64;
     }else{
         initY = (MainScreenHeight - 64 - 44) * (2.0/3.0) + 64;
@@ -257,7 +257,7 @@
     }
     //悬浮图片的底端Y值
     CGFloat stayMostBottomY = MainScreenHeight - 64 - _stayEdgeDistance - stayHeight;
-    if (IPHONE_X) {
+    if (CYIsBangsScreen) {
         stayMostBottomY -=34;
     }
     if (curY >= stayMostBottomY) {

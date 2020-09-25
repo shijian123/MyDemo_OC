@@ -63,7 +63,11 @@
 		B46CCDE6231B83710079117B /* sound_exhale.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B46CCDE4231B83710079117B /* sound_exhale.m4a */; };
 		B46CCDE7231B83710079117B /* sound_inhale.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B46CCDE5231B83710079117B /* sound_inhale.m4a */; };
 		B4775BD922E162360012CD98 /* CYPlayAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4775BD822E162360012CD98 /* CYPlayAudioController.m */; };
+		B487C0A62519A42B00257050 /* 测试视频01.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B487C0A52519A42B00257050 /* 测试视频01.mp4 */; };
+		B487C0A92519A49200257050 /* CYPicInPicController.m in Sources */ = {isa = PBXBuildFile; fileRef = B487C0A82519A49200257050 /* CYPicInPicController.m */; };
+		B487C0AF2519D37400257050 /* CYPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = B487C0AE2519D37400257050 /* CYPlayerControlView.m */; };
 		B48F514A2325FCC700E833B3 /* CYBlockTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F51492325FCC700E833B3 /* CYBlockTestController.m */; };
+		B48FF66724CEAF5C005CB889 /* CYEncodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FF66524CEAF5C005CB889 /* CYEncodeController.m */; };
 		B492A906233071EE0096D966 /* VideoCaptureDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = B492A8EE233071EE0096D966 /* VideoCaptureDevice.m */; };
 		B492A907233071EE0096D966 /* IDLFaceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B492A8EF233071EE0096D966 /* IDLFaceSDK.framework */; };
 		B492A908233071EE0096D966 /* ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B492A8F1233071EE0096D966 /* ImageUtils.m */; };
@@ -336,8 +340,15 @@
 		B46CCDE5231B83710079117B /* sound_inhale.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound_inhale.m4a; sourceTree = "<group>"; };
 		B4775BD722E162360012CD98 /* CYPlayAudioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYPlayAudioController.h; sourceTree = "<group>"; };
 		B4775BD822E162360012CD98 /* CYPlayAudioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYPlayAudioController.m; sourceTree = "<group>"; };
+		B487C0A52519A42B00257050 /* 测试视频01.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "测试视频01.mp4"; sourceTree = "<group>"; };
+		B487C0A72519A49200257050 /* CYPicInPicController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYPicInPicController.h; sourceTree = "<group>"; };
+		B487C0A82519A49200257050 /* CYPicInPicController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYPicInPicController.m; sourceTree = "<group>"; };
+		B487C0AD2519D37400257050 /* CYPlayerControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYPlayerControlView.h; sourceTree = "<group>"; };
+		B487C0AE2519D37400257050 /* CYPlayerControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYPlayerControlView.m; sourceTree = "<group>"; };
 		B48F51482325FCC700E833B3 /* CYBlockTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYBlockTestController.h; sourceTree = "<group>"; };
 		B48F51492325FCC700E833B3 /* CYBlockTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYBlockTestController.m; sourceTree = "<group>"; };
+		B48FF66424CEAF5C005CB889 /* CYEncodeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYEncodeController.h; sourceTree = "<group>"; };
+		B48FF66524CEAF5C005CB889 /* CYEncodeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYEncodeController.m; sourceTree = "<group>"; };
 		B492A8ED233071EE0096D966 /* VideoCaptureDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCaptureDevice.h; sourceTree = "<group>"; };
 		B492A8EE233071EE0096D966 /* VideoCaptureDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCaptureDevice.m; sourceTree = "<group>"; };
 		B492A8EF233071EE0096D966 /* IDLFaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDLFaceSDK.framework; sourceTree = "<group>"; };
@@ -800,6 +811,10 @@
 				B4464D842498C9DB00D3E989 /* CYSnapshotPreviewController.m */,
 				B4F2F7D024A053B100F43230 /* CYFileAPPController.h */,
 				B4F2F7D124A053B100F43230 /* CYFileAPPController.m */,
+				B48FF66424CEAF5C005CB889 /* CYEncodeController.h */,
+				B48FF66524CEAF5C005CB889 /* CYEncodeController.m */,
+				B487C0A72519A49200257050 /* CYPicInPicController.h */,
+				B487C0A82519A49200257050 /* CYPicInPicController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -878,6 +893,7 @@
 				B492A9B82330E2E50096D966 /* Steve.pdf */,
 				B492A9BA2330E2EF0096D966 /* 海贼路飞.jpg */,
 				B41D1C6324974FEE006243AD /* 海贼王_27.jpg */,
+				B487C0A52519A42B00257050 /* 测试视频01.mp4 */,
 				B463DAE9231FA56600BF9279 /* dog.jpg */,
 				B463DAEA231FA56600BF9279 /* voice.mp3 */,
 				B463DAEB231FA56600BF9279 /* jiguang.jpg */,
@@ -1161,6 +1177,8 @@
 				B49403A92493322D003CE70C /* CYTestXibView.h */,
 				B49403AA2493322D003CE70C /* CYTestXibView.m */,
 				B49403AC24933265003CE70C /* CYTestXibView.xib */,
+				B487C0AD2519D37400257050 /* CYPlayerControlView.h */,
+				B487C0AE2519D37400257050 /* CYPlayerControlView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1576,6 +1594,7 @@
 				B49717F222D4B0B300F27094 /* CYDrawHeartController.xib in Resources */,
 				B4C403B22313C85300512E85 /* VKSelectRankView.xib in Resources */,
 				B4F026D9232A9F4D00A5C053 /* Animated image support.txt in Resources */,
+				B487C0A62519A42B00257050 /* 测试视频01.mp4 in Resources */,
 				B4D7843E23165B9C008F2522 /* CYUploadContentController.xib in Resources */,
 				B492A912233071EE0096D966 /* com.baidu.idl.face.faceSDK.bundle in Resources */,
 				B492A93823307CBE0096D966 /* CYCameraMovieController.xib in Resources */,
@@ -1670,6 +1689,7 @@
 				B4F026E0232A9F4D00A5C053 /* YYTextView.m in Sources */,
 				B4C0BC24232F2C8000CF2027 /* NSString+CY.m in Sources */,
 				B492A90F233071EE0096D966 /* RemindView.m in Sources */,
+				B487C0A92519A49200257050 /* CYPicInPicController.m in Sources */,
 				B492A908233071EE0096D966 /* ImageUtils.m in Sources */,
 				B40062E922A766F100FEE0BD /* CYLocalizationController.m in Sources */,
 				B4F026DF232A9F4D00A5C053 /* UIView+YYAdd.m in Sources */,
@@ -1713,6 +1733,7 @@
 				B408A21C2315376B00519301 /* CYConst.m in Sources */,
 				B41F788F24B472E800DC37A4 /* CYFloatPlayView.m in Sources */,
 				B4F026DD232A9F4D00A5C053 /* YYAnimatedImageView.m in Sources */,
+				B48FF66724CEAF5C005CB889 /* CYEncodeController.m in Sources */,
 				B4F026F5232A9F4D00A5C053 /* UIView+YYText.m in Sources */,
 				B4C403AB2313B82100512E85 /* CYSelectItemController.m in Sources */,
 				B4F026DE232A9F4D00A5C053 /* NSBundle+YYAdd.m in Sources */,
@@ -1791,6 +1812,7 @@
 				B4BE42AB2332505F000909CE /* CYDocument.m in Sources */,
 				B45EBF42233CCFD100C17A1C /* UIViewController+Swizzling.m in Sources */,
 				B49EC14422D45FF200F755B7 /* DMHeartFlyView.m in Sources */,
+				B487C0AF2519D37400257050 /* CYPlayerControlView.m in Sources */,
 				B4F026EC232A9F4D00A5C053 /* YYTextParser.m in Sources */,
 				B4F026E1232A9F4D00A5C053 /* YYTextMagnifier.m in Sources */,
 				B4F026EB232A9F4D00A5C053 /* YYTextRunDelegate.m in Sources */,
@@ -2034,7 +2056,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MyDemo_OC/MyDemo_OC.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3V68Z8G5A8;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2097,7 +2119,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2Q4LJ2ECCS;
+				DEVELOPMENT_TEAM = 3V68Z8G5A8;
 				INFOPLIST_FILE = MyDemo_OCUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2115,7 +2137,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2Q4LJ2ECCS;
+				DEVELOPMENT_TEAM = 3V68Z8G5A8;
 				INFOPLIST_FILE = MyDemo_OCUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

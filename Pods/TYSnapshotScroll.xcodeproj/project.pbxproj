@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		063ED8C92DCF3D323AC4EF6CFE3B69F2 /* UIScrollView+TYSnapshotAuxiliary.h in Headers */ = {isa = PBXBuildFile; fileRef = 503E9BF37EE3F52CE135AFFECB3C33F4 /* UIScrollView+TYSnapshotAuxiliary.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		08F26E488BBAFF4AB4323FADEC154BDA /* TYSnapshotManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C60CAE6FE83821A3F1DCCE27F5FB0674 /* TYSnapshotManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		15D4F0FE1575F3F5D10727B030ED25E5 /* TYSnapshotScroll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8E1588435498EF51B651017F66722C /* TYSnapshotScroll-dummy.m */; };
+		232189DEF58A259ECF461FE499EDD406 /* UIScrollView+TYSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 39629C591F3EC142E9ECFA8CEF052A5E /* UIScrollView+TYSnapshot.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3122EDD3DBF29F34242689C4CFCD66D9 /* WKWebView+TYSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C01F019C403A890B5BBDA649318D3D9 /* WKWebView+TYSnapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5AB5F9EB6EB7E32949A564A2E2FA1D2E /* TYGCDTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B428566B8445246E64FB201A61B616 /* TYGCDTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C527545E041D5898A88E7BE03A89AFA /* TYSnapshotScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = 275ACDE44A56C5419117735704DD8002 /* TYSnapshotScroll.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		665F1F02E3E1140E9655D4E35B76B35E /* UIImage+TYSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 82411D299DFFEBA29FD76434ED173B3E /* UIImage+TYSnapshot.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		69BB9337D485D3CF46351F9612614A24 /* UIScrollView+TYSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 158FA007666388C23E92AED30976BFBD /* UIScrollView+TYSnapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6E69CE237342E51D5B147DCA289C054E /* UIView+TYSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BF666856275564E910788FC57ECC7D /* UIView+TYSnapshot.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		75123E05953D0371E61B9DB7CAE5AF50 /* WKWebView+TYSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A7FA1F1B9D0B65262ABCD39935FBA5 /* WKWebView+TYSnapshot.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		97AC709BAE2D4F4A277AD54B586E9B10 /* TYSnapshotManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F59979402B8C83F9BB9DCA20DA5A94D9 /* TYSnapshotManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A310DCF68FC8AB8A12E9A80FB4435EC9 /* TYSnapshotAuxiliary.h in Headers */ = {isa = PBXBuildFile; fileRef = B19AFF448101500013A257B5BBA994B1 /* TYSnapshotAuxiliary.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1006B942C569D5501D6EC8F186ED17C /* UIImage+TYSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 006A9E9FF987A413B6E6932854E74495 /* UIImage+TYSnapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B300F09DA84CA89C4ACA9B9534DABB1D /* TYSnapshotScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CDAF8D741C165F32674E7E49046437 /* TYSnapshotScroll.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D75415F2EAD83FC4F678FE423215E12E /* UIViewController+TYSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A222F5CCBABD6727E9D1EB0C44ED40 /* UIViewController+TYSnapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD65E46FDF94FBA8037A303CADB54DFB /* UIView+TYSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE59F84F78DC460C9DDE54254FF5E8A /* UIView+TYSnapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE948FD13D5AF4408E57525F02772237 /* UIViewController+TYSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 98943F04D22A79FB596644FA227DEE47 /* UIViewController+TYSnapshot.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		006A9E9FF987A413B6E6932854E74495 /* UIImage+TYSnapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+TYSnapshot.h"; path = "TYSnapshotScroll/Tools/UIImage+TYSnapshot.h"; sourceTree = "<group>"; };
+		158FA007666388C23E92AED30976BFBD /* UIScrollView+TYSnapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TYSnapshot.h"; path = "TYSnapshotScroll/UIScrollView+TYSnapshot.h"; sourceTree = "<group>"; };
+		20A7FA1F1B9D0B65262ABCD39935FBA5 /* WKWebView+TYSnapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+TYSnapshot.m"; path = "TYSnapshotScroll/WKWebView+TYSnapshot.m"; sourceTree = "<group>"; };
+		21BF666856275564E910788FC57ECC7D /* UIView+TYSnapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TYSnapshot.m"; path = "TYSnapshotScroll/UIView+TYSnapshot.m"; sourceTree = "<group>"; };
+		275ACDE44A56C5419117735704DD8002 /* TYSnapshotScroll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYSnapshotScroll.h; path = TYSnapshotScroll/TYSnapshotScroll.h; sourceTree = "<group>"; };
+		2C01F019C403A890B5BBDA649318D3D9 /* WKWebView+TYSnapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+TYSnapshot.h"; path = "TYSnapshotScroll/WKWebView+TYSnapshot.h"; sourceTree = "<group>"; };
+		39629C591F3EC142E9ECFA8CEF052A5E /* UIScrollView+TYSnapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TYSnapshot.m"; path = "TYSnapshotScroll/UIScrollView+TYSnapshot.m"; sourceTree = "<group>"; };
+		485F15FDEB05FEC812C9BE88E7421C9E /* TYSnapshotScroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYSnapshotScroll.debug.xcconfig; sourceTree = "<group>"; };
+		503E9BF37EE3F52CE135AFFECB3C33F4 /* UIScrollView+TYSnapshotAuxiliary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TYSnapshotAuxiliary.h"; path = "TYSnapshotScroll/TYSnapshotAuxiliary.framework/Headers/UIScrollView+TYSnapshotAuxiliary.h"; sourceTree = "<group>"; };
+		7BE59F84F78DC460C9DDE54254FF5E8A /* UIView+TYSnapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TYSnapshot.h"; path = "TYSnapshotScroll/UIView+TYSnapshot.h"; sourceTree = "<group>"; };
+		82411D299DFFEBA29FD76434ED173B3E /* UIImage+TYSnapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+TYSnapshot.m"; path = "TYSnapshotScroll/Tools/UIImage+TYSnapshot.m"; sourceTree = "<group>"; };
+		8D8E1588435498EF51B651017F66722C /* TYSnapshotScroll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYSnapshotScroll-dummy.m"; sourceTree = "<group>"; };
+		8FAF32C00B8B95F36FFC5C9BAEFAB82C /* TYSnapshotAuxiliary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TYSnapshotAuxiliary.framework; path = TYSnapshotScroll/TYSnapshotAuxiliary.framework; sourceTree = "<group>"; };
+		98943F04D22A79FB596644FA227DEE47 /* UIViewController+TYSnapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+TYSnapshot.m"; path = "TYSnapshotScroll/Tools/UIViewController+TYSnapshot.m"; sourceTree = "<group>"; };
+		98B428566B8445246E64FB201A61B616 /* TYGCDTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYGCDTools.h; path = TYSnapshotScroll/Tools/TYGCDTools.h; sourceTree = "<group>"; };
+		B19AFF448101500013A257B5BBA994B1 /* TYSnapshotAuxiliary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYSnapshotAuxiliary.h; path = TYSnapshotScroll/TYSnapshotAuxiliary.framework/Headers/TYSnapshotAuxiliary.h; sourceTree = "<group>"; };
+		BE4C13D356F087D2FBEB2CAE4E32AAD3 /* TYSnapshotScroll-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYSnapshotScroll-prefix.pch"; sourceTree = "<group>"; };
+		C60CAE6FE83821A3F1DCCE27F5FB0674 /* TYSnapshotManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYSnapshotManager.h; path = TYSnapshotScroll/TYSnapshotManager.h; sourceTree = "<group>"; };
+		E3A222F5CCBABD6727E9D1EB0C44ED40 /* UIViewController+TYSnapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+TYSnapshot.h"; path = "TYSnapshotScroll/Tools/UIViewController+TYSnapshot.h"; sourceTree = "<group>"; };
+		E3CDAF8D741C165F32674E7E49046437 /* TYSnapshotScroll.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYSnapshotScroll.m; path = TYSnapshotScroll/TYSnapshotScroll.m; sourceTree = "<group>"; };
+		F59979402B8C83F9BB9DCA20DA5A94D9 /* TYSnapshotManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYSnapshotManager.m; path = TYSnapshotScroll/TYSnapshotManager.m; sourceTree = "<group>"; };
+		FB401AE91FDDB253440F375C0EE200BF /* libTYSnapshotScroll.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTYSnapshotScroll.a; path = libTYSnapshotScroll.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF9D7FC9D483EE1A328E1EB5B60E79D /* TYSnapshotScroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYSnapshotScroll.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AE37D41C3DE5F1437CB39C2994D548C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0005801E1A54C1D30FCCF078567EB5D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FAF32C00B8B95F36FFC5C9BAEFAB82C /* TYSnapshotAuxiliary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0931D050F6967AAC5DF030E10D88905F /* TYSnapshotScroll */ = {
+			isa = PBXGroup;
+			children = (
+				98B428566B8445246E64FB201A61B616 /* TYGCDTools.h */,
+				B19AFF448101500013A257B5BBA994B1 /* TYSnapshotAuxiliary.h */,
+				C60CAE6FE83821A3F1DCCE27F5FB0674 /* TYSnapshotManager.h */,
+				F59979402B8C83F9BB9DCA20DA5A94D9 /* TYSnapshotManager.m */,
+				275ACDE44A56C5419117735704DD8002 /* TYSnapshotScroll.h */,
+				E3CDAF8D741C165F32674E7E49046437 /* TYSnapshotScroll.m */,
+				006A9E9FF987A413B6E6932854E74495 /* UIImage+TYSnapshot.h */,
+				82411D299DFFEBA29FD76434ED173B3E /* UIImage+TYSnapshot.m */,
+				158FA007666388C23E92AED30976BFBD /* UIScrollView+TYSnapshot.h */,
+				39629C591F3EC142E9ECFA8CEF052A5E /* UIScrollView+TYSnapshot.m */,
+				503E9BF37EE3F52CE135AFFECB3C33F4 /* UIScrollView+TYSnapshotAuxiliary.h */,
+				7BE59F84F78DC460C9DDE54254FF5E8A /* UIView+TYSnapshot.h */,
+				21BF666856275564E910788FC57ECC7D /* UIView+TYSnapshot.m */,
+				E3A222F5CCBABD6727E9D1EB0C44ED40 /* UIViewController+TYSnapshot.h */,
+				98943F04D22A79FB596644FA227DEE47 /* UIViewController+TYSnapshot.m */,
+				2C01F019C403A890B5BBDA649318D3D9 /* WKWebView+TYSnapshot.h */,
+				20A7FA1F1B9D0B65262ABCD39935FBA5 /* WKWebView+TYSnapshot.m */,
+				0005801E1A54C1D30FCCF078567EB5D8 /* Frameworks */,
+				75AAFCF4809BBDC7F90C1AA3179A62EC /* Support Files */,
+			);
+			name = TYSnapshotScroll;
+			path = TYSnapshotScroll;
+			sourceTree = "<group>";
+		};
+		207AD2363E3B6150C3E9E37A85F1471B = {
+			isa = PBXGroup;
+			children = (
+				943736F6120922D12AAFDBD12BACE046 /* Frameworks */,
+				F888C419C8A646AF7BDB4690C8DD9556 /* Products */,
+				0931D050F6967AAC5DF030E10D88905F /* TYSnapshotScroll */,
+			);
+			sourceTree = "<group>";
+		};
+		75AAFCF4809BBDC7F90C1AA3179A62EC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D8E1588435498EF51B651017F66722C /* TYSnapshotScroll-dummy.m */,
+				BE4C13D356F087D2FBEB2CAE4E32AAD3 /* TYSnapshotScroll-prefix.pch */,
+				485F15FDEB05FEC812C9BE88E7421C9E /* TYSnapshotScroll.debug.xcconfig */,
+				FFF9D7FC9D483EE1A328E1EB5B60E79D /* TYSnapshotScroll.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TYSnapshotScroll";
+			sourceTree = "<group>";
+		};
+		943736F6120922D12AAFDBD12BACE046 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F888C419C8A646AF7BDB4690C8DD9556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB401AE91FDDB253440F375C0EE200BF /* libTYSnapshotScroll.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		661B79B01D47523D3BE9E322DD893FB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB5F9EB6EB7E32949A564A2E2FA1D2E /* TYGCDTools.h in Headers */,
+				A310DCF68FC8AB8A12E9A80FB4435EC9 /* TYSnapshotAuxiliary.h in Headers */,
+				08F26E488BBAFF4AB4323FADEC154BDA /* TYSnapshotManager.h in Headers */,
+				5C527545E041D5898A88E7BE03A89AFA /* TYSnapshotScroll.h in Headers */,
+				B1006B942C569D5501D6EC8F186ED17C /* UIImage+TYSnapshot.h in Headers */,
+				69BB9337D485D3CF46351F9612614A24 /* UIScrollView+TYSnapshot.h in Headers */,
+				063ED8C92DCF3D323AC4EF6CFE3B69F2 /* UIScrollView+TYSnapshotAuxiliary.h in Headers */,
+				FD65E46FDF94FBA8037A303CADB54DFB /* UIView+TYSnapshot.h in Headers */,
+				D75415F2EAD83FC4F678FE423215E12E /* UIViewController+TYSnapshot.h in Headers */,
+				3122EDD3DBF29F34242689C4CFCD66D9 /* WKWebView+TYSnapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A516A7D2F26CA77C6DE3489F838FF4C4 /* TYSnapshotScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB19C5A97F80523949604C8A77548A95 /* Build configuration list for PBXNativeTarget "TYSnapshotScroll" */;
+			buildPhases = (
+				661B79B01D47523D3BE9E322DD893FB5 /* Headers */,
+				6F53B1FE0FF25D2E7D66D864AF41CCFC /* Sources */,
+				5AE37D41C3DE5F1437CB39C2994D548C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYSnapshotScroll;
+			productName = TYSnapshotScroll;
+			productReference = FB401AE91FDDB253440F375C0EE200BF /* libTYSnapshotScroll.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EE6C623C892A039E6735D0326146DC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 0195CCAA0BDC51AF047DB8CCFEB89B26 /* Build configuration list for PBXProject "TYSnapshotScroll" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 207AD2363E3B6150C3E9E37A85F1471B;
+			productRefGroup = F888C419C8A646AF7BDB4690C8DD9556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A516A7D2F26CA77C6DE3489F838FF4C4 /* TYSnapshotScroll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F53B1FE0FF25D2E7D66D864AF41CCFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AC709BAE2D4F4A277AD54B586E9B10 /* TYSnapshotManager.m in Sources */,
+				15D4F0FE1575F3F5D10727B030ED25E5 /* TYSnapshotScroll-dummy.m in Sources */,
+				B300F09DA84CA89C4ACA9B9534DABB1D /* TYSnapshotScroll.m in Sources */,
+				665F1F02E3E1140E9655D4E35B76B35E /* UIImage+TYSnapshot.m in Sources */,
+				232189DEF58A259ECF461FE499EDD406 /* UIScrollView+TYSnapshot.m in Sources */,
+				6E69CE237342E51D5B147DCA289C054E /* UIView+TYSnapshot.m in Sources */,
+				FE948FD13D5AF4408E57525F02772237 /* UIViewController+TYSnapshot.m in Sources */,
+				75123E05953D0371E61B9DB7CAE5AF50 /* WKWebView+TYSnapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		26C6089C455320505AB85274BBB05A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9883593D655FDB96F3B570934F724C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF9D7FC9D483EE1A328E1EB5B60E79D /* TYSnapshotScroll.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TYSnapshotScroll/TYSnapshotScroll-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TYSnapshotScroll;
+				PRODUCT_NAME = TYSnapshotScroll;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A368D4FB25FD3DEC29DB30A4AC9C385C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485F15FDEB05FEC812C9BE88E7421C9E /* TYSnapshotScroll.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TYSnapshotScroll/TYSnapshotScroll-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TYSnapshotScroll;
+				PRODUCT_NAME = TYSnapshotScroll;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0DB5B06DD272A1A96A3063031CB13FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0195CCAA0BDC51AF047DB8CCFEB89B26 /* Build configuration list for PBXProject "TYSnapshotScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0DB5B06DD272A1A96A3063031CB13FA /* Debug */,
+				26C6089C455320505AB85274BBB05A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB19C5A97F80523949604C8A77548A95 /* Build configuration list for PBXNativeTarget "TYSnapshotScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A368D4FB25FD3DEC29DB30A4AC9C385C /* Debug */,
+				9883593D655FDB96F3B570934F724C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EE6C623C892A039E6735D0326146DC3 /* Project object */;
+}

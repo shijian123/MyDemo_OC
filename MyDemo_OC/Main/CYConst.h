@@ -65,10 +65,18 @@ extern CGFloat const BUBBLE_PROGRESSVIEW_HEIGHT;
 #define MainScreenSize [UIScreen mainScreen].bounds.size
 #define MainScreenWidth MainScreenSize.width
 #define MainScreenHeight MainScreenSize.height
-#define IPHONE_X [CYHelperTool isHaveBang]
 #define     BORDER_WIDTH_1PX            ([[UIScreen mainScreen] scale] > 0.0 ? 1.0 / [[UIScreen mainScreen] scale] : 1.0)
 
 #define CY_WeakSelf __weak __typeof(&*self)weakSelf = self;
+
+#define CYIsBangsScreen ({\
+    BOOL isBangsScreen = NO; \
+    if (@available(iOS 11.0, *)) { \
+    UIWindow *window = [[UIApplication sharedApplication].windows firstObject]; \
+    isBangsScreen = window.safeAreaInsets.bottom > 0; \
+    } \
+    isBangsScreen; \
+})
 
 /*
  统一背景色
