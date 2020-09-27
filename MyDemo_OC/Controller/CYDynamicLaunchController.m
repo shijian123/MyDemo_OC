@@ -22,14 +22,18 @@
     // Do any additional setup after loading the view.
     
     autoExit = YES;
-    UISwitch *autoExit = [[UISwitch alloc] initWithFrame:CGRectMake(100, 60, 100, 40)];
+    UISwitch *autoExit = [[UISwitch alloc] initWithFrame:CGRectMake(100, 80, 100, 40)];
     autoExit.on = YES;
     [autoExit addTarget:self action:@selector(switchAutoExit:) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:autoExit];
+    
+    UILabel *lab = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(autoExit.frame)+5, autoExit.y, 140, autoExit.height)];
+    lab.text = @"开启自动退出";
+    [self.view addSubview:lab];
 
     
     UIButton *btn1 = [UIButton buttonWithType:UIButtonTypeSystem];
-    btn1.frame = CGRectMake(100, 100, 100, 40);
+    btn1.frame = CGRectMake(100, 140, 100, 40);
     [btn1 setTitle:@"选择启动图" forState:UIControlStateNormal];
     [btn1 addTarget:self action:@selector(selectPhotoMethod) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn1];
