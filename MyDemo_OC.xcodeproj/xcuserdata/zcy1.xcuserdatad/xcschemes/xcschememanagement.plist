@@ -9,6 +9,29 @@
 			<key>orderHint</key>
 			<integer>25</integer>
 		</dict>
+		<key>TodayWidgetExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>26</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B40062A422A766C300FEE0BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B40062BC22A766C600FEE0BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B40062C722A766C600FEE0BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

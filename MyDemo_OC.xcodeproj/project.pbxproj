@@ -45,6 +45,9 @@
 		B44F2E962322791800C79A24 /* CYWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = B44F2E952322791800C79A24 /* CYWebView.m */; };
 		B44F2E9923227A0800C79A24 /* CYRequestWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44F2E9823227A0800C79A24 /* CYRequestWebController.m */; };
 		B4502FCA247E042A00D08CB1 /* CYLifeCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4502FC9247E042A00D08CB1 /* CYLifeCycleView.m */; };
+		B45CE66A25207D1100526C7A /* CYDynamicLaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B45CE66925207D1100526C7A /* CYDynamicLaunchImage.m */; };
+		B45CE66D2520846300526C7A /* CYLaunchImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B45CE66C2520846300526C7A /* CYLaunchImageHelper.m */; };
+		B45CE670252084FA00526C7A /* CYDynamicLaunchController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45CE66F252084FA00526C7A /* CYDynamicLaunchController.m */; };
 		B45EBF3C233CC1B400C17A1C /* CYPropertyRuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45EBF3B233CC1B400C17A1C /* CYPropertyRuntimeController.m */; };
 		B45EBF3F233CCE5000C17A1C /* CYPropertyRuntimeController2.m in Sources */ = {isa = PBXBuildFile; fileRef = B45EBF3E233CCE5000C17A1C /* CYPropertyRuntimeController2.m */; };
 		B45EBF42233CCFD100C17A1C /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = B45EBF40233CCFD100C17A1C /* UIViewController+Swizzling.m */; };
@@ -216,6 +219,7 @@
 		B4F02719232AA18800A5C053 /* KeyboardEmojiAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F0270D232AA18800A5C053 /* KeyboardEmojiAttachment.m */; };
 		B4F0271A232AA18800A5C053 /* emoticons.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4F0270F232AA18800A5C053 /* emoticons.plist */; };
 		B4F2F7D224A053B100F43230 /* CYFileAPPController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F2F7D124A053B100F43230 /* CYFileAPPController.m */; };
+		B4FF5C83251DDB0100F8D1E5 /* TodayWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B4FF5C7E251DDAFC00F8D1E5 /* TodayWidget.intentdefinition */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -234,6 +238,19 @@
 			remoteInfo = MyDemo_OC;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B4FF5C8A251DDB0100F8D1E5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		089E920E02A5AA01597E49F8 /* Pods-MyDemo_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemo_OC.release.xcconfig"; path = "Target Support Files/Pods-MyDemo_OC/Pods-MyDemo_OC.release.xcconfig"; sourceTree = "<group>"; };
@@ -314,6 +331,12 @@
 		B44F2E9823227A0800C79A24 /* CYRequestWebController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYRequestWebController.m; sourceTree = "<group>"; };
 		B4502FC8247E042A00D08CB1 /* CYLifeCycleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLifeCycleView.h; sourceTree = "<group>"; };
 		B4502FC9247E042A00D08CB1 /* CYLifeCycleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLifeCycleView.m; sourceTree = "<group>"; };
+		B45CE66825207D1100526C7A /* CYDynamicLaunchImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYDynamicLaunchImage.h; sourceTree = "<group>"; };
+		B45CE66925207D1100526C7A /* CYDynamicLaunchImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYDynamicLaunchImage.m; sourceTree = "<group>"; };
+		B45CE66B2520846300526C7A /* CYLaunchImageHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLaunchImageHelper.h; sourceTree = "<group>"; };
+		B45CE66C2520846300526C7A /* CYLaunchImageHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLaunchImageHelper.m; sourceTree = "<group>"; };
+		B45CE66E252084FA00526C7A /* CYDynamicLaunchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYDynamicLaunchController.h; sourceTree = "<group>"; };
+		B45CE66F252084FA00526C7A /* CYDynamicLaunchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYDynamicLaunchController.m; sourceTree = "<group>"; };
 		B45EBF3A233CC1B400C17A1C /* CYPropertyRuntimeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYPropertyRuntimeController.h; sourceTree = "<group>"; };
 		B45EBF3B233CC1B400C17A1C /* CYPropertyRuntimeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYPropertyRuntimeController.m; sourceTree = "<group>"; };
 		B45EBF3D233CCE5000C17A1C /* CYPropertyRuntimeController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYPropertyRuntimeController2.h; sourceTree = "<group>"; };
@@ -621,6 +644,12 @@
 		B4F0270F232AA18800A5C053 /* emoticons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emoticons.plist; sourceTree = "<group>"; };
 		B4F2F7D024A053B100F43230 /* CYFileAPPController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYFileAPPController.h; sourceTree = "<group>"; };
 		B4F2F7D124A053B100F43230 /* CYFileAPPController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYFileAPPController.m; sourceTree = "<group>"; };
+		B4FF5C77251DDAFC00F8D1E5 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		B4FF5C79251DDAFC00F8D1E5 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		B4FF5C7C251DDAFC00F8D1E5 /* TodayWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWidget.swift; sourceTree = "<group>"; };
+		B4FF5C7E251DDAFC00F8D1E5 /* TodayWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = TodayWidget.intentdefinition; sourceTree = "<group>"; };
+		B4FF5C7F251DDB0100F8D1E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4FF5C81251DDB0100F8D1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C93A8972786EB1F9AA942DD1 /* libPods-MyDemo_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyDemo_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -655,6 +684,8 @@
 			isa = PBXGroup;
 			children = (
 				C93A8972786EB1F9AA942DD1 /* libPods-MyDemo_OC.a */,
+				B4FF5C77251DDAFC00F8D1E5 /* WidgetKit.framework */,
+				B4FF5C79251DDAFC00F8D1E5 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -665,6 +696,7 @@
 				B40062A722A766C300FEE0BD /* MyDemo_OC */,
 				B40062C022A766C600FEE0BD /* MyDemo_OCTests */,
 				B40062CB22A766C600FEE0BD /* MyDemo_OCUITests */,
+				B4FF5C7B251DDAFC00F8D1E5 /* TodayWidget */,
 				B40062A622A766C300FEE0BD /* Products */,
 				B4D8B9CAEC2783001B77C6AE /* Pods */,
 				57CAF1304B50297DB7D03147 /* Frameworks */,
@@ -721,6 +753,17 @@
 				B41F789124B4747A00DC37A4 /* CYFloatDeleteView.m */,
 			);
 			name = FloatPlayView;
+			sourceTree = "<group>";
+		};
+		B45CE66725207CEA00526C7A /* DynamicLaunchImage */ = {
+			isa = PBXGroup;
+			children = (
+				B45CE66825207D1100526C7A /* CYDynamicLaunchImage.h */,
+				B45CE66925207D1100526C7A /* CYDynamicLaunchImage.m */,
+				B45CE66B2520846300526C7A /* CYLaunchImageHelper.h */,
+				B45CE66C2520846300526C7A /* CYLaunchImageHelper.m */,
+			);
+			path = DynamicLaunchImage;
 			sourceTree = "<group>";
 		};
 		B45F38E82314DC0B000880EE /* Controller */ = {
@@ -815,6 +858,8 @@
 				B48FF66524CEAF5C005CB889 /* CYEncodeController.m */,
 				B487C0A72519A49200257050 /* CYPicInPicController.h */,
 				B487C0A82519A49200257050 /* CYPicInPicController.m */,
+				B45CE66E252084FA00526C7A /* CYDynamicLaunchController.h */,
+				B45CE66F252084FA00526C7A /* CYDynamicLaunchController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -863,6 +908,7 @@
 		B45F38EA2314DC62000880EE /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				B45CE66725207CEA00526C7A /* DynamicLaunchImage */,
 				B492A93C233087AE0096D966 /* FaceBeautyFilter */,
 				B492A91D2330728C0096D966 /* VideoPlayer */,
 				B492A9132330724C0096D966 /* FCUUID */,
@@ -1447,6 +1493,17 @@
 			path = Emoticons;
 			sourceTree = "<group>";
 		};
+		B4FF5C7B251DDAFC00F8D1E5 /* TodayWidget */ = {
+			isa = PBXGroup;
+			children = (
+				B4FF5C7C251DDAFC00F8D1E5 /* TodayWidget.swift */,
+				B4FF5C7E251DDAFC00F8D1E5 /* TodayWidget.intentdefinition */,
+				B4FF5C7F251DDB0100F8D1E5 /* Assets.xcassets */,
+				B4FF5C81251DDB0100F8D1E5 /* Info.plist */,
+			);
+			path = TodayWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1459,6 +1516,7 @@
 				B40062A222A766C300FEE0BD /* Frameworks */,
 				B40062A322A766C300FEE0BD /* Resources */,
 				D3F1E166ACBA39B9FFB53D5D /* [CP] Copy Pods Resources */,
+				B4FF5C8A251DDB0100F8D1E5 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -1512,11 +1570,14 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CY;
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = CY;
 				TargetAttributes = {
 					B40062A422A766C300FEE0BD = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1200;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -1688,6 +1749,7 @@
 				B492A9182330724C0096D966 /* UIDevice+JKUUID.m in Sources */,
 				B4F026E0232A9F4D00A5C053 /* YYTextView.m in Sources */,
 				B4C0BC24232F2C8000CF2027 /* NSString+CY.m in Sources */,
+				B4FF5C83251DDB0100F8D1E5 /* TodayWidget.intentdefinition in Sources */,
 				B492A90F233071EE0096D966 /* RemindView.m in Sources */,
 				B487C0A92519A49200257050 /* CYPicInPicController.m in Sources */,
 				B492A908233071EE0096D966 /* ImageUtils.m in Sources */,
@@ -1714,6 +1776,7 @@
 				B492A90A233071EE0096D966 /* LivingConfigModel.m in Sources */,
 				B4F026E4232A9F4D00A5C053 /* YYTextInput.m in Sources */,
 				B492A933233077840096D966 /* CYNavigationController.m in Sources */,
+				B45CE66A25207D1100526C7A /* CYDynamicLaunchImage.m in Sources */,
 				B4AC6AFA2317738F001D8F4F /* UIColor+CY.m in Sources */,
 				B4F025C6232A63D900A5C053 /* CYChatMessageController.m in Sources */,
 				B4F026EE232A9F4D00A5C053 /* YYTextArchiver.m in Sources */,
@@ -1741,7 +1804,9 @@
 				B4AC6AAC2316A5CC001D8F4F /* CYFloatController.m in Sources */,
 				B4A315D6231CF48900DBB746 /* WXApiResponseHandler.m in Sources */,
 				B49403AB2493322D003CE70C /* CYTestXibView.m in Sources */,
+				B45CE670252084FA00526C7A /* CYDynamicLaunchController.m in Sources */,
 				B49717F122D4B0B300F27094 /* CYDrawHeartController.m in Sources */,
+				B45CE66D2520846300526C7A /* CYLaunchImageHelper.m in Sources */,
 				B40062E822A766F100FEE0BD /* ViewController.m in Sources */,
 				B4D941AC23150E0000221511 /* NSDate+CY.m in Sources */,
 				B4775BD922E162360012CD98 /* CYPlayAudioController.m in Sources */,
@@ -2025,7 +2090,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9158CFB0A4DDCCB52D0EAD75 /* Pods-MyDemo_OC.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = MyDemo_OC/MyDemo_OC.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -2045,6 +2112,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryan.myDemoOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyDemo_OC/View/MyDemo_OC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2053,7 +2123,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 089E920E02A5AA01597E49F8 /* Pods-MyDemo_OC.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = MyDemo_OC/MyDemo_OC.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
@@ -2073,6 +2145,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryan.MyDemoOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyDemo_OC/View/MyDemo_OC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
