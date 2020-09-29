@@ -16,6 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)callServerPhone;
 
+/// 添加截屏、录屏的通知
+- (void)addShotScreenNotiMethod;
+
 @end
 
 NS_ASSUME_NONNULL_END

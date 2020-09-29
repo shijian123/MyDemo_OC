@@ -50,31 +50,9 @@
 
 - (void)setUI {
     
-    if (AVPictureInPictureController.isPictureInPictureSupported) {// 是否支持画中画
-        @try {
-            [[AVAudioSession sharedInstance] setCategory:AVAudioSessionOrientationBack error:nil];
-            [[AVAudioSession sharedInstance] setActive:YES error:nil];
-        } @catch (NSException *exception) {
-            NSLog(@"AVAudioSession发生错误");
-        } @finally {
-            self.pipContr = [[AVPictureInPictureController alloc] initWithPlayerLayer:self.playerLayer];
-            self.pipContr.delegate = self;
-            if (self.pipContr.pictureInPicturePossible) {
-                NSLog(@"pictureInPicturePossible");
-            }
-            
-            if (self.pipContr.pictureInPictureActive) {
-                NSLog(@"pictureInPictureActive");
-            }
-            if (self.pipContr.pictureInPictureSuspended) {
-                NSLog(@"pictureInPictureSuspended");
-            }
-        }
-    }
-    
     _playerControlView = [[CYPlayerControlView alloc] initWithFrame:CGRectMake(0, 100, MainScreenWidth, 200)];
     NSString *path = [[NSBundle mainBundle] pathForResource:@"测试视频01" ofType:@"mp4"];
-    [_playerControlView setupVideoURL:[NSURL fileURLWithPath:path] pipController:self.pipContr];
+    [_playerControlView setupVideoURL:[NSURL fileURLWithPath:path] pipController:nil];
     [self.view addSubview:_playerControlView];
     
 }

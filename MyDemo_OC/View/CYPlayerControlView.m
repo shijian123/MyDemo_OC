@@ -124,7 +124,6 @@
     self.resumeBtn.selected = YES;
     [self addSubview:self.controlView];
     
-    
     if (AVPictureInPictureController.isPictureInPictureSupported) {// 是否支持画中画
         @try {
             [[AVAudioSession sharedInstance] setCategory:AVAudioSessionOrientationBack error:nil];

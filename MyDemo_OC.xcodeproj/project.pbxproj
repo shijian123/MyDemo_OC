@@ -48,6 +48,10 @@
 		B45CE66A25207D1100526C7A /* CYDynamicLaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B45CE66925207D1100526C7A /* CYDynamicLaunchImage.m */; };
 		B45CE66D2520846300526C7A /* CYLaunchImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B45CE66C2520846300526C7A /* CYLaunchImageHelper.m */; };
 		B45CE670252084FA00526C7A /* CYDynamicLaunchController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45CE66F252084FA00526C7A /* CYDynamicLaunchController.m */; };
+		B45CE6AF2521819000526C7A /* CYPHPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45CE6AD2521819000526C7A /* CYPHPickerController.m */; };
+		B45CE6B02521819000526C7A /* CYPHPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B45CE6AE2521819000526C7A /* CYPHPickerController.xib */; };
+		B45CE6B42521829C00526C7A /* CYPHPickerImgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B45CE6B22521829C00526C7A /* CYPHPickerImgCell.m */; };
+		B45CE6B52521829C00526C7A /* CYPHPickerImgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B45CE6B32521829C00526C7A /* CYPHPickerImgCell.xib */; };
 		B45EBF3C233CC1B400C17A1C /* CYPropertyRuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45EBF3B233CC1B400C17A1C /* CYPropertyRuntimeController.m */; };
 		B45EBF3F233CCE5000C17A1C /* CYPropertyRuntimeController2.m in Sources */ = {isa = PBXBuildFile; fileRef = B45EBF3E233CCE5000C17A1C /* CYPropertyRuntimeController2.m */; };
 		B45EBF42233CCFD100C17A1C /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = B45EBF40233CCFD100C17A1C /* UIViewController+Swizzling.m */; };
@@ -337,6 +341,12 @@
 		B45CE66C2520846300526C7A /* CYLaunchImageHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLaunchImageHelper.m; sourceTree = "<group>"; };
 		B45CE66E252084FA00526C7A /* CYDynamicLaunchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYDynamicLaunchController.h; sourceTree = "<group>"; };
 		B45CE66F252084FA00526C7A /* CYDynamicLaunchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYDynamicLaunchController.m; sourceTree = "<group>"; };
+		B45CE6AC2521818F00526C7A /* CYPHPickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYPHPickerController.h; sourceTree = "<group>"; };
+		B45CE6AD2521819000526C7A /* CYPHPickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYPHPickerController.m; sourceTree = "<group>"; };
+		B45CE6AE2521819000526C7A /* CYPHPickerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYPHPickerController.xib; sourceTree = "<group>"; };
+		B45CE6B12521829C00526C7A /* CYPHPickerImgCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYPHPickerImgCell.h; sourceTree = "<group>"; };
+		B45CE6B22521829C00526C7A /* CYPHPickerImgCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYPHPickerImgCell.m; sourceTree = "<group>"; };
+		B45CE6B32521829C00526C7A /* CYPHPickerImgCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYPHPickerImgCell.xib; sourceTree = "<group>"; };
 		B45EBF3A233CC1B400C17A1C /* CYPropertyRuntimeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYPropertyRuntimeController.h; sourceTree = "<group>"; };
 		B45EBF3B233CC1B400C17A1C /* CYPropertyRuntimeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYPropertyRuntimeController.m; sourceTree = "<group>"; };
 		B45EBF3D233CCE5000C17A1C /* CYPropertyRuntimeController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYPropertyRuntimeController2.h; sourceTree = "<group>"; };
@@ -860,6 +870,9 @@
 				B487C0A82519A49200257050 /* CYPicInPicController.m */,
 				B45CE66E252084FA00526C7A /* CYDynamicLaunchController.h */,
 				B45CE66F252084FA00526C7A /* CYDynamicLaunchController.m */,
+				B45CE6AC2521818F00526C7A /* CYPHPickerController.h */,
+				B45CE6AD2521819000526C7A /* CYPHPickerController.m */,
+				B45CE6AE2521819000526C7A /* CYPHPickerController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1225,6 +1238,9 @@
 				B49403AC24933265003CE70C /* CYTestXibView.xib */,
 				B487C0AD2519D37400257050 /* CYPlayerControlView.h */,
 				B487C0AE2519D37400257050 /* CYPlayerControlView.m */,
+				B45CE6B12521829C00526C7A /* CYPHPickerImgCell.h */,
+				B45CE6B22521829C00526C7A /* CYPHPickerImgCell.m */,
+				B45CE6B32521829C00526C7A /* CYPHPickerImgCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1642,6 +1658,7 @@
 				B4C403B72313D0C100512E85 /* VKSelectFilterView.xib in Resources */,
 				B463DAF5231FA56600BF9279 /* zipFile.zip in Resources */,
 				B40062B222A766C600FEE0BD /* Assets.xcassets in Resources */,
+				B45CE6B52521829C00526C7A /* CYPHPickerImgCell.xib in Resources */,
 				B46CCDE7231B83710079117B /* sound_inhale.m4a in Resources */,
 				B492A930233073C40096D966 /* CYFaceLicenseController.xib in Resources */,
 				B463DAF2231FA56600BF9279 /* jiguang.jpg in Resources */,
@@ -1650,6 +1667,7 @@
 				B463DAF4231FA56600BF9279 /* docFile.docx in Resources */,
 				B463DAF6231FA56600BF9279 /* com_icon_default_user@3x.png in Resources */,
 				B4F02712232AA18800A5C053 /* Keyboard_gradient_mask@2x.png in Resources */,
+				B45CE6B02521819000526C7A /* CYPHPickerController.xib in Resources */,
 				B4A30025233357C200D380BF /* breathe.json in Resources */,
 				B40062B022A766C300FEE0BD /* Main.storyboard in Resources */,
 				B49717F222D4B0B300F27094 /* CYDrawHeartController.xib in Resources */,
@@ -1802,6 +1820,7 @@
 				B4F026DE232A9F4D00A5C053 /* NSBundle+YYAdd.m in Sources */,
 				B492A9B72330E2780096D966 /* CYSystemShareController.m in Sources */,
 				B4AC6AAC2316A5CC001D8F4F /* CYFloatController.m in Sources */,
+				B45CE6AF2521819000526C7A /* CYPHPickerController.m in Sources */,
 				B4A315D6231CF48900DBB746 /* WXApiResponseHandler.m in Sources */,
 				B49403AB2493322D003CE70C /* CYTestXibView.m in Sources */,
 				B45CE670252084FA00526C7A /* CYDynamicLaunchController.m in Sources */,
@@ -1888,6 +1907,7 @@
 				B492A92B2330728C0096D966 /* XFPhotoLibraryManager.m in Sources */,
 				B439C18622E5B61A008C835A /* CYPlayerResourceLoader.m in Sources */,
 				B4F0268C232A9B0B00A5C053 /* LHChatLocationBubbleView.m in Sources */,
+				B45CE6B42521829C00526C7A /* CYPHPickerImgCell.m in Sources */,
 				B4A23E8722C318D20065894C /* QQVoiceDemoController.m in Sources */,
 				B4F026F4232A9F4D00A5C053 /* YYTextTransaction.m in Sources */,
 				B439C17A22E5A5E6008C835A /* CYPlayerTool.m in Sources */,

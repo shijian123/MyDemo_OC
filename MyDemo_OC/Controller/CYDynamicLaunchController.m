@@ -22,7 +22,7 @@
     // Do any additional setup after loading the view.
     
     autoExit = YES;
-    UISwitch *autoExit = [[UISwitch alloc] initWithFrame:CGRectMake(100, 80, 100, 40)];
+    UISwitch *autoExit = [[UISwitch alloc] initWithFrame:CGRectMake(100, 100, 100, 40)];
     autoExit.on = YES;
     [autoExit addTarget:self action:@selector(switchAutoExit:) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:autoExit];
@@ -33,14 +33,14 @@
 
     
     UIButton *btn1 = [UIButton buttonWithType:UIButtonTypeSystem];
-    btn1.frame = CGRectMake(100, 140, 100, 40);
+    btn1.frame = CGRectMake(100, 160, 100, 40);
     [btn1 setTitle:@"选择启动图" forState:UIControlStateNormal];
     [btn1 addTarget:self action:@selector(selectPhotoMethod) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn1];
     
     
     UIButton *btn2 = [UIButton buttonWithType:UIButtonTypeSystem];
-    btn2.frame = CGRectMake(100, 200, 100, 40);
+    btn2.frame = CGRectMake(100, 220, 100, 40);
     [btn2 setTitle:@"重置启动页" forState:UIControlStateNormal];
     [btn2 addTarget:self action:@selector(resetSystemLaunchMethod) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn2];
