@@ -126,9 +126,28 @@
     NSLog(@"version = %@",[[FaceVerifier sharedInstance] getVersion]);
 #endif
     */
+    
+    [self add3DTouchMethod];
+    
     return YES;
 }
 
+/// 添加3D Touch
+- (void)add3DTouchMethod {
+    
+    if (self.window.traitCollection.forceTouchCapability == UIForceTouchCapabilityAvailable) {// 是否支持3D Touch
+        UIApplicationShortcutIcon *icon1 = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeHome];
+        UIApplicationShortcutIcon *icon2 = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeLove];
+        UIApplicationShortcutIcon *icon3 = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeSearch];
+
+        UIApplicationShortcutItem *item1 = [[UIApplicationShortcutItem alloc] initWithType:@"item1" localizedTitle:@"画中画" localizedSubtitle:@"进入PipInPip" icon:icon1 userInfo:nil];
+        UIMutableApplicationShortcutItem *item2 = [[UIMutableApplicationShortcutItem alloc] initWithType:@"item2" localizedTitle:@"PHPicker" localizedSubtitle:@"图像选择器" icon:icon2 userInfo:nil];
+        UIMutableApplicationShortcutItem *item3 = [[UIMutableApplicationShortcutItem alloc] initWithType:@"item3" localizedTitle:@"File" localizedSubtitle:@"文件APP" icon:icon3 userInfo:nil];
+
+        [[UIApplication sharedApplication] setShortcutItems:@[item1, item2, item3]];
+        
+    }
+}
 
 /**
  *  更新IQKeyboard设置
@@ -168,13 +187,34 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     
     /// Required - 注册 DeviceToken
     [JPUSHService registerDeviceToken:deviceToken];
     // Required - 注册token
     [JMessage registerDeviceToken:deviceToken];
+}
+
+- (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler {
+    UIViewController *vc;
+    NSString *vcStr;
+
+    if ([shortcutItem.type isEqualToString:@"item1"]) {
+        vcStr = @"CYPicInPicController";
+        vc = [[NSClassFromString(vcStr) alloc] init];
+        vc.title = @"CYPicInPicController";
+    }else if ([shortcutItem.type isEqualToString:@"item2"]) {
+        vcStr = @"CYPHPickerController";
+        vc = [[NSClassFromString(vcStr) alloc] init];
+        vc.title = @"CYPHPickerController";
+    }else if ([shortcutItem.type isEqualToString:@"item3"]){
+        vcStr = @"CYFileAPPController";
+        vc = [[NSClassFromString(vcStr) alloc] init];
+        vc.title = @"CYFileAPPController";
+    }
+    
+    UINavigationController *nav = (UINavigationController *)self.window.rootViewController;
+    [nav pushViewController: vc animated:YES];
 }
 
 #ifdef NSFoundationVersionNumber_iOS_9_x_Max
