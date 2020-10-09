@@ -157,6 +157,9 @@
 		B4C403B22313C85300512E85 /* VKSelectRankView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4C403B12313C85300512E85 /* VKSelectRankView.xib */; };
 		B4C403B52313D0AC00512E85 /* VKSelectFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C403B42313D0AC00512E85 /* VKSelectFilterView.m */; };
 		B4C403B72313D0C100512E85 /* VKSelectFilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4C403B62313D0C100512E85 /* VKSelectFilterView.xib */; };
+		B4D7559C25303B5C001A0FF0 /* CYInAppPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D7559B25303B5C001A0FF0 /* CYInAppPurchase.m */; };
+		B4D755A625303BA8001A0FF0 /* CYInAppPurchaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D755A525303BA8001A0FF0 /* CYInAppPurchaseController.m */; };
+		B4D755AB25303C1A001A0FF0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D755AA25303C1A001A0FF0 /* StoreKit.framework */; };
 		B4D7843D23165B9C008F2522 /* CYUploadContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D7843B23165B9C008F2522 /* CYUploadContentController.m */; };
 		B4D7843E23165B9C008F2522 /* CYUploadContentController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4D7843C23165B9C008F2522 /* CYUploadContentController.xib */; };
 		B4D784A32316A3DC008F2522 /* UITextView+CY.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D784A22316A3DC008F2522 /* UITextView+CY.m */; };
@@ -527,6 +530,11 @@
 		B4C403B32313D0AC00512E85 /* VKSelectFilterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKSelectFilterView.h; sourceTree = "<group>"; };
 		B4C403B42313D0AC00512E85 /* VKSelectFilterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKSelectFilterView.m; sourceTree = "<group>"; };
 		B4C403B62313D0C100512E85 /* VKSelectFilterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VKSelectFilterView.xib; sourceTree = "<group>"; };
+		B4D7559A25303B5C001A0FF0 /* CYInAppPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYInAppPurchase.h; sourceTree = "<group>"; };
+		B4D7559B25303B5C001A0FF0 /* CYInAppPurchase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYInAppPurchase.m; sourceTree = "<group>"; };
+		B4D755A425303BA8001A0FF0 /* CYInAppPurchaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYInAppPurchaseController.h; sourceTree = "<group>"; };
+		B4D755A525303BA8001A0FF0 /* CYInAppPurchaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYInAppPurchaseController.m; sourceTree = "<group>"; };
+		B4D755AA25303C1A001A0FF0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		B4D7843A23165B9C008F2522 /* CYUploadContentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYUploadContentController.h; sourceTree = "<group>"; };
 		B4D7843B23165B9C008F2522 /* CYUploadContentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYUploadContentController.m; sourceTree = "<group>"; };
 		B4D7843C23165B9C008F2522 /* CYUploadContentController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYUploadContentController.xib; sourceTree = "<group>"; };
@@ -663,6 +671,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D755AB25303C1A001A0FF0 /* StoreKit.framework in Frameworks */,
 				B492A907233071EE0096D966 /* IDLFaceSDK.framework in Frameworks */,
 				675A551726C5FB78EC61CE2B /* libPods-MyDemo_OC.a in Frameworks */,
 			);
@@ -688,6 +697,7 @@
 		57CAF1304B50297DB7D03147 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B4D755AA25303C1A001A0FF0 /* StoreKit.framework */,
 				C93A8972786EB1F9AA942DD1 /* libPods-MyDemo_OC.a */,
 				B4FF5C77251DDAFC00F8D1E5 /* WidgetKit.framework */,
 				B4FF5C79251DDAFC00F8D1E5 /* SwiftUI.framework */,
@@ -867,6 +877,8 @@
 				B45CE6AC2521818F00526C7A /* CYPHPickerController.h */,
 				B45CE6AD2521819000526C7A /* CYPHPickerController.m */,
 				B45CE6AE2521819000526C7A /* CYPHPickerController.xib */,
+				B4D755A425303BA8001A0FF0 /* CYInAppPurchaseController.h */,
+				B4D755A525303BA8001A0FF0 /* CYInAppPurchaseController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -915,6 +927,7 @@
 		B45F38EA2314DC62000880EE /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				B4D755A025303B6D001A0FF0 /* InAppPurchase */,
 				B45CE66725207CEA00526C7A /* DynamicLaunchImage */,
 				B492A93C233087AE0096D966 /* FaceBeautyFilter */,
 				B492A91D2330728C0096D966 /* VideoPlayer */,
@@ -1237,6 +1250,15 @@
 				B45CE6B32521829C00526C7A /* CYPHPickerImgCell.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		B4D755A025303B6D001A0FF0 /* InAppPurchase */ = {
+			isa = PBXGroup;
+			children = (
+				B4D7559A25303B5C001A0FF0 /* CYInAppPurchase.h */,
+				B4D7559B25303B5C001A0FF0 /* CYInAppPurchase.m */,
+			);
+			path = InAppPurchase;
 			sourceTree = "<group>";
 		};
 		B4D8B9CAEC2783001B77C6AE /* Pods */ = {
@@ -1877,6 +1899,7 @@
 				B4F026E3232A9F4D00A5C053 /* YYTextEffectWindow.m in Sources */,
 				B4BE42AB2332505F000909CE /* CYDocument.m in Sources */,
 				B45EBF42233CCFD100C17A1C /* UIViewController+Swizzling.m in Sources */,
+				B4D755A625303BA8001A0FF0 /* CYInAppPurchaseController.m in Sources */,
 				B49EC14422D45FF200F755B7 /* DMHeartFlyView.m in Sources */,
 				B487C0AF2519D37400257050 /* CYPlayerControlView.m in Sources */,
 				B4F026EC232A9F4D00A5C053 /* YYTextParser.m in Sources */,
@@ -1896,6 +1919,7 @@
 				B492A93723307CBE0096D966 /* CYCameraMovieController.m in Sources */,
 				B4BB645D22D43B970014B418 /* CYCarouselController.m in Sources */,
 				B4C0BC9E232F885600CF2027 /* UIWindow+CY.m in Sources */,
+				B4D7559C25303B5C001A0FF0 /* CYInAppPurchase.m in Sources */,
 				B4F0268A232A9B0B00A5C053 /* LHChatAudioBubbleView.m in Sources */,
 				B4A300282333584000D380BF /* CYLottieAnimationController.m in Sources */,
 				B48F514A2325FCC700E833B3 /* CYBlockTestController.m in Sources */,
@@ -2094,6 +2118,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9158CFB0A4DDCCB52D0EAD75 /* Pods-MyDemo_OC.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = MyDemo_OC/MyDemo_OC.entitlements;
@@ -2112,7 +2137,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ryan.myDemoOC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryan.soulHunter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -2126,11 +2151,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 089E920E02A5AA01597E49F8 /* Pods-MyDemo_OC.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = MyDemo_OC/MyDemo_OC.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3V68Z8G5A8;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2144,7 +2170,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ryan.MyDemoOC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryan.soulHunter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
