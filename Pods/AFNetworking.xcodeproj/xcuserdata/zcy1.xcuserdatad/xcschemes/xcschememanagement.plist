@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
-	<dict/>
-	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>B561AD1B13C486A61C9BF66B4E6D8F89</key>
+		<key>AFNetworking.xcscheme</key>
 		<dict>
-			<key>primary</key>
-			<true/>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict/>
 </dict>
 </plist>

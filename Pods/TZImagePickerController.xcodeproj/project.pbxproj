@@ -273,7 +273,32 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3D3A6F499B8782E914361381F9165F86 /* Debug */ = {
+		17DF0E4D34938231286A3AA7D10F6663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E74AA7830D4E1D709C808ECDC16AEF1 /* TZImagePickerController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TZImagePickerController/TZImagePickerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TZImagePickerController;
+				PRODUCT_NAME = TZImagePickerController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19BD5A0708F3973EACAD8D5C3CF43DC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7E89F21B2D30711AB3AC646AB0FE0A0E /* TZImagePickerController.debug.xcconfig */;
 			buildSettings = {
@@ -292,6 +317,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -360,30 +386,6 @@
 			};
 			name = Debug;
 		};
-		CC91CDA4CDDBC0AC5E040BDE212FB590 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E74AA7830D4E1D709C808ECDC16AEF1 /* TZImagePickerController.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TZImagePickerController/TZImagePickerController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TZImagePickerController;
-				PRODUCT_NAME = TZImagePickerController;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		CFB642D96324DC3E661AD9D2BE3D9535 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -450,8 +452,8 @@
 		8C424D94E1CD2EECB8F9FF3D1D0728C5 /* Build configuration list for PBXNativeTarget "TZImagePickerController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D3A6F499B8782E914361381F9165F86 /* Debug */,
-				CC91CDA4CDDBC0AC5E040BDE212FB590 /* Release */,
+				19BD5A0708F3973EACAD8D5C3CF43DC5 /* Debug */,
+				17DF0E4D34938231286A3AA7D10F6663 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

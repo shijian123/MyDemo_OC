@@ -1481,7 +1481,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		12E0E2D2987730A99C75A5F58DF5AEF2 /* Release */ = {
+		4972BBDEC46F3EE2E4DFE73A45B42964 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E95800D92A79F248B8915A54000F584 /* GPUImage.release.xcconfig */;
 			buildSettings = {
@@ -1500,6 +1500,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1565,7 +1566,7 @@
 			};
 			name = Release;
 		};
-		8B22BA1561A8003EDF4FA63574FBBBAF /* Debug */ = {
+		BE95CDC8DA8DCA6F0A5BD57E214903F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9D1F2AF8EF4A1316247A729DAA94849A /* GPUImage.debug.xcconfig */;
 			buildSettings = {
@@ -1584,6 +1585,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1658,8 +1660,8 @@
 		12943C0D0F2A067431D8E9EAACC17A82 /* Build configuration list for PBXNativeTarget "GPUImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B22BA1561A8003EDF4FA63574FBBBAF /* Debug */,
-				12E0E2D2987730A99C75A5F58DF5AEF2 /* Release */,
+				BE95CDC8DA8DCA6F0A5BD57E214903F8 /* Debug */,
+				4972BBDEC46F3EE2E4DFE73A45B42964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

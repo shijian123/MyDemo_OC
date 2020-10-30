@@ -36,6 +36,7 @@ PODS:
     - SDWebImage/Core (= 4.4.6)
   - SDWebImage/Core (4.4.6)
   - TBUIAutoTest (1.2.1)
+  - TTTAttributedLabel (2.0.0)
   - TYSnapshotScroll (0.2.1)
   - TZImagePickerController (3.2.1)
   - UMCCommon (2.0.1)
@@ -62,6 +63,7 @@ DEPENDENCIES:
   - MJRefresh
   - SDWebImage (~> 4.4.6)
   - TBUIAutoTest (~> 1.2.1)
+  - TTTAttributedLabel (~> 2.0.0)
   - TYSnapshotScroll
   - TZImagePickerController (~> 3.2.1)
   - UMCCommon
@@ -71,7 +73,7 @@ DEPENDENCIES:
   - YWExcel
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - AFNetworking
     - FDFullscreenPopGesture
     - FSCalendar
@@ -82,21 +84,21 @@ SPEC REPOS:
     - JMessage
     - JPush
     - lottie-ios_Oc
+    - Mantle
     - Masonry
     - MBProgressHUD
     - MJExtension
     - MJRefresh
     - SDWebImage
     - TBUIAutoTest
+    - TTTAttributedLabel
+    - TYSnapshotScroll
     - TZImagePickerController
     - UMCCommon
     - UMCPush
     - UMCSecurityPlugins
     - WechatOpenSDK
     - YWExcel
-  trunk:
-    - Mantle
-    - TYSnapshotScroll
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
@@ -116,6 +118,7 @@ SPEC CHECKSUMS:
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
   TBUIAutoTest: afd1e4f19b063e889169c66153a7370862a58773
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   TYSnapshotScroll: 13ea2da7d5c3be5240779324bba117ae85c4859a
   TZImagePickerController: bf4c57b98d8707fce41ea6be872414a71c7a8c9d
   UMCCommon: 0263a057a2e1ae1da4c8308541e56904a493ce13
@@ -124,6 +127,6 @@ SPEC CHECKSUMS:
   WechatOpenSDK: 9b721089507c895d05f997408c30bb6e6f5f9b60
   YWExcel: bf69ee0ff96a6e8209b66ae6dbc164a307ef2ce1
 
-PODFILE CHECKSUM: ea1b00faf34b8af7579d28235fac9138e4239dc9
+PODFILE CHECKSUM: 89156db2cc9aafd9e6d0b340a96f01b0ab683618
 
 COCOAPODS: 1.9.1

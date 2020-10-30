@@ -108,7 +108,7 @@
 }
 
 
-#pragma mark - PHPickerViewControllerDelegate
+#pragma mark PHPickerViewControllerDelegate
 
 - (void)picker:(PHPickerViewController *)picker didFinishPicking:(NSArray<PHPickerResult *> *)results  API_AVAILABLE(ios(14)){
     
@@ -119,6 +119,17 @@
 //        [itemPro loadFileRepresentationForTypeIdentifier:@"public.movie" completionHandler:^(NSURL * _Nullable url, NSError * _Nullable error) {
 //
 //        }];
+        
+        
+        if ([itemPro canLoadObjectOfClass:PHLivePhoto.class]) {
+            [itemPro loadObjectOfClass:PHLivePhoto.class completionHandler:^(__kindof id<NSItemProviderReading>  _Nullable object, NSError * _Nullable error) {
+                if (object) {
+                    NSLog(@"object：%@", object);
+                }
+                
+            }];
+        }
+        
         if ([itemPro canLoadObjectOfClass:UIImage.class]) {
             [itemPro loadObjectOfClass:UIImage.class completionHandler:^(__kindof id<NSItemProviderReading>  _Nullable object, NSError * _Nullable error) {
                 if (object) {

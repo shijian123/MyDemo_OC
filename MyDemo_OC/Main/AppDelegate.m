@@ -129,6 +129,14 @@
     
     [self add3DTouchMethod];
     
+    
+#if DEBUG
+    [[NSBundle bundleWithPath:@"/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle"] load];
+//    [[NSBundle bundleWithPath:@"/Applications/InjectionIII.app/Contents/Resources/tvOSInjection.bundle"] load];
+//    [[NSBundle bundleWithPath:@"/Applications/InjectionIII.app/Contents/Resources/macOSInjection.bundle"] load];
+
+#endif
+    
     return YES;
 }
 
@@ -170,6 +178,25 @@
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    
+    [application beginBackgroundTaskWithExpirationHandler:^{
+        // 这个任务最多执行3分钟，如果超过3分钟没有执行完毕则会崩溃，可设置一个3分钟的定时器，如果在接近3分钟时还没有执行完则可认为即将发生崩溃，进行上报、记录
+//        [self yourTask];
+        
+        // 打印函数调用堆栈信息
+        NSArray *symArr = [NSThread callStackSymbols];
+        if (symArr.count > 1) {
+            for (NSString *msgStr in symArr) {
+                NSLog(@"<%@, %p> %@ - call:%@", [self class], self, NSStringFromSelector(_cmd), msgStr);
+            }
+        }else {
+            NSLog(@"<%@, %p> %@", [self class], self, NSStringFromSelector(_cmd));
+        }
+        
+        
+        
+    }];
+    
 }
 
 

@@ -281,31 +281,7 @@
 			};
 			name = Release;
 		};
-		9883593D655FDB96F3B570934F724C06 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFF9D7FC9D483EE1A328E1EB5B60E79D /* TYSnapshotScroll.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TYSnapshotScroll/TYSnapshotScroll-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TYSnapshotScroll;
-				PRODUCT_NAME = TYSnapshotScroll;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A368D4FB25FD3DEC29DB30A4AC9C385C /* Debug */ = {
+		37C9E9C874CBB2F49D16A29F643F3780 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 485F15FDEB05FEC812C9BE88E7421C9E /* TYSnapshotScroll.debug.xcconfig */;
 			buildSettings = {
@@ -324,9 +300,35 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		77FB80405C7AF8BAC017F842155CB7F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF9D7FC9D483EE1A328E1EB5B60E79D /* TYSnapshotScroll.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TYSnapshotScroll/TYSnapshotScroll-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TYSnapshotScroll;
+				PRODUCT_NAME = TYSnapshotScroll;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		B0DB5B06DD272A1A96A3063031CB13FA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -407,8 +409,8 @@
 		FB19C5A97F80523949604C8A77548A95 /* Build configuration list for PBXNativeTarget "TYSnapshotScroll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A368D4FB25FD3DEC29DB30A4AC9C385C /* Debug */,
-				9883593D655FDB96F3B570934F724C06 /* Release */,
+				37C9E9C874CBB2F49D16A29F643F3780 /* Debug */,
+				77FB80405C7AF8BAC017F842155CB7F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

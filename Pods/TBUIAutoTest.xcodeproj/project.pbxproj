@@ -175,30 +175,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		16597F7D54C2B48A4C2F4326BA697871 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81E45C597B6FE469A6A55EE03B76E89E /* TBUIAutoTest.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TBUIAutoTest/TBUIAutoTest-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TBUIAutoTest;
-				PRODUCT_NAME = TBUIAutoTest;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		7DA7D84CC61DC847D79128F5DA4D80DE /* Release */ = {
+		73E73990210A773749384E85EE5B357A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 53B069225FCF429B1D97044809F72062 /* TBUIAutoTest.release.xcconfig */;
 			buildSettings = {
@@ -217,10 +194,35 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		E65B23AF1572A8F556CFE88F005AE684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E45C597B6FE469A6A55EE03B76E89E /* TBUIAutoTest.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TBUIAutoTest/TBUIAutoTest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TBUIAutoTest;
+				PRODUCT_NAME = TBUIAutoTest;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		ECE4BB38774B33246CFA5DAAD9885B08 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -352,8 +354,8 @@
 		A9DBE82F1A775F65F78BE0234B3CC3A9 /* Build configuration list for PBXNativeTarget "TBUIAutoTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16597F7D54C2B48A4C2F4326BA697871 /* Debug */,
-				7DA7D84CC61DC847D79128F5DA4D80DE /* Release */,
+				E65B23AF1572A8F556CFE88F005AE684 /* Debug */,
+				73E73990210A773749384E85EE5B357A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

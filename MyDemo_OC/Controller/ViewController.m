@@ -9,6 +9,20 @@
 #import "ViewController.h"
 #import "DMHeartFlyView.h"
 #import <MediaPlayer/MediaPlayer.h>
+#import <mach/mach.h>
+
+typedef enum : NSUInteger {
+    // 按位或操作符
+    MyEnumValueNone = 0,
+    MyEnumValueA    = 1<<0,
+    MyEnumValueB    = 1<<1,
+    MyEnumValueC    = 1<<2,
+    
+    //
+//    MyEnumValueA    = 1,
+//    MyEnumValueB    = 2,
+//    MyEnumValueC    = 3,
+} MyEnum;
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UITableView *myTableV;
@@ -34,6 +48,33 @@
     
 //    self.navigationController.navigationBar.barTintColor = [UIColor purpleColor];
     
+//    [self addEnum: MyEnumValueC | MyEnumValueA];
+}
+
+- (void)addEnum:(MyEnum)enum1 {
+    //MyEnumValueA | MyEnumValueC
+}
+/// InjectionIII 动态修改代码
+-(void)injected{
+//    NSLog(@"I've been reinjected: %@", self);
+//    NSLog(@"这里调用修改页面布局 或者属性设置的代码");
+    
+    self.myTableV.backgroundColor = [UIColor orangeColor];
+    
+}
+
+///  内存警告⚠️
+- (void)didReceiveMemoryWarning {
+    // 当前任务信息
+    struct mach_task_basic_info info;
+    mach_msg_type_number_t size = sizeof(info);
+    kern_return_t kernReturn = task_info(mach_task_self(), MACH_TASK_BASIC_INFO, (task_info_t)&info, &size);
+    if (kernReturn != KERN_SUCCESS) {
+        return;
+    }
+    
+    float used_mem = info.resident_size;
+    NSLog(@"used %f MB", used_mem/1024.0f/1024.0f);
 }
 
 #pragma mark - delegate

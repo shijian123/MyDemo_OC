@@ -303,7 +303,7 @@
         
         kWeakSelf
         [self.videoCamera capturePhotoAsImageProcessedUpToFilter:(self.filterSwitch.selected ? self.leveBeautyFilter : self.normalFilter) withCompletionHandler:^(UIImage *processedImage, NSError *error) {
-            _tempImg = processedImage;
+            self->_tempImg = processedImage;
             [self createNewWritter];
             dispatch_async(dispatch_get_main_queue(), ^{
                 [self.imageView setImage:processedImage];
@@ -317,10 +317,10 @@
         [self.movieWriter finishRecordingWithCompletionHandler:^{
             [self createNewWritter];
             dispatch_async(dispatch_get_main_queue(), ^{
-                _avplayer = [AVPlayerLayer playerLayerWithPlayer:[AVPlayer playerWithURL:[NSURL fileURLWithPath:RMDefaultVideoPath]]];
-                _avplayer.frame = weakSelf.view.bounds;
-                [self.view.layer insertSublayer:_avplayer above:self.cameraView.layer];
-                [_avplayer.player play];
+                self->_avplayer = [AVPlayerLayer playerLayerWithPlayer:[AVPlayer playerWithURL:[NSURL fileURLWithPath:RMDefaultVideoPath]]];
+                self->_avplayer.frame = weakSelf.view.bounds;
+                [self.view.layer insertSublayer:self->_avplayer above:self.cameraView.layer];
+                [self->_avplayer.player play];
             });
         }];
     }

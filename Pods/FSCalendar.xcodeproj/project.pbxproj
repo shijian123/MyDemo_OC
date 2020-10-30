@@ -331,7 +331,7 @@
 			};
 			name = Debug;
 		};
-		8DAFA1E889691412D98D7D192CB3E8FD /* Release */ = {
+		1479DE693A66919069D317CDB4CF4703 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4292943EB59B7631C5D9F6A53F4A7B8C /* FSCalendar.release.xcconfig */;
 			buildSettings = {
@@ -350,33 +350,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		D10B1FBDC4E5E863E993E5315B232B86 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6C33FE8572ACA954B903814138EAB5D /* FSCalendar.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = FSCalendar;
-				PRODUCT_NAME = FSCalendar;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		D73869BAB1F62641B428F2D98672C68B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -438,14 +416,38 @@
 			};
 			name = Release;
 		};
+		FD69DC252E03AA4EA90921065677E507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C33FE8572ACA954B903814138EAB5D /* FSCalendar.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FSCalendar;
+				PRODUCT_NAME = FSCalendar;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		5224607F8713B31B95C188F1EF58A104 /* Build configuration list for PBXNativeTarget "FSCalendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D10B1FBDC4E5E863E993E5315B232B86 /* Debug */,
-				8DAFA1E889691412D98D7D192CB3E8FD /* Release */,
+				FD69DC252E03AA4EA90921065677E507 /* Debug */,
+				1479DE693A66919069D317CDB4CF4703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

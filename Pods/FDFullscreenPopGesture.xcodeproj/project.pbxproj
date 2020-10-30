@@ -151,30 +151,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1A3471F7BC34D1F4CE3CC450DF486348 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43881FDCE00DBA9F8827BFB172C55D07 /* FDFullscreenPopGesture.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = FDFullscreenPopGesture;
-				PRODUCT_NAME = FDFullscreenPopGesture;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		229B91001989D12BF166CF312FB635DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -239,7 +215,7 @@
 			};
 			name = Debug;
 		};
-		7D7E38B877136051F6393BE322C50534 /* Debug */ = {
+		4089EF51CCFA47C00F40C49CEFA2FBEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 981B4929C132234589C25568F0D89624 /* FDFullscreenPopGesture.debug.xcconfig */;
 			buildSettings = {
@@ -258,6 +234,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -322,14 +299,39 @@
 			};
 			name = Release;
 		};
+		AF97E5A3AF8996B7E2CB2D651D8D5725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43881FDCE00DBA9F8827BFB172C55D07 /* FDFullscreenPopGesture.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FDFullscreenPopGesture;
+				PRODUCT_NAME = FDFullscreenPopGesture;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		5D2A859F4C4022FF34ECB1D88C30C49B /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D7E38B877136051F6393BE322C50534 /* Debug */,
-				1A3471F7BC34D1F4CE3CC450DF486348 /* Release */,
+				4089EF51CCFA47C00F40C49CEFA2FBEA /* Debug */,
+				AF97E5A3AF8996B7E2CB2D651D8D5725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

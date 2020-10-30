@@ -317,7 +317,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		28E5B25258E2A2D221023986B2A11E8C /* Debug */ = {
+		03B3BFCB8EA9BD1433A600C380007228 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A0761997DAB183C77DF98D993E721D9A /* MJRefresh.debug.xcconfig */;
 			buildSettings = {
@@ -336,11 +336,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		397CCF14319B83EEC4138596400815A3 /* Release */ = {
+		1711FB6E4A4003E644A54205DA3E349B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 26A67CEA54E54E0D21491094E675EBAC /* MJRefresh.release.xcconfig */;
 			buildSettings = {
@@ -359,6 +360,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -503,8 +505,8 @@
 		91FCD1B7E3FE41B0D3C94BEFAC71A337 /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28E5B25258E2A2D221023986B2A11E8C /* Debug */,
-				397CCF14319B83EEC4138596400815A3 /* Release */,
+				03B3BFCB8EA9BD1433A600C380007228 /* Debug */,
+				1711FB6E4A4003E644A54205DA3E349B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
